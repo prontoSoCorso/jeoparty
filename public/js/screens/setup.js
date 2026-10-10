@@ -4,8 +4,9 @@ import { T } from '../strings.js';
 import { MAX_TEAMS, MIN_TEAMS, NAME_MAX, TIMER_MAX, TIMER_MIN, addTeam, cleanName, removeTeam } from '../rules.js';
 import { textSizeButtons } from '../components/text-size.js';
 
-// Il Daily Double richiede la schermata della puntata (milestone M4): fino ad allora resta nascosto.
+// Daily Double (puntata, milestone M4) e Gran Finale (M5): fino ad allora restano nascosti e disattivati.
 export const DAILY_DOUBLE_READY = false;
+export const FINAL_READY = false;
 
 function checkbox({ label, hint, checked, fk, onChange }) {
   return h('label', { class: 'switch' },
@@ -140,7 +141,7 @@ export function renderSetup(ctx) {
       options: [0, 1, 2].map((n) => ({ value: n, label: String(n) })),
       onChange: (n) => update((g) => { g.options.dailyDoubles = n; }),
     }),
-    checkbox({
+    FINAL_READY && checkbox({
       label: T.setup.final,
       hint: T.setup.finalHint,
       checked: o.final,
