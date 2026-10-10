@@ -1,0 +1,84 @@
+{
+  "id": "campo-vuoto",
+  "name": "Prova campo-vuoto",
+  "group": "inventate",
+  "emoji": "🧪",
+  "description": "Categoria di prova per i test del validatore.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Indizio primo numero 1 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta primo 1?",
+          "verified": false
+        },
+        {
+          "clue": "Indizio primo numero 2 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta primo 2?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Indizio secondo numero 1 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta secondo 1?",
+          "verified": false
+        },
+        {
+          "clue": "Indizio secondo numero 2 della categoria campo-vuoto.",
+          "answer": "   ",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Indizio terzo numero 1 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta terzo 1?",
+          "verified": false
+        },
+        {
+          "clue": "Indizio terzo numero 2 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta terzo 2?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Indizio quarto numero 1 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta quarto 1?",
+          "verified": false
+        },
+        {
+          "clue": "Indizio quarto numero 2 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta quarto 2?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Indizio quinto numero 1 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta quinto 1?",
+          "verified": false
+        },
+        {
+          "clue": "Indizio quinto numero 2 della categoria campo-vuoto.",
+          "answer": "Cos'è la risposta quinto 2?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

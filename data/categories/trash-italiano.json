@@ -1,0 +1,131 @@
+{
+  "id": "trash-italiano",
+  "name": "Trash italiano",
+  "group": "custom",
+  "emoji": "🗑️",
+  "description": "Il meglio del peggio della TV e del web italiani.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il reality di Canale 5 in cui, nel 2000, dieci concorrenti vissero chiusi in una casa per 99 giorni.",
+          "answer": "Cos'è il Grande Fratello?",
+          "source": "https://it.wikipedia.org/wiki/Grande_Fratello_(prima_edizione)",
+          "verified": true
+        },
+        {
+          "clue": "Il programma di Maria De Filippi, in onda dal 1996, fatto di tronisti, corteggiatori e opinionisti.",
+          "answer": "Cos'è Uomini e donne?",
+          "source": "https://it.wikipedia.org/wiki/Uomini_e_donne",
+          "verified": true
+        },
+        {
+          "clue": "Lo show di Paolo Bonolis e Luca Laurenti in cui si sfidano due categorie di persone opposte.",
+          "answer": "Cos'è Ciao Darwin?",
+          "source": "https://it.wikipedia.org/wiki/Ciao_Darwin",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il personaggio di Ciao Darwin che fa girare il mappamondo per estrarre i concorrenti.",
+          "answer": "Chi è Madre Natura?",
+          "source": "https://it.wikipedia.org/wiki/Ciao_Darwin",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2003 vinse la prima edizione dell'Isola dei Famosi e un montepremi di 200.000 euro.",
+          "answer": "Chi è Walter Nudo?",
+          "source": "https://it.wikipedia.org/wiki/L%27isola_dei_famosi",
+          "verified": true
+        },
+        {
+          "clue": "La conduttrice della prima edizione del Grande Fratello, nel 2000.",
+          "answer": "Chi è Daria Bignardi?",
+          "source": "https://it.wikipedia.org/wiki/Grande_Fratello_(prima_edizione)",
+          "verified": true
+        },
+        {
+          "clue": "Prima corteggiatrice e tronista, poi è diventata opinionista fissa di Uomini e donne.",
+          "answer": "Chi è Tina Cipollari?",
+          "source": "https://it.wikipedia.org/wiki/Tina_Cipollari",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Bagnina di Iseo, nel 2000 vinse la prima edizione del Grande Fratello.",
+          "answer": "Chi è Cristina Plevani?",
+          "source": "https://it.wikipedia.org/wiki/Grande_Fratello_(prima_edizione)",
+          "verified": true
+        },
+        {
+          "clue": "Il reality di Italia 1 del 2006 con coppie formate da una ragazza bellissima e un ragazzo molto studioso.",
+          "answer": "Cos'è La pupa e il secchione?",
+          "source": "https://it.wikipedia.org/wiki/La_pupa_e_il_secchione",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2016 vinse la prima edizione del Grande Fratello VIP, condotta da Ilary Blasi.",
+          "answer": "Chi è Alessia Macari?",
+          "source": "https://it.wikipedia.org/wiki/Grande_Fratello_VIP_(prima_edizione)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "La canzone di Sanremo 2020 durante la quale Bugo lasciò il palco, facendo squalificare il duo con Morgan.",
+          "answer": "Cos'è Sincero?",
+          "source": "https://it.wikipedia.org/wiki/Sincero_(Bugo_e_Morgan)",
+          "verified": true
+        },
+        {
+          "clue": "Il programma di Gianni Boncompagni, in onda dal 1991 al 1995, che lanciò Ambra Angiolini.",
+          "answer": "Cos'è Non è la Rai?",
+          "source": "https://it.wikipedia.org/wiki/Non_%C3%A8_la_Rai",
+          "verified": true
+        },
+        {
+          "clue": "La conduttrice della prima edizione dell'Isola dei Famosi, nel 2003 su Rai 2.",
+          "answer": "Chi è Simona Ventura?",
+          "source": "https://it.wikipedia.org/wiki/L%27isola_dei_famosi",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La penisola della Repubblica Dominicana in cui si svolse la prima Isola dei Famosi, nel 2003.",
+          "answer": "Cos'è Samaná?",
+          "accept": ["Samana"],
+          "source": "https://it.wikipedia.org/wiki/L%27isola_dei_famosi",
+          "verified": true
+        },
+        {
+          "clue": "La prima conduttrice di Non è la Rai, nella stagione 1991-1992.",
+          "answer": "Chi è Enrica Bonaccorti?",
+          "source": "https://it.wikipedia.org/wiki/Non_%C3%A8_la_Rai",
+          "verified": true
+        },
+        {
+          "clue": "Il format americano del 2005 da cui deriva La pupa e il secchione.",
+          "answer": "Cos'è Beauty and the Geek?",
+          "source": "https://it.wikipedia.org/wiki/La_pupa_e_il_secchione",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

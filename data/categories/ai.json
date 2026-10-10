@@ -1,0 +1,130 @@
+{
+  "id": "ai",
+  "name": "AI",
+  "group": "custom",
+  "emoji": "🤖",
+  "description": "Intelligenza artificiale: da Turing a ChatGPT, con date precise.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il chatbot di OpenAI lanciato al pubblico il 30 novembre 2022.",
+          "answer": "Cos'è ChatGPT?",
+          "source": "https://it.wikipedia.org/wiki/ChatGPT",
+          "verified": true
+        },
+        {
+          "clue": "Nel 1950 propose il gioco dell'imitazione per capire se una macchina può pensare.",
+          "answer": "Chi è Alan Turing?",
+          "accept": ["Turing"],
+          "source": "https://it.wikipedia.org/wiki/Test_di_Turing",
+          "verified": true
+        },
+        {
+          "clue": "Nel 1997 questo computer di IBM batté a scacchi Garry Kasparov in un match.",
+          "answer": "Cos'è Deep Blue?",
+          "source": "https://it.wikipedia.org/wiki/IBM_Deep_Blue",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il significato della sigla GPT nei modelli di OpenAI.",
+          "answer": "Cos'è Generative Pre-trained Transformer?",
+          "source": "https://it.wikipedia.org/wiki/ChatGPT",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2011 questo sistema di IBM vinse a Jeopardy! contro Ken Jennings e Brad Rutter.",
+          "answer": "Cos'è Watson?",
+          "accept": ["IBM Watson"],
+          "source": "https://en.wikipedia.org/wiki/IBM_Watson",
+          "verified": true
+        },
+        {
+          "clue": "Nel marzo 2016 questo programma di Google DeepMind sconfisse 4-1 il campione di go Lee Sedol.",
+          "answer": "Cos'è AlphaGo?",
+          "source": "https://it.wikipedia.org/wiki/AlphaGo",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Nel marzo 2023 questa autorità italiana ha bloccato temporaneamente ChatGPT.",
+          "answer": "Cos'è il Garante della privacy?",
+          "accept": ["Garante per la protezione dei dati personali"],
+          "source": "https://it.wikipedia.org/wiki/ChatGPT",
+          "verified": true
+        },
+        {
+          "clue": "Il chatbot del 1966 che, con lo script DOCTOR, imitava uno psicoterapeuta.",
+          "answer": "Cos'è ELIZA?",
+          "source": "https://it.wikipedia.org/wiki/ELIZA_(chatterbot)",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2017 i ricercatori di questa azienda pubblicarono Attention Is All You Need, l'articolo che introdusse il Transformer.",
+          "answer": "Cos'è Google?",
+          "source": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il college dove nel 1956 si tenne il workshop estivo per cui fu proposto il termine intelligenza artificiale.",
+          "answer": "Cos'è Dartmouth?",
+          "accept": ["Dartmouth College"],
+          "source": "https://it.wikipedia.org/wiki/Conferenza_di_Dartmouth",
+          "verified": true
+        },
+        {
+          "clue": "Gli utenti attivi raggiunti da ChatGPT in soli due mesi, un record per l'epoca.",
+          "answer": "Cosa sono 100 milioni?",
+          "accept": ["100 milioni"],
+          "source": "https://it.wikipedia.org/wiki/ChatGPT",
+          "verified": true
+        },
+        {
+          "clue": "Il regolamento europeo sull'intelligenza artificiale, entrato in vigore il 1° agosto 2024.",
+          "answer": "Cos'è l'AI Act?",
+          "accept": ["Regolamento europeo sull'IA"],
+          "source": "https://commission.europa.eu/news-and-media/news/ai-act-enters-force-2024-08-01_en",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Nel 2024 ha condiviso il Nobel per la fisica con John Hopfield per le reti neurali; lo chiamano il padrino dell'AI.",
+          "answer": "Chi è Geoffrey Hinton?",
+          "source": "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2024 Demis Hassabis e John Jumper hanno condiviso il Nobel per la chimica grazie a questo sistema che predice la struttura delle proteine.",
+          "answer": "Cos'è AlphaFold?",
+          "source": "https://en.wikipedia.org/wiki/AlphaFold",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2018 ha vinto il premio Turing con Geoffrey Hinton e Yoshua Bengio per le reti neurali profonde.",
+          "answer": "Chi è Yann LeCun?",
+          "source": "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "capitali",
+  "name": "Capitali del mondo",
+  "group": "classiche",
+  "emoji": "🌍",
+  "description": "Dalle più facili alle impossibili.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Questa città è la capitale della Spagna.",
+          "answer": "Cos'è Madrid?",
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        },
+        {
+          "clue": "Questa metropoli è la capitale del Giappone.",
+          "answer": "Cos'è Tokyo?",
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        },
+        {
+          "clue": "Questa città è la capitale dell'Egitto.",
+          "answer": "Cos'è Il Cairo?",
+          "accept": ["Cairo"],
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Non è Toronto: è questa città la capitale del Canada.",
+          "answer": "Cos'è Ottawa?",
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        },
+        {
+          "clue": "Non è Sydney: è questa città, progettata apposta per esserlo, la capitale dell'Australia.",
+          "answer": "Cos'è Canberra?",
+          "source": "https://it.wikipedia.org/wiki/Canberra",
+          "verified": true
+        },
+        {
+          "clue": "Questa città è la capitale del Kenya.",
+          "answer": "Cos'è Nairobi?",
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Non è Istanbul: è questa città la capitale della Turchia.",
+          "answer": "Cos'è Ankara?",
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        },
+        {
+          "clue": "Capitale del Brasile dal 1960, progettata da Lúcio Costa con gli edifici di Oscar Niemeyer.",
+          "answer": "Cos'è Brasília?",
+          "accept": ["Brasilia"],
+          "source": "https://it.wikipedia.org/wiki/Bras%C3%ADlia",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Non è Casablanca: è questa città la capitale del Marocco.",
+          "answer": "Cos'è Rabat?",
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        },
+        {
+          "clue": "Dal 1865 è la capitale della Nuova Zelanda.",
+          "answer": "Cos'è Wellington?",
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        },
+        {
+          "clue": "Non è Lagos: è questa città la capitale della Nigeria.",
+          "answer": "Cos'è Abuja?",
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Capitale del Kazakistan dal 1997: tra il 2019 e il 2022 si è chiamata Nur-Sultan.",
+          "answer": "Cos'è Astana?",
+          "source": "https://it.wikipedia.org/wiki/Astana",
+          "verified": true
+        },
+        {
+          "clue": "Dal 2006 è la capitale del Myanmar, al posto di Yangon.",
+          "answer": "Cos'è Naypyidaw?",
+          "accept": ["Naypyitaw", "Nay Pyi Taw"],
+          "source": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

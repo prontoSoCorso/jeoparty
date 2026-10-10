@@ -1,9 +1,85 @@
 {
   "schemaVersion": 1,
   "groups": [
-    { "id": "classiche", "name": "Classiche" },
-    { "id": "custom", "name": "Custom" },
-    { "id": "inventate", "name": "Inventate" }
+    {
+      "id": "classiche",
+      "name": "Classiche"
+    },
+    {
+      "id": "custom",
+      "name": "Custom"
+    },
+    {
+      "id": "inventate",
+      "name": "Inventate"
+    }
   ],
-  "categories": []
+  "categories": [
+    {
+      "id": "capitali",
+      "name": "Capitali del mondo",
+      "group": "classiche",
+      "emoji": "🌍",
+      "description": "Dalle più facili alle impossibili.",
+      "file": "categories/capitali.json",
+      "variants": 13,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "group": "custom",
+      "emoji": "🤖",
+      "description": "Intelligenza artificiale: da Turing a ChatGPT, con date precise.",
+      "file": "categories/ai.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "high-school-musical",
+      "name": "High School Musical",
+      "group": "custom",
+      "emoji": "🏀",
+      "description": "La saga Disney Channel dei Wildcats della East High.",
+      "file": "categories/high-school-musical.json",
+      "variants": 16,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "trap-italiana",
+      "name": "Trap italiana",
+      "group": "custom",
+      "emoji": "🔥",
+      "description": "Artisti, album, featuring e record della scena trap italiana.",
+      "file": "categories/trap-italiana.json",
+      "variants": 17,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "trash-italiano",
+      "name": "Trash italiano",
+      "group": "custom",
+      "emoji": "🗑️",
+      "description": "Il meglio del peggio della TV e del web italiani.",
+      "file": "categories/trash-italiano.json",
+      "variants": 16,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "violetta",
+      "name": "Violetta",
+      "group": "custom",
+      "emoji": "💜",
+      "description": "La telenovela musicale argentina di Disney Channel (2012–2015).",
+      "file": "categories/violetta.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    }
+  ]
 }

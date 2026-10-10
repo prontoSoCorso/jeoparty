@@ -6,6 +6,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { createRequestHandler } from './static.js';
 import { openBrowser } from './open-browser.js';
+import { rebuildIndex } from '../scripts/lib/catalog.js';
 
 const MIN_NODE = 20;
 const DEFAULT_PORT = 3456;
@@ -104,6 +105,20 @@ function isJeopartyRunning(port) {
   });
 }
 
+// Rigenera data/index.json (solo se è cambiato) e avvisa se qualche categoria ha errori.
+async function refreshIndex() {
+  try {
+    const { catalog, index } = await rebuildIndex(ROOT);
+    const excluded = catalog.entries.filter((e) => !e.valid).map((e) => e.file);
+    console.log(`  Categorie pronte: ${index.categories.length}.`);
+    if (excluded.length) {
+      console.warn(`  Escluse per errori: ${excluded.join(', ')}. Dettagli: npm run validate\n`);
+    }
+  } catch (err) {
+    console.warn(`  Non riesco ad aggiornare data/index.json (${err.message}): uso quello esistente.\n`);
+  }
+}
+
 async function main() {
   const major = Number(process.versions.node.split('.')[0]);
   if (major < MIN_NODE) fail(`Serve Node.js ${MIN_NODE} o superiore (trovato ${process.versions.node}).`);
@@ -117,6 +132,7 @@ async function main() {
   const pkg = JSON.parse(readFileSync(path.join(ROOT, 'package.json'), 'utf8'));
   const info = { app: 'jeoparty', version: pkg.version };
   const handler = createRequestHandler({ publicDir: PUBLIC_DIR, dataDir: DATA_DIR, info });
+  await refreshIndex();
 
   const last = Math.min(preferred + FALLBACK_TRIES, 65535);
   for (let port = preferred; port <= last; port++) {

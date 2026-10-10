@@ -1,0 +1,130 @@
+{
+  "id": "violetta",
+  "name": "Violetta",
+  "group": "custom",
+  "emoji": "💜",
+  "description": "La telenovela musicale argentina di Disney Channel (2012–2015).",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Interpreta Violetta Castillo, la protagonista della telenovela.",
+          "answer": "Chi è Martina Stoessel?",
+          "accept": ["Tini", "Tini Stoessel"],
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "La città argentina in cui Violetta e suo padre si stabiliscono e dove è ambientata la serie.",
+          "answer": "Cos'è Buenos Aires?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "Il padre di Violetta, interpretato da Diego Ramos.",
+          "answer": "Chi è Germán Castillo?",
+          "accept": ["Germán"],
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "La sigla di apertura della serie, cantata in spagnolo.",
+          "answer": "Cos'è En mi mundo?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "La scuola di musica e spettacolo frequentata dai ragazzi nella prima stagione.",
+          "answer": "Cos'è lo Studio 21?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "La zia di Violetta, insegnante allo Studio, interpretata da Clara Alonso.",
+          "answer": "Chi è Angie?",
+          "accept": ["Angie Carrara", "Angela Carrara"],
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Interpreta Francesca Caviglia; prima del provino frequentava una scuola a Milano.",
+          "answer": "Chi è Lodovica Comello?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "Prima di stabilirsi in Argentina, Violetta e il padre vivevano in questa capitale europea.",
+          "answer": "Cos'è Madrid?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "Nella seconda stagione la scuola dei ragazzi cambia nome e diventa questo.",
+          "answer": "Cos'è lo Studio On Beat?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Interpreta León Vargas.",
+          "answer": "Chi è Jorge Blanco?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "Il titolo italiano del film del 2016 che segue la protagonista dopo la serie.",
+          "answer": "Cos'è Tini - La nuova vita di Violetta?",
+          "accept": ["Tini"],
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "Il canale Rai che dall'aprile 2013 ha trasmesso la serie in chiaro.",
+          "answer": "Cos'è Rai Gulp?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La doppiatrice italiana della protagonista.",
+          "answer": "Chi è Emanuela Ionica?",
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "La casa di produzione argentina che ha realizzato la telenovela.",
+          "answer": "Cos'è Pol-ka Producciones?",
+          "accept": ["Pol-ka"],
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        },
+        {
+          "clue": "Il numero totale di puntate delle tre stagioni.",
+          "answer": "Cos'è 240?",
+          "accept": ["240"],
+          "source": "https://it.wikipedia.org/wiki/Violetta_(telenovela)",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

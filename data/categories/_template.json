@@ -1,0 +1,51 @@
+{
+  "id": "nome-del-file-senza-json",
+  "name": "Nome sul tabellone",
+  "group": "inventate",
+  "emoji": "⭐",
+  "description": "Una riga che spiega il tema (massimo 90 caratteri).",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Indizio facile: un'affermazione che indica la risposta con questo/questa.",
+          "answer": "Chi è Tizio?",
+          "accept": ["Tizio"],
+          "notes": "Facoltativo: curiosità mostrata dopo la risposta.",
+          "source": "Facoltativo: URL della pagina consultata (obbligatorio se verified è true).",
+          "verified": false
+        },
+        { "clue": "Seconda variante dello stesso livello (ne esce una a caso).", "answer": "Cos'è la cosa?", "verified": false }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        { "clue": "Indizio da 400, prima variante.", "answer": "Chi è Caio?", "verified": false },
+        { "clue": "Indizio da 400, seconda variante.", "answer": "Cos'è la cosa da 400?", "verified": false }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        { "clue": "Indizio da 600, prima variante.", "answer": "Chi è Sempronio?", "verified": false },
+        { "clue": "Indizio da 600, seconda variante.", "answer": "Cos'è la cosa da 600?", "verified": false }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        { "clue": "Indizio da 800, prima variante.", "answer": "Dov'è il posto?", "verified": false },
+        { "clue": "Indizio da 800, seconda variante.", "answer": "Cos'è la cosa da 800?", "verified": false }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        { "clue": "Indizio difficile da 1000, prima variante.", "answer": "Quando è successo?", "verified": false },
+        { "clue": "Indizio difficile da 1000, seconda variante.", "answer": "Cos'è la cosa da 1000?", "verified": false }
+      ]
+    }
+  ]
+}

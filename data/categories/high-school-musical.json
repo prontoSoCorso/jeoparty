@@ -1,0 +1,140 @@
+{
+  "id": "high-school-musical",
+  "name": "High School Musical",
+  "group": "custom",
+  "emoji": "🏀",
+  "description": "La saga Disney Channel dei Wildcats della East High.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Capitano della squadra di basket della East High, scopre la passione per il canto; lo interpreta Zac Efron.",
+          "answer": "Chi è Troy Bolton?",
+          "accept": ["Troy"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        },
+        {
+          "clue": "Studentessa intelligente e brillante appena arrivata alla East High; la interpreta Vanessa Hudgens.",
+          "answer": "Chi è Gabriella Montez?",
+          "accept": ["Gabriella"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        },
+        {
+          "clue": "Il personaggio interpretato da Ashley Tisdale.",
+          "answer": "Chi è Sharpay Evans?",
+          "accept": ["Sharpay"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il nome della squadra di basket della East High.",
+          "answer": "Chi sono i Wildcats?",
+          "accept": ["Wildcats"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        },
+        {
+          "clue": "La città del New Mexico in cui è ambientata la storia.",
+          "answer": "Cos'è Albuquerque?",
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        },
+        {
+          "clue": "Il migliore amico di Troy, anche lui nella squadra di basket, interpretato da Corbin Bleu.",
+          "answer": "Chi è Chad Danforth?",
+          "accept": ["Chad"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il fratello gemello di Sharpay, interpretato da Lucas Grabeel.",
+          "answer": "Chi è Ryan Evans?",
+          "accept": ["Ryan"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        },
+        {
+          "clue": "Troy e Gabriella si conoscono cantando insieme al karaoke durante questa festa.",
+          "answer": "Cos'è la festa di Capodanno?",
+          "accept": ["Capodanno"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        },
+        {
+          "clue": "La migliore amica di Gabriella e sua compagna nel decathlon scientifico, interpretata da Monique Coleman.",
+          "answer": "Chi è Taylor McKessie?",
+          "accept": ["Taylor"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il country club della famiglia Evans dove i ragazzi lavorano d'estate nel secondo film.",
+          "answer": "Cos'è il Lava Springs?",
+          "accept": ["Lava Springs"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical_2",
+          "verified": true
+        },
+        {
+          "clue": "La canzone che Troy canta da solo sul campo da golf nel secondo film.",
+          "answer": "Cos'è Bet on It?",
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical_2",
+          "verified": true
+        },
+        {
+          "clue": "Il sottotitolo del terzo film, uscito nel 2008 e dedicato all'ultimo anno di scuola.",
+          "answer": "Cos'è Senior Year?",
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical_3:_Senior_Year",
+          "verified": true
+        },
+        {
+          "clue": "Nel primo film è la pianista del musical della scuola.",
+          "answer": "Chi è Kelsi Nielsen?",
+          "accept": ["Kelsi"],
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il cantante che presta gran parte della voce cantata a Troy nel primo film.",
+          "answer": "Chi è Drew Seeley?",
+          "source": "https://en.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        },
+        {
+          "clue": "La storia è ambientata nel New Mexico, ma il primo film è stato girato soprattutto in questo Stato americano.",
+          "answer": "Cos'è lo Utah?",
+          "source": "https://en.wikipedia.org/wiki/High_School_Musical",
+          "verified": true
+        },
+        {
+          "clue": "Il regista del primo e del terzo film della saga.",
+          "answer": "Chi è Kenny Ortega?",
+          "source": "https://it.wikipedia.org/wiki/High_School_Musical_3:_Senior_Year",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

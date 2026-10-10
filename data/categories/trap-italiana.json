@@ -1,0 +1,140 @@
+{
+  "id": "trap-italiana",
+  "name": "Trap italiana",
+  "group": "custom",
+  "emoji": "🔥",
+  "description": "Artisti, album, featuring e record della scena trap italiana.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Cresciuto a Cinisello Balsamo, nel 2018 ha pubblicato l'album Rockstar.",
+          "answer": "Chi è Sfera Ebbasta?",
+          "source": "https://it.wikipedia.org/wiki/Sfera_Ebbasta",
+          "verified": true
+        },
+        {
+          "clue": "Cresciuto nel quartiere milanese di Baggio, nel 2016 ha battuto i record di streaming con Ninna nanna.",
+          "answer": "Chi è Ghali?",
+          "source": "https://it.wikipedia.org/wiki/Ghali",
+          "verified": true
+        },
+        {
+          "clue": "Il collettivo trap nato a Roma nel 2014 con Tony Effe, Wayne Santana, Pyrex e Side Baby.",
+          "answer": "Cos'è la Dark Polo Gang?",
+          "accept": ["Dark Polo Gang", "DPG"],
+          "source": "https://it.wikipedia.org/wiki/Dark_Polo_Gang",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il rapper napoletano arrivato secondo a Sanremo 2024 con I p' me, tu p' te.",
+          "answer": "Chi è Geolier?",
+          "source": "https://it.wikipedia.org/wiki/Geolier",
+          "verified": true
+        },
+        {
+          "clue": "La rapper di La Spezia che nel 2020 è arrivata prima in classifica con Bando.",
+          "answer": "Chi è Anna?",
+          "accept": ["Anna Pepe"],
+          "source": "https://it.wikipedia.org/wiki/Anna_(rapper)",
+          "verified": true
+        },
+        {
+          "clue": "Rapper e pianista milanese, nel 2023 è arrivato secondo a Sanremo con Cenere.",
+          "answer": "Chi è Lazza?",
+          "source": "https://it.wikipedia.org/wiki/Lazza",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il produttore che firma con Sfera Ebbasta l'album XDVR, uscito nel 2015.",
+          "answer": "Chi è Charlie Charles?",
+          "source": "https://it.wikipedia.org/wiki/Sfera_Ebbasta",
+          "verified": true
+        },
+        {
+          "clue": "Il rapper di Salerno che nel 2018 ha portato al primo posto l'album 20.",
+          "answer": "Chi è Capo Plaza?",
+          "source": "https://it.wikipedia.org/wiki/Capo_Plaza",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2019 Sfera Ebbasta è stato giudice della tredicesima edizione di questo talent show.",
+          "answer": "Cos'è X Factor?",
+          "accept": ["X Factor Italia"],
+          "source": "https://it.wikipedia.org/wiki/Sfera_Ebbasta",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il successo del 2024 di Tony Effe e Gaia, rimasto 12 settimane di fila in vetta alla classifica dei singoli.",
+          "answer": "Cos'è Sesso e samba?",
+          "source": "https://it.wikipedia.org/wiki/Tony_Effe",
+          "verified": true
+        },
+        {
+          "clue": "Il brano con cui Ghali si è classificato quarto a Sanremo 2024.",
+          "answer": "Cos'è Casa mia?",
+          "source": "https://it.wikipedia.org/wiki/Ghali",
+          "verified": true
+        },
+        {
+          "clue": "L'album di Lazza del 2022, il primo disco rap italiano certificato diamante.",
+          "answer": "Cos'è Sirio?",
+          "source": "https://it.wikipedia.org/wiki/Lazza",
+          "verified": true
+        },
+        {
+          "clue": "Il singolo del 2018 di Capo Plaza con Sfera Ebbasta e DrefGold che porta il nome di un'auto elettrica.",
+          "answer": "Cos'è Tesla?",
+          "source": "https://it.wikipedia.org/wiki/Capo_Plaza",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il produttore della Dark Polo Gang che ha curato da solo il mixtape Full Metal Dark.",
+          "answer": "Chi è Sick Luke?",
+          "source": "https://it.wikipedia.org/wiki/Dark_Polo_Gang",
+          "verified": true
+        },
+        {
+          "clue": "Il quartiere di Napoli in cui è cresciuto Geolier: non è Secondigliano.",
+          "answer": "Cos'è Miano?",
+          "source": "https://it.wikipedia.org/wiki/Geolier",
+          "verified": true
+        },
+        {
+          "clue": "L'etichetta fondata nel 2018 da Sfera Ebbasta e Charlie Charles.",
+          "answer": "Cos'è Billion Headz Music Group?",
+          "accept": ["Billion Headz"],
+          "source": "https://it.wikipedia.org/wiki/Sfera_Ebbasta",
+          "verified": true
+        },
+        {
+          "clue": "Il brano con cui Tony Effe ha partecipato al Festival di Sanremo 2025.",
+          "answer": "Cos'è Damme 'na mano?",
+          "source": "https://it.wikipedia.org/wiki/Tony_Effe",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
