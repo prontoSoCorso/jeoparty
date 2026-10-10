@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "groups": [
+    { "id": "classiche", "name": "Classiche" },
+    { "id": "custom", "name": "Custom" },
+    { "id": "inventate", "name": "Inventate" }
+  ],
+  "categories": []
+}

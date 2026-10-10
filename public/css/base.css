@@ -1,0 +1,87 @@
+/* Variabili, reset e tipografia "da TV". Grafica originale: blu notte, valori dorati, testo bianco. */
+:root {
+  --scala: 1;
+
+  --c-bg: #050a2a;
+  --c-bg-2: #0b1650;
+  --c-board: #1530b8;
+  --c-board-2: #0f2591;
+  --c-board-edge: #0a1660;
+  --c-used: #081241;
+  --c-gold: #ffd34d;
+  --c-text: #ffffff;
+  --c-muted: #b9c2ee;
+  --c-ok: #1e9e4a;
+  --c-ko: #c93a3a;
+  --c-focus: #ffe680;
+  --c-panel: #0e1c6e;
+  --c-panel-2: #13258a;
+
+  --font-ui: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Segoe UI Black", "Arial Black", "Segoe UI", system-ui, sans-serif;
+
+  --fs-xs: calc(clamp(0.75rem, 0.9vw, 1rem) * var(--scala));
+  --fs-s: calc(clamp(0.9rem, 1.1vw, 1.25rem) * var(--scala));
+  --fs-m: calc(clamp(1rem, 1.4vw, 1.6rem) * var(--scala));
+  --fs-l: calc(clamp(1.3rem, 2vw, 2.4rem) * var(--scala));
+  --fs-xl: calc(clamp(1.8rem, 3.2vw, 4rem) * var(--scala));
+  --fs-xxl: calc(clamp(2.4rem, 5vw, 6.5rem) * var(--scala));
+
+  --gap: clamp(0.4rem, 0.8vw, 1rem);
+  --radius: 0.6rem;
+  --safe-x: 2.5vw;
+  --safe-y: 2.5vh;
+
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(ellipse at top, var(--c-bg-2), var(--c-bg) 70%) fixed;
+  color: var(--c-text);
+  font-family: var(--font-ui);
+  font-size: var(--fs-m);
+  line-height: 1.35;
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+  padding: var(--safe-y) var(--safe-x);
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 { margin: 0; line-height: 1.15; }
+
+button, input, select { font: inherit; color: inherit; }
+
+:focus-visible {
+  outline: 0.25rem solid var(--c-focus);
+  outline-offset: 0.2rem;
+}
+
+[hidden] { display: none !important; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,11 @@
+/* Layout delle singole schermate. */
+.placeholder {
+  margin: auto;
+  text-align: center;
+}
+
+.placeholder h1 {
+  font-family: var(--font-display);
+  font-size: var(--fs-xxl);
+  color: var(--c-gold);
+}
