@@ -1,8 +1,9 @@
-// Indizio a tutto schermo: ✓/✗ per le squadre che possono rispondere, Mostra risposta, Nessuno/Salta.
+// Indizio a tutto schermo: ✓/✗ per le squadre che possono rispondere, Mostra risposta, Nessuno/Salta, timer.
 import { h } from '../dom.js';
 import { T } from '../strings.js';
 import { answerableTeams, stealOrder, teamById } from '../rules.js';
 import { scorebar } from '../components/scorebar.js';
+import { timerElement, toggleTimer } from '../components/timer.js';
 
 function statusText(game, cell, cur, answerable) {
   const owner = teamById(game, cur.owner);
@@ -81,8 +82,17 @@ export function renderClue(ctx) {
         }, T.clue.skip, h('kbd', null, '0')),
       ]);
 
+  // Il timer corre finché la risposta non è mostrata; riparte quando inizia la rubata (cambia la chiave).
+  const timerOn = game.options.timer.enabled && !cur.revealed && !cur.resolved;
+  if (timerOn) ctx.timer = { key: `${cur.col}:${cur.row}:${cur.stage}`, seconds: game.options.timer.seconds };
+
   ctx.autofocus = 'clue';
   ctx.onKey = (e) => {
+    if (e.code === 'KeyT' && !e.ctrlKey) {
+      e.preventDefault();
+      toggleTimer();
+      return;
+    }
     const digit = /^(Digit|Numpad)([1-6])$/.exec(e.code);
     if (digit) {
       const team = game.teams[Number(digit[2]) - 1];
@@ -109,6 +119,7 @@ export function renderClue(ctx) {
       h('span', { class: 'clue__cat' }, h('span', { 'aria-hidden': 'true' }, cat.emoji), ' ', cat.name),
       h('span', { class: 'clue__value' }, cell.dd ? `Daily Double · ${cur.wager}` : String(cell.value))),
     cat.description && h('p', { class: 'clue__desc' }, cat.description),
+    timerOn && timerElement(),
     h('div', { class: 'clue__main', tabindex: '-1', 'data-fk': 'clue' },
       h('p', { class: 'clue__text' }, cell.clue),
       answer),

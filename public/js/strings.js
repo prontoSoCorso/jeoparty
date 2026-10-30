@@ -86,6 +86,24 @@ export const T = {
     cellLabel: (cat, value) => `${cat}, ${value} punti`,
     used: 'già giocata',
     setTurn: (name) => `Fai scegliere ${name}`,
+    soundOn: 'Audio attivo (M)',
+    soundOff: 'Audio spento (M)',
+  },
+
+  wager: {
+    title: 'Daily Double!',
+    team: (name, score) => `Punta ${name} (${score} punti)`,
+    amount: 'Puntata',
+    limits: (min, max) => `Puntata da ${min} a ${max}`,
+    confirm: 'Conferma la puntata',
+    half: 'Metà',
+    all: 'Tutto o niente',
+  },
+
+  timer: {
+    hint: 'Pausa o ripresa del timer (T)',
+    left: (s) => `${s} secondi rimasti`,
+    paused: (s) => `Timer in pausa, ${s} secondi rimasti`,
   },
 
   clue: {
@@ -127,6 +145,10 @@ export const T = {
     title: 'Impostazioni',
     textSize: 'Dimensione testo',
     sizes: { s: 'S', m: 'M', l: 'L' },
+    sound: 'Effetti sonori e musica',
+    volume: 'Volume',
+    soundOn: '🔊 Audio attivato',
+    soundOff: '🔇 Audio disattivato',
     resetHistory: 'Azzera lo storico delle domande uscite',
     historyReset: 'Storico azzerato.',
   },

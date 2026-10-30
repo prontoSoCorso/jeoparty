@@ -559,7 +559,7 @@ In alternativa: **doppio clic su `start.bat`**, che accetta gli stessi argomenti
 | M1 | Dati e validazione | schema, `_template.json`, `catalog.js`, `validate.js`, indice generato, test con fixture, **6 categorie complete** (le 5 Custom con ≥ 3 varianti per livello + 1 Classica) | `npm run validate` passa sui dati reali e fallisce su ogni fixture indicando file, livello e variante; `npm test` passa | ✅ |
 | M2 | Setup e scelta categorie | Home, Setup (modo di gioco, rubata, penalità, opzioni ricordate, dimensione testo), Categorie (manuale, 🎲, 🔄) | impossibile iniziare con un numero di categorie diverso da 5; il rilancio non crea mai doppioni; "citta" trova "Città…"; il filtro per gruppo vale anche per il casuale | ✅ |
 | M3 | Gioco base | tabellone, indizio, ✓/✗/Nessuno, modi A turno (con rubata) e Gara, penalità on/off, cambio manuale del turno, annulla, correzione, salvataggio e ripresa, scorciatoie, schermo intero, fine partita semplice | una partita completa di 25 tessere si gioca **solo da tastiera in entrambe le modalità** (A turno e Gara); un refresh in qualunque momento (anche a indizio aperto) ripristina lo stato identico; Annulla ripristina punti, tessera e turno | ✅ |
-| M4 | Daily Double, timer, audio | piazzamento pesato, puntata, timer configurabile, suoni, Wake Lock | mai un Daily Double nella riga da 200; limiti di puntata rispettati (con punteggio negativo il massimo è 1000); dopo il Daily Double il turno segue la regola della modalità; timer automatico, on/off e pausa; il muto resta salvato | ⏳ |
+| M4 | Daily Double, timer, audio | piazzamento pesato, puntata, timer configurabile, suoni, Wake Lock | mai un Daily Double nella riga da 200; limiti di puntata rispettati (con punteggio negativo il massimo è 1000); dopo il Daily Double il turno segue la regola della modalità; timer automatico, on/off e pausa; il muto resta salvato | ✅ |
 | M5 | Gran Finale e fine partita | flusso del finale, puntate mascherate, podio con pari merito, rivincita, 🚩 segnalazioni con "Copia segnalazioni" | squadre a ≤ 0 escluse; puntate tra 0 e il punteggio; classifica corretta con pari merito; la rivincita tiene le squadre, azzera i punti e pesca varianti nuove; "Copia segnalazioni" copia id, categoria e testo | ⏳ |
 | M6 | Contenuti completi, in lotti | C1 Custom (in M1), C2 Inventate (18), C3 Classiche (24); verifica dei fatti sul web, obbligatoria per le categorie di nicchia | 47 categorie; Custom 5 livelli × ≥ 3 varianti, le altre × ≥ 2; `validate` senza errori; `docs/DA-VERIFICARE.md` generato | ⏳ |
 | M7 | Rifinitura | contrasto e dimensioni, README/INSTRUCTIONS/docs definitivi, elenco di ciò che non ho potuto provare | checklist manuale pronta; le prove su TV vera e Lighthouse restano a te | ⏳ |
@@ -659,12 +659,14 @@ Scelte prese durante lo sviluppo, quando un requisito era ambiguo (si è scelta 
 - **Rubata:** dopo l'errore della squadra di turno si attivano i pulsanti di tutte le altre, mostrati in ordine a partire dalla successiva; il conduttore dà la parola in quell'ordine. Il timer riparte per la rubata.
 - **Penalità off:** il limite "mai sotto zero" vale per ogni variazione, Daily Double e Gran Finale compresi (che restano comunque a rischio fino a zero).
 - **Custom con meno di 3 varianti:** avviso del validatore (non errore), così una nuova categoria personale con 2 varianti resta giocabile; i test verificano che le 5 Custom fornite ne abbiano almeno 3.
-- **Timer:** un'unica durata per indizi e Gran Finale; dopo un refresh riparte da capo.
+- **Timer:** un'unica durata per indizi e Gran Finale; dopo un refresh riparte da capo; si ferma quando si mostra la risposta; in Gara non riparte dopo ogni errore (riparte solo per la Rubata). Un clic sulla barra equivale a T.
 - **Tastiera sul tabellone:** tornando da un indizio il focus va sulla prima tessera libera dopo quella appena giocata, così si continua con frecce + Invio.
 - **Squadre e punteggi (menu ⚙):** la correzione dei punteggi si annulla con Ctrl+Z; la rinomina no (è solo estetica).
 - **Rivincita:** stesse squadre e opzioni, punti a zero, categorie della partita precedente già selezionate (modificabili); lo storico fa uscire varianti nuove.
 - **Prove nel browser:** Chrome headless pilotato con il DevTools Protocol da uno script mio, tenuto fuori dal repository. Schermo intero, audio e Wake Lock non si possono verificare così.
-- **Temporaneo (fino a M4/M5):** Daily Double e Gran Finale restano nascosti nel Setup e disattivati, perché le loro schermate arrivano nelle milestone successive.
+- **Puntata del Daily Double:** campo precompilato col valore della tessera; "Metà" è la metà del massimo consentito, "Tutto o niente" il massimo; una puntata fuori limite viene riportata dentro i limiti.
+- **Audio:** i suoni partono solo dopo il primo clic o tasto (regole dei browser); pulsante 🔊/🔇 anche sul tabellone.
+- **Temporaneo (fino a M5):** il Gran Finale resta nascosto nel Setup e disattivato, perché la sua schermata arriva nella milestone successiva.
 
 ---
 

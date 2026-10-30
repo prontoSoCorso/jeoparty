@@ -88,6 +88,7 @@ select.input { width: auto; }
 .chip--on { background: var(--c-gold); color: #1a1300; border-color: var(--c-gold); font-weight: 700; }
 
 .size-buttons { display: inline-flex; gap: 0.4em; }
+.range { width: min(20rem, 60vw); accent-color: var(--c-gold); }
 
 .notice { color: var(--c-muted); }
 .notice--error {

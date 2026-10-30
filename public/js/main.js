@@ -8,16 +8,31 @@ import { NAME_MAX, canUndo, createGame, defaultOptions, makeTeams, reduce, sanit
 import { openModal, confirmDialog, isModalOpen } from './components/modal.js';
 import { toast } from './components/toast.js';
 import { textSizeButtons } from './components/text-size.js';
+import { syncTimer } from './components/timer.js';
+import { configureAudio, play, unlockAudio } from './audio.js';
 import { renderHome } from './screens/home.js';
-import { renderSetup, DAILY_DOUBLE_READY, FINAL_READY } from './screens/setup.js';
+import { renderSetup, FINAL_READY } from './screens/setup.js';
 import { renderCategories } from './screens/categories.js';
 import { renderBoard } from './screens/board.js';
+import { renderWager } from './screens/wager.js';
 import { renderClue } from './screens/clue.js';
 import { renderEnd } from './screens/end.js';
 
 const app = document.getElementById('app');
 const store = createStore();
 const rng = createRng();
+
+// Suono da fare dopo un'azione andata a buon fine (prev → next).
+function soundFor(action, prev, next) {
+  switch (action.type) {
+    case 'OPEN_CELL': return next.phase === 'wager' ? 'dailyDouble' : 'blip';
+    case 'CORRECT': return 'correct';
+    case 'WRONG': return 'wrong';
+    case 'REVEAL':
+    case 'SKIP': return 'reveal';
+    default: return next.phase === 'end' && prev.phase !== 'end' ? 'applause' : null;
+  }
+}
 
 const ctx = {
   store,
@@ -26,12 +41,16 @@ const ctx = {
   ui: { query: '', focus: null },
   onKey: null,
   autofocus: null,
+  timer: null,
   actions: {},
   dispatch(action) {
     const game = store.game;
     if (!game) return;
     const next = reduce(game, action);
-    if (next !== game) store.setGame(next);
+    if (next === game) return;
+    store.setGame(next);
+    const sound = action.type === 'UNDO' ? null : soundFor(action, game, next);
+    if (sound) play(sound);
   },
 };
 
@@ -41,6 +60,7 @@ const screens = {
   setup: renderSetup,
   categories: renderCategories,
   board: renderBoard,
+  wager: renderWager,
   clue: renderClue,
   end: renderEnd,
 };
@@ -58,7 +78,10 @@ function render() {
   const focusKey = document.activeElement?.dataset?.fk;
   ctx.onKey = null;
   ctx.autofocus = null;
+  ctx.timer = null;
   app.replaceChildren(screens[currentScreen()](ctx));
+  syncTimer(ctx.timer);
+  syncWakeLock();
   const byKey = (key) => (key ? qs(`[data-fk="${CSS.escape(key)}"]`, app) : null);
   const target = [byKey(focusKey), byKey(ctx.autofocus)].find((el) => el && !el.disabled);
   if (target && !isModalOpen()) target.focus({ preventScroll: true });
@@ -67,6 +90,35 @@ store.subscribe(render);
 
 function applyTextScale(size) {
   document.documentElement.style.setProperty('--scala', String(TEXT_SCALES[size] ?? 1));
+}
+
+// Screen Wake Lock: durante la partita lo schermo non va in standby (se il browser lo permette).
+let wakeLock = null;
+let wakeLockPending = false;
+async function syncWakeLock() {
+  if (!('wakeLock' in navigator)) return;
+  const game = store.game;
+  const hold = game?.view === 'game' && ['board', 'wager', 'clue', 'final'].includes(game.phase) && document.visibilityState === 'visible';
+  if (hold && !wakeLock && !wakeLockPending) {
+    wakeLockPending = true;
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock.addEventListener('release', () => { wakeLock = null; });
+    } catch {
+      // Batteria scarica o permesso negato: si gioca lo stesso.
+    } finally {
+      wakeLockPending = false;
+    }
+  } else if (!hold && wakeLock) {
+    wakeLock.release().catch(() => {});
+    wakeLock = null;
+  }
+}
+document.addEventListener('visibilitychange', syncWakeLock);
+
+function setSound(sound) {
+  store.setSettings({ sound }, { render: false });
+  configureAudio(store.settings);
 }
 
 function freshSetup() {
@@ -123,11 +175,7 @@ Object.assign(ctx.actions, {
       return;
     }
     const columns = buildColumns(categories, { history: store.history.variants, onlyVerified: game.options.onlyVerified, rng });
-    const options = {
-      ...game.options,
-      dailyDoubles: DAILY_DOUBLE_READY ? game.options.dailyDoubles : 0,
-      final: FINAL_READY ? game.options.final : false,
-    };
+    const options = { ...game.options, final: FINAL_READY ? game.options.final : false };
     const next = createGame({ options, teams: game.teams, columns, firstTeam: game.firstTeam, rng });
     next.draft = game.draft;
     next.firstTeam = game.firstTeam;
@@ -158,6 +206,11 @@ Object.assign(ctx.actions, {
     applyTextScale(size);
     store.setSettings({ textScale: size });
   },
+  toggleSound() {
+    setSound(!store.settings.sound);
+    toast(store.settings.sound ? T.settings.soundOn : T.settings.soundOff, { ms: 1500 });
+    render();
+  },
   toggleFullscreen() {
     if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
     else document.documentElement.requestFullscreen?.().catch(() => {});
@@ -175,6 +228,36 @@ Object.assign(ctx.actions, {
     const box = h('div', { class: 'settings' });
     const fill = () => box.replaceChildren(
       h('div', { class: 'field' }, h('span', { class: 'field__label' }, T.settings.textSize), textSizeButtons(ctx, { onChange: fill })),
+      h('label', { class: 'switch' },
+        h('input', {
+          type: 'checkbox',
+          checked: store.settings.sound,
+          on: {
+            change: (e) => {
+              setSound(e.target.checked);
+              fill();
+            },
+          },
+        }),
+        h('span', { class: 'switch__text' }, h('strong', null, T.settings.sound))),
+      h('label', { class: 'field' },
+        h('span', { class: 'field__label' }, T.settings.volume),
+        h('input', {
+          class: 'range',
+          type: 'range',
+          min: 0,
+          max: 100,
+          step: 5,
+          value: Math.round(store.settings.volume * 100),
+          disabled: !store.settings.sound,
+          on: {
+            input: (e) => {
+              store.setSettings({ volume: Number(e.target.value) / 100 }, { render: false });
+              configureAudio(store.settings);
+            },
+            change: () => play('correct'),
+          },
+        })),
       h('button', {
         class: 'btn btn--ghost',
         type: 'button',
@@ -251,6 +334,11 @@ document.addEventListener('keydown', (e) => {
     ctx.actions.toggleFullscreen();
     return;
   }
+  if (e.code === 'KeyM' && !e.ctrlKey) {
+    e.preventDefault();
+    ctx.actions.toggleSound();
+    return;
+  }
   if (inGame && ((e.ctrlKey && e.code === 'KeyZ') || (e.code === 'KeyU' && !e.ctrlKey))) {
     e.preventDefault();
     if (canUndo(store.game)) ctx.dispatch({ type: 'UNDO' });
@@ -259,11 +347,16 @@ document.addEventListener('keydown', (e) => {
   ctx.onKey?.(e);
 });
 
+// L'audio si può attivare solo dopo un gesto dell'utente (regole dei browser sull'autoplay).
+document.addEventListener('pointerdown', unlockAudio, true);
+document.addEventListener('keydown', unlockAudio, true);
+
 window.addEventListener('error', (e) => toast(`${T.unexpected}: ${e.message}`, { kind: 'error', ms: 8000 }));
 window.addEventListener('unhandledrejection', (e) => toast(`${T.unexpected}: ${e.reason?.message ?? e.reason}`, { kind: 'error', ms: 8000 }));
 
 async function boot() {
   applyTextScale(store.settings.textScale);
+  configureAudio(store.settings);
   for (const notice of store.notices) toast(T[notice], { kind: 'error', ms: 8000 });
   render();
   try {

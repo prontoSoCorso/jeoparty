@@ -4,8 +4,7 @@ import { T } from '../strings.js';
 import { MAX_TEAMS, MIN_TEAMS, NAME_MAX, TIMER_MAX, TIMER_MIN, addTeam, cleanName, removeTeam } from '../rules.js';
 import { textSizeButtons } from '../components/text-size.js';
 
-// Daily Double (puntata, milestone M4) e Gran Finale (M5): fino ad allora restano nascosti e disattivati.
-export const DAILY_DOUBLE_READY = false;
+// Gran Finale (milestone M5): fino ad allora resta nascosto e disattivato.
 export const FINAL_READY = false;
 
 function checkbox({ label, hint, checked, fk, onChange }) {
@@ -134,7 +133,7 @@ export function renderSetup(ctx) {
           },
         }),
         h('span', null, T.setup.timerSeconds))),
-    DAILY_DOUBLE_READY && radioGroup({
+    radioGroup({
       name: 'dd',
       legend: T.setup.dailyDoubles,
       value: o.dailyDoubles,

@@ -275,6 +275,52 @@ button.team__btn:hover { border-color: rgba(255, 255, 255, 0.4); border-left-col
 }
 .clue__team-name { font-weight: 700; max-width: 12em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .clue__actions { display: flex; justify-content: center; gap: var(--gap); flex-wrap: wrap; }
+/* Timer dell'indizio (clic o T = pausa) */
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: var(--fs-l);
+}
+.timer__track { flex: 1; height: 0.55em; border-radius: 999px; background: rgba(0, 0, 0, 0.35); overflow: hidden; }
+.timer__fill { display: block; height: 100%; background: var(--c-gold); transform-origin: left center; }
+.timer__label { min-width: 3.2em; text-align: right; }
+.timer--warn .timer__fill { background: #ff9d3a; }
+.timer--warn .timer__label { color: #ffb366; }
+.timer--expired .timer__track { background: var(--c-ko); }
+.timer--expired .timer__label { color: #ffb3b3; }
+.timer--paused .timer__fill { opacity: 0.45; }
+
+/* Puntata del Daily Double */
+.wager { background: radial-gradient(ellipse at 50% 40%, #7a2bd6, #2a1080 75%); border-radius: calc(var(--radius) * 1.5); padding: 2vh 2vw; }
+.wager__main { flex: 1; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 1.5vh; }
+.wager__cat { margin: 0; font-size: var(--fs-l); font-weight: 800; }
+.wager__title {
+  font-family: var(--font-display);
+  font-size: calc(clamp(3rem, 9vw, 10rem) * var(--scala));
+  color: var(--c-gold);
+  text-shadow: 0 0.06em 0 #6b4d00, 0 0.15em 0.4em rgba(0, 0, 0, 0.5);
+  animation: dd-pop 0.6s ease-out;
+}
+.wager__team { margin: 0; font-size: var(--fs-l); font-weight: 700; padding: 0.2em 1em; border-radius: 999px; border: 3px solid var(--team); background: rgba(0, 0, 0, 0.3); }
+.wager__form { display: flex; flex-direction: column; align-items: center; gap: 0.8em; }
+.wager__row { display: flex; gap: 0.8em; align-items: center; flex-wrap: wrap; justify-content: center; }
+.wager__input { width: 6em; font-family: var(--font-display); font-size: var(--fs-xl); text-align: center; }
+.wager__limits { margin: 0; color: #e6ebff; }
+.wager__limits--bad { color: #ffb3b3; font-weight: 700; }
+.wager__quick { display: flex; gap: 0.6em; flex-wrap: wrap; justify-content: center; }
+@keyframes dd-pop {
+  from { transform: scale(0.3) rotate(-6deg); opacity: 0; }
+  70% { transform: scale(1.08) rotate(1deg); opacity: 1; }
+  to { transform: none; }
+}
+
 kbd {
   font-family: var(--font-ui);
   font-size: 0.7em;
