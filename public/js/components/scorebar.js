@@ -1,11 +1,12 @@
 // Barra dei punteggi: evidenzia la squadra di turno; sul tabellone un clic la rende "di turno".
+// Nel Gran Finale il turno non conta (showTurn: false).
 import { h } from '../dom.js';
 import { T } from '../strings.js';
 
-export function scorebar(ctx, { clickable = false } = {}) {
+export function scorebar(ctx, { clickable = false, showTurn = true } = {}) {
   const game = ctx.store.game;
   return h('ol', { class: 'scorebar' }, game.teams.map((t, i) => {
-    const isTurn = t.id === game.turn;
+    const isTurn = showTurn && t.id === game.turn;
     const content = [
       h('span', { class: 'team__key', 'aria-hidden': 'true' }, i + 1),
       h('span', { class: 'team__info' },

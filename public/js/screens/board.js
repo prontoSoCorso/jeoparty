@@ -1,7 +1,8 @@
 // Tabellone 5×5: frecce per muoversi, Invio per aprire; tessere usate oscurate col colore di chi le ha prese.
 import { h, qs } from '../dom.js';
 import { T } from '../strings.js';
-import { VALUES, canUndo, teamById } from '../rules.js';
+import { VALUES, teamById } from '../rules.js';
+import { gameBar } from '../components/game-bar.js';
 import { scorebar } from '../components/scorebar.js';
 
 // Prima tessera libera in ordine di lettura a partire da `from` (così, tornando al tabellone, il focus è già su una libera).
@@ -72,28 +73,7 @@ export function renderBoard(ctx) {
   };
 
   return h('section', { class: 'screen game' },
-    h('header', { class: 'game__bar' },
-      h('span', { class: 'game__logo' }, T.appName),
-      h('span', { class: 'game__turn', style: { '--team': turnTeam.color } }, T.board.turn(turnTeam.name)),
-      h('span', { class: 'game__tools' },
-        h('button', {
-          class: 'btn btn--small',
-          type: 'button',
-          'data-fk': 'undo',
-          title: 'Ctrl+Z',
-          disabled: !canUndo(game),
-          on: { click: () => ctx.dispatch({ type: 'UNDO' }) },
-        }, `↶ ${T.board.undo}`),
-        h('button', {
-          class: 'btn btn--small btn--icon',
-          type: 'button',
-          'data-fk': 'sound',
-          title: ctx.store.settings.sound ? T.board.soundOn : T.board.soundOff,
-          'aria-label': ctx.store.settings.sound ? T.board.soundOn : T.board.soundOff,
-          on: { click: ctx.actions.toggleSound },
-        }, ctx.store.settings.sound ? '🔊' : '🔇'),
-        h('button', { class: 'btn btn--small', type: 'button', 'data-fk': 'fullscreen', title: 'F', on: { click: ctx.actions.toggleFullscreen } }, `⛶ ${T.board.fullscreen}`),
-        h('button', { class: 'btn btn--small', type: 'button', 'data-fk': 'menu', on: { click: ctx.actions.openMenu } }, `⚙ ${T.board.menu}`))),
+    gameBar(ctx, h('span', { class: 'game__turn', style: { '--team': turnTeam.color } }, T.board.turn(turnTeam.name))),
     grid,
     scorebar(ctx, { clickable: true }));
 }

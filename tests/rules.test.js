@@ -181,3 +181,87 @@ test('classifica con pari merito', () => {
   const r = ranking([{ id: 'a', score: 100 }, { id: 'b', score: 500 }, { id: 'c', score: 500 }]);
   assert.deepEqual(r.map((x) => [x.team.id, x.rank]), [['b', 1], ['c', 1], ['a', 3]]);
 });
+
+// ---------- Gran Finale ----------
+const FINAL_CAT = { id: 'x', name: 'X', emoji: '🧪', description: '' };
+const FINAL_CLUE = { key: 'x:1000:0', clue: 'indizio finale', answer: 'Cos\'è x?', accept: [], notes: '', verified: true };
+
+function finalGame(scoresByTeam, options = {}) {
+  let s = game({ final: true, teams: scoresByTeam.length, ...options });
+  s.teams.forEach((t, i) => { t.score = scoresByTeam[i]; });
+  s = play(s, { type: 'END_BOARD' }, { type: 'FINAL_SETUP', category: FINAL_CAT, clue: FINAL_CLUE });
+  return s;
+}
+
+test('Gran Finale: giocano solo le squadre sopra zero; un solo rilancio della categoria', () => {
+  let s = finalGame([800, 0, -200]);
+  assert.equal(s.phase, 'final');
+  assert.deepEqual(s.final.teams, ['t1']);
+  const other = { id: 'y', name: 'Y', emoji: '🧪', description: '' };
+  s = play(s, { type: 'FINAL_SETUP', reroll: true, category: other, clue: FINAL_CLUE });
+  assert.equal(s.final.category.id, 'y');
+  assert.equal(s.final.rerolled, true);
+  assert.equal(reduce(s, { type: 'FINAL_SETUP', reroll: true, category: FINAL_CAT, clue: FINAL_CLUE }), s, 'il secondo rilancio non è ammesso');
+  let none = game({ final: true });
+  none.teams.forEach((t) => { t.score = 0; });
+  none = play(none, { type: 'END_BOARD' });
+  assert.equal(none.phase, 'end', 'nessuna squadra sopra zero: si va alla classifica');
+});
+
+test('Gran Finale: puntate da 0 al punteggio (anche su carta), indizio solo quando ci sono tutte', () => {
+  let s = play(finalGame([1000, 600, 300]), { type: 'FINAL_WAGERS' });
+  assert.equal(s.final.stage, 'wagers');
+  for (const bad of [1001, -5, 2.5, 'abc', '']) {
+    assert.equal(reduce(s, { type: 'FINAL_WAGER', teamId: 't1', amount: bad }), s, `puntata ${bad} rifiutata`);
+  }
+  assert.equal(reduce(s, { type: 'FINAL_WAGER', teamId: 'tX', amount: 10 }), s);
+  s = play(s, { type: 'FINAL_WAGER', teamId: 't1', amount: '1000' }, { type: 'FINAL_WAGER', teamId: 't2', amount: 0 });
+  assert.equal(reduce(s, { type: 'FINAL_CLUE' }), s, 'manca ancora una puntata');
+  s = play(s, { type: 'FINAL_WAGER', teamId: 't3', amount: null }, { type: 'FINAL_CLUE' });
+  assert.equal(s.final.stage, 'clue');
+  assert.deepEqual(s.final.wagers, { t1: 1000, t2: 0, t3: null });
+});
+
+test('Gran Finale: rivelazione dalla squadra con meno punti, ± puntata, poi classifica', () => {
+  let s = play(finalGame([1000, 600, 600]), { type: 'FINAL_WAGERS' },
+    { type: 'FINAL_WAGER', teamId: 't1', amount: 300 },
+    { type: 'FINAL_WAGER', teamId: 't2', amount: 600 },
+    { type: 'FINAL_WAGER', teamId: 't3', amount: null },
+    { type: 'FINAL_CLUE' }, { type: 'FINAL_REVEAL' });
+  assert.deepEqual(s.final.order, ['t2', 't3', 't1'], 'a parità di punti vale l\'ordine del Setup');
+  assert.equal(reduce(s, { type: 'FINAL_JUDGE', teamId: 't1', correct: true }), s, 'si giudica in ordine');
+  s = play(s, { type: 'FINAL_JUDGE', teamId: 't2', correct: false });
+  assert.equal(score(s, 't2'), 0);
+  assert.equal(reduce(s, { type: 'FINAL_JUDGE', teamId: 't3', correct: true }), s, 'la puntata su carta va inserita');
+  assert.equal(reduce(s, { type: 'FINAL_JUDGE', teamId: 't3', correct: true, amount: 700 }), s, 'massimo il proprio punteggio');
+  s = play(s, { type: 'FINAL_JUDGE', teamId: 't3', correct: true, amount: 600 });
+  assert.equal(score(s, 't3'), 1200);
+  s = play(s, { type: 'FINAL_JUDGE', teamId: 't1', correct: true });
+  assert.equal(s.final.stage, 'done');
+  s = play(s, { type: 'FINAL_FINISH' });
+  assert.equal(s.phase, 'end');
+  assert.deepEqual(ranking(s.teams).map((r) => [r.team.id, r.rank]), [['t1', 1], ['t3', 2], ['t2', 3]]);
+});
+
+test('Gran Finale: pari merito alla fine, Annulla su ogni passo, Termina dal menu', () => {
+  let s = play(finalGame([500, 500]), { type: 'FINAL_WAGERS' },
+    { type: 'FINAL_WAGER', teamId: 't1', amount: 500 }, { type: 'FINAL_WAGER', teamId: 't2', amount: 500 },
+    { type: 'FINAL_CLUE' }, { type: 'FINAL_REVEAL' },
+    { type: 'FINAL_JUDGE', teamId: 't1', correct: true });
+  assert.equal(score(s, 't1'), 1000);
+  const undone = play(s, UNDO);
+  assert.equal(score(undone, 't1'), 500);
+  assert.equal(undone.final.results.t1, undefined);
+  s = play(s, { type: 'FINAL_JUDGE', teamId: 't2', correct: true }, { type: 'FINAL_FINISH' });
+  assert.deepEqual(ranking(s.teams).map((r) => r.rank), [1, 1], 'pari merito, niente spareggio');
+  const stopped = play(finalGame([500, 500]), { type: 'FINISH' });
+  assert.equal(stopped.phase, 'end');
+});
+
+test('Gran Finale con penalità disattivata: si può perdere fino a zero, mai sotto', () => {
+  let s = play(finalGame([400, 100], { penalty: false }), { type: 'FINAL_WAGERS' },
+    { type: 'FINAL_WAGER', teamId: 't1', amount: 400 }, { type: 'FINAL_WAGER', teamId: 't2', amount: 100 },
+    { type: 'FINAL_CLUE' }, { type: 'FINAL_REVEAL' },
+    { type: 'FINAL_JUDGE', teamId: 't2', correct: false }, { type: 'FINAL_JUDGE', teamId: 't1', correct: false });
+  assert.deepEqual(scores(s), [0, 0]);
+});

@@ -355,3 +355,105 @@ kbd {
 .menu { display: flex; flex-direction: column; gap: 0.6em; }
 .teams-table { border-collapse: separate; border-spacing: 0.5em 0.4em; }
 .teams-table th { text-align: left; color: var(--c-muted); font-weight: 600; }
+
+/* Gran Finale */
+.final__badge { border-color: var(--c-gold); }
+.final__main {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.6vh;
+  padding: 1vh 2vw;
+  border-radius: calc(var(--radius) * 1.5);
+  background: radial-gradient(ellipse at 50% 40%, #2244e0, var(--c-board-2) 75%);
+}
+.final__main--top { justify-content: flex-start; }
+.final__main:focus { outline: none; }
+.final__kicker { margin: 0; font-size: var(--fs-l); color: var(--c-muted); }
+.final__cat { margin: 0; font-size: var(--fs-l); font-weight: 800; }
+.final__cat--big { font-family: var(--font-display); font-size: var(--fs-xxl); color: var(--c-gold); text-shadow: 0 0.06em 0 #000; animation: dd-pop 0.6s ease-out; }
+.final__desc, .final__players { margin: 0; font-size: var(--fs-m); }
+.final__excluded { margin: 0; color: var(--c-muted); font-size: var(--fs-s); }
+.final__actions { display: flex; gap: var(--gap); flex-wrap: wrap; justify-content: center; align-items: center; }
+.final__status { list-style: none; margin: 0; padding: 0; display: flex; gap: 0.5em; flex-wrap: wrap; justify-content: center; }
+.final__chip { font-size: var(--fs-s); padding: 0.15em 0.8em; border-radius: 999px; border: 2px solid var(--team); background: rgba(0, 0, 0, 0.25); color: var(--c-muted); }
+.final__chip--done { color: var(--c-text); background: rgba(0, 0, 0, 0.45); }
+.final__who { font-size: var(--fs-xl); padding: 0.1em 0.8em; border-radius: var(--radius); border-left: 0.4em solid var(--team); }
+.final__form { display: flex; flex-direction: column; align-items: center; gap: 0.6em; }
+.final__row { display: flex; gap: 0.7em; align-items: center; flex-wrap: wrap; justify-content: center; }
+/* Le cifre della puntata segreta restano nascoste (puntini), come in un campo password. */
+.final__wager { width: 7em; font-family: var(--font-display); font-size: var(--fs-xl); text-align: center; -webkit-text-security: disc; }
+.final__hint { margin: 0; color: #e6ebff; }
+.final__hint--bad { color: #ffb3b3; font-weight: 700; }
+.final__clue-small { margin: 0; font-size: var(--fs-m); max-width: 60em; color: #e6ebff; }
+.final__answer { display: flex; flex-direction: column; align-items: center; }
+.final__answer-label { color: var(--c-muted); font-size: var(--fs-s); }
+.final__reveal { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5em; width: min(60rem, 92%); }
+.final__team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 0.45em 0.9em;
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, 0.3);
+  border-left: 0.6em solid var(--team);
+  font-size: var(--fs-m);
+  text-align: left;
+}
+.final__team--next { outline: 3px solid var(--c-gold); }
+.final__team-name { font-weight: 700; }
+.final__judge { display: flex; gap: 0.6em; align-items: center; flex-wrap: wrap; }
+.final__paper { display: flex; gap: 0.5em; align-items: center; font-size: var(--fs-s); }
+.final__secret { color: var(--c-muted); font-style: italic; }
+.final__result { font-family: var(--font-display); }
+.final__result--correct { color: #8ff0ad; }
+.final__result--wrong { color: #ffb3b3; }
+
+/* Fine: podio e coriandoli */
+.end { overflow-y: auto; gap: clamp(0.6rem, 1.8vh, 1.4rem); }
+.end__title { text-align: center; }
+.podium { list-style: none; margin: 0; padding: 0; display: flex; align-items: flex-end; justify-content: center; gap: 1vw; }
+.podium__step { display: flex; flex-direction: column; align-items: center; gap: 0.4em; width: clamp(9rem, 18vw, 20rem); }
+.podium__teams { display: flex; flex-direction: column; align-items: center; gap: 0.2em; }
+.podium__team { font-weight: 800; font-size: var(--fs-m); padding: 0.1em 0.7em; border-radius: 999px; border: 3px solid var(--team); background: rgba(0, 0, 0, 0.35); text-align: center; }
+.podium__block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.4em;
+  border-radius: var(--radius) var(--radius) 0 0;
+  background: linear-gradient(var(--c-board), var(--c-board-2));
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.12);
+}
+.podium__pos { font-family: var(--font-display); font-size: var(--fs-xl); color: var(--c-gold); }
+.podium__step--1 .podium__block { height: 16vh; background: linear-gradient(#e0b23a, #a37a10); }
+.podium__step--1 .podium__pos { color: #fff; }
+.podium__step--2 .podium__block { height: 11vh; }
+.podium__step--3 .podium__block { height: 7vh; }
+.confetti { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 5; }
+.confetti__piece {
+  position: absolute;
+  top: -4vh;
+  left: var(--x);
+  width: 0.7vw;
+  height: 1.4vw;
+  min-width: 6px;
+  min-height: 12px;
+  background: var(--c);
+  opacity: 0.9;
+  transform: rotate(var(--rot));
+  animation: confetti-fall var(--dur) linear var(--delay) forwards;
+}
+@keyframes confetti-fall {
+  to { transform: translateY(112vh) rotate(calc(var(--rot) + 720deg)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .confetti { display: none; }
+}

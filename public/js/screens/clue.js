@@ -3,6 +3,7 @@ import { h } from '../dom.js';
 import { T } from '../strings.js';
 import { answerableTeams, stealOrder, teamById } from '../rules.js';
 import { scorebar } from '../components/scorebar.js';
+import { flagButton } from '../components/flag.js';
 import { timerElement, toggleTimer } from '../components/timer.js';
 
 function statusText(game, cell, cur, answerable) {
@@ -60,6 +61,7 @@ export function renderClue(ctx) {
     !cell.verified && h('p', { class: 'clue__warn' }, T.clue.unverified));
 
   const actions = h('div', { class: 'clue__actions' },
+    flagButton(ctx, { key: cell.key, category: cat.name, value: cell.value, clue: cell.clue, answer: cell.answer }),
     cur.resolved
       ? h('button', {
         class: 'btn btn--primary btn--big',

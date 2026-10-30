@@ -2,20 +2,23 @@
 import { h, qs } from './dom.js';
 import { T } from './strings.js';
 import { createStore, TEXT_SCALES } from './state.js';
-import { SLOTS, buildColumns, loadCategory, loadIndex, rememberPlayed } from './content.js';
+import {
+  SLOTS, buildColumns, loadCategory, loadIndex, pickFinalCategory, pickVariant, rememberPlayed,
+} from './content.js';
 import { createRng } from './random.js';
-import { NAME_MAX, canUndo, createGame, defaultOptions, makeTeams, reduce, sanitizeOptions } from './rules.js';
+import { MAX_VALUE, NAME_MAX, canUndo, createGame, defaultOptions, makeTeams, reduce, sanitizeOptions } from './rules.js';
 import { openModal, confirmDialog, isModalOpen } from './components/modal.js';
 import { toast } from './components/toast.js';
 import { textSizeButtons } from './components/text-size.js';
 import { syncTimer } from './components/timer.js';
-import { configureAudio, play, unlockAudio } from './audio.js';
+import { configureAudio, play, syncMusic, unlockAudio } from './audio.js';
 import { renderHome } from './screens/home.js';
-import { renderSetup, FINAL_READY } from './screens/setup.js';
+import { renderSetup } from './screens/setup.js';
 import { renderCategories } from './screens/categories.js';
 import { renderBoard } from './screens/board.js';
 import { renderWager } from './screens/wager.js';
 import { renderClue } from './screens/clue.js';
+import { renderFinal } from './screens/final.js';
 import { renderEnd } from './screens/end.js';
 
 const app = document.getElementById('app');
@@ -29,7 +32,9 @@ function soundFor(action, prev, next) {
     case 'CORRECT': return 'correct';
     case 'WRONG': return 'wrong';
     case 'REVEAL':
-    case 'SKIP': return 'reveal';
+    case 'SKIP':
+    case 'FINAL_SETUP': return 'reveal';
+    case 'FINAL_JUDGE': return action.correct ? 'correct' : 'wrong';
     default: return next.phase === 'end' && prev.phase !== 'end' ? 'applause' : null;
   }
 }
@@ -42,6 +47,7 @@ const ctx = {
   onKey: null,
   autofocus: null,
   timer: null,
+  music: null,
   actions: {},
   dispatch(action) {
     const game = store.game;
@@ -62,6 +68,7 @@ const screens = {
   board: renderBoard,
   wager: renderWager,
   clue: renderClue,
+  final: renderFinal,
   end: renderEnd,
 };
 
@@ -79,8 +86,10 @@ function render() {
   ctx.onKey = null;
   ctx.autofocus = null;
   ctx.timer = null;
+  ctx.music = null;
   app.replaceChildren(screens[currentScreen()](ctx));
   syncTimer(ctx.timer);
+  syncMusic(ctx.music);
   syncWakeLock();
   const byKey = (key) => (key ? qs(`[data-fk="${CSS.escape(key)}"]`, app) : null);
   const target = [byKey(focusKey), byKey(ctx.autofocus)].find((el) => el && !el.disabled);
@@ -175,10 +184,10 @@ Object.assign(ctx.actions, {
       return;
     }
     const columns = buildColumns(categories, { history: store.history.variants, onlyVerified: game.options.onlyVerified, rng });
-    const options = { ...game.options, final: FINAL_READY ? game.options.final : false };
-    const next = createGame({ options, teams: game.teams, columns, firstTeam: game.firstTeam, rng });
+    const next = createGame({ options: game.options, teams: game.teams, columns, firstTeam: game.firstTeam, rng });
     next.draft = game.draft;
     next.firstTeam = game.firstTeam;
+    ctx.ui.finalError = false;
     store.setHistory(rememberPlayed(store.history, {
       variantKeys: columns.flatMap((c) => c.cells.map((cell) => cell.key)),
       categoryIds: entries.map((e) => e.id),
@@ -201,6 +210,76 @@ Object.assign(ctx.actions, {
       firstTeam: game.firstTeam ?? 'random',
       draft: { slots, groups },
     });
+  },
+  // Gran Finale: categoria casuale fuori dal tabellone (se possibile) e una sua variante da 1000.
+  async prepareFinal({ reroll = false } = {}) {
+    const game = store.game;
+    if (ctx.ui.preparingFinal || (!reroll && ctx.ui.finalError) || game?.phase !== 'final') return;
+    if (!ctx.index) {
+      if (ctx.indexError) {
+        ctx.ui.finalError = true;
+        render();
+      }
+      return;
+    }
+    const current = reroll ? game.final.category.id : null;
+    const onBoard = game.board?.categories.map((c) => c.id) ?? [];
+    const opts = { recent: store.history.categories, onlyVerified: game.options.onlyVerified, rng };
+    const entry = pickFinalCategory(ctx.index.categories, { ...opts, exclude: [...onBoard, current] })
+      ?? pickFinalCategory(ctx.index.categories, { ...opts, exclude: [current] });
+    ctx.ui.preparingFinal = true;
+    try {
+      if (!entry) throw new Error(T.final.noCategory);
+      const category = await loadCategory(entry);
+      const { variant, key } = pickVariant(category, MAX_VALUE, { history: store.history.variants, onlyVerified: game.options.onlyVerified, rng });
+      ctx.ui.preparingFinal = false;
+      ctx.dispatch({
+        type: 'FINAL_SETUP',
+        reroll,
+        category: { id: category.id, name: category.name, emoji: category.emoji, description: category.description },
+        clue: {
+          key,
+          clue: variant.clue,
+          answer: variant.answer,
+          accept: variant.accept ?? [],
+          notes: variant.notes ?? '',
+          verified: variant.verified === true,
+        },
+      });
+      store.setHistory(rememberPlayed(store.history, { variantKeys: [key], categoryIds: [category.id] }));
+    } catch (err) {
+      ctx.ui.preparingFinal = false;
+      if (reroll) {
+        toast(`${T.loadError} (${err.message})`, { kind: 'error', ms: 6000 });
+      } else {
+        ctx.ui.finalError = true;
+        render();
+      }
+    }
+  },
+  flagClue(item) {
+    if (store.flags.some((f) => f.key === item.key)) return;
+    store.setFlags([...store.flags, { ...item, at: new Date().toISOString() }]);
+    toast(T.clue.flagged);
+    render();
+  },
+  // "Copia segnalazioni": id, categoria e testo di ogni indizio segnalato.
+  async copyFlags() {
+    const flags = store.flags;
+    const text = [
+      T.settings.flagsTitle(flags.length),
+      '',
+      ...flags.flatMap((f, i) => [T.settings.flagLine(i + 1, f), T.settings.flagClue(f.clue), T.settings.flagAnswer(f.answer), '']),
+    ].join('\n');
+    try {
+      await navigator.clipboard.writeText(text);
+      toast(T.settings.copied(flags.length));
+    } catch {
+      const area = h('textarea', { class: 'input copy-area', readonly: true, rows: 12 }, text);
+      openModal({ title: T.settings.copyFlags, body: h('div', null, h('p', null, T.settings.copyManual), area) });
+      area.focus();
+      area.select();
+    }
   },
   setTextScale(size) {
     applyTextScale(size);
@@ -258,6 +337,26 @@ Object.assign(ctx.actions, {
             change: () => play('correct'),
           },
         })),
+      h('div', { class: 'field' },
+        h('span', { class: 'field__label' }, T.settings.flags(store.flags.length)),
+        h('button', {
+          class: 'btn btn--small',
+          type: 'button',
+          'data-fk': 'copy-flags',
+          disabled: store.flags.length === 0,
+          on: { click: () => ctx.actions.copyFlags() },
+        }, T.settings.copyFlags),
+        h('button', {
+          class: 'btn btn--small btn--ghost',
+          type: 'button',
+          disabled: store.flags.length === 0,
+          on: {
+            click: () => confirmDialog(T.settings.clearFlagsConfirm, () => {
+              store.setFlags([]);
+              ctx.actions.openSettings();
+            }),
+          },
+        }, T.settings.clearFlags)),
       h('button', {
         class: 'btn btn--ghost',
         type: 'button',
@@ -307,7 +406,7 @@ Object.assign(ctx.actions, {
     const item = (label, fn, kind) => h('button', { class: ['btn', kind], type: 'button', on: { click: () => { close(); fn(); } } }, label);
     const body = h('div', { class: 'menu' },
       item(T.board.teamsAndScores, ctx.actions.openTeams),
-      FINAL_READY && game.options.final && item(T.board.goFinal, () => ctx.dispatch({ type: 'END_BOARD' })),
+      game.phase === 'board' && game.options.final && item(T.board.goFinal, () => ctx.dispatch({ type: 'END_BOARD' })),
       item(T.board.endGame, () => confirmDialog(T.board.endGameConfirm, () => ctx.dispatch({ type: 'FINISH' }))),
       item(T.home.rules, ctx.actions.openRules),
       item(T.home.settings, ctx.actions.openSettings),

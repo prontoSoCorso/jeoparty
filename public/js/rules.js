@@ -278,9 +278,9 @@ export function closeClue(state) {
   return isBoardComplete(s) ? endBoard(s) : s;
 }
 
-/** Termina la partita subito (menu): niente Gran Finale. */
+/** Termina la partita subito (menu): niente Gran Finale, o Gran Finale interrotto. */
 export function finishGame(state) {
-  if (state.phase !== 'board') return state;
+  if (state.phase !== 'board' && state.phase !== 'final') return state;
   const s = clone(state);
   s.phase = 'end';
   s.current = null;
@@ -311,6 +311,88 @@ export function renameTeam(state, teamId, name) {
   return s;
 }
 
+// ---------------------------------------------------------------------------------------------
+// Gran Finale: categoria fuori dal tabellone, puntate segrete (da 0 al punteggio) delle squadre sopra zero,
+// indizio, poi rivelazione dalla squadra con meno punti alla prima. Niente spareggio.
+
+const inFinal = (state, stage) => state.phase === 'final' && state.final?.stage === stage;
+
+// Puntata del Gran Finale: intero da 0 al punteggio della squadra, altrimenti null.
+function finalAmount(state, teamId, amount) {
+  if (typeof amount === 'string' && !/^\s*\d+\s*$/.test(amount)) return null;
+  const n = Number(amount);
+  return Number.isInteger(n) && n >= 0 && n <= teamById(state, teamId).score ? n : null;
+}
+
+/** Categoria e indizio già pescati (la scelta casuale e il caricamento li fa l'interfaccia). Un solo rilancio. */
+export function setupFinal(state, { category, clue, reroll = false }) {
+  const f = state.final;
+  if (state.phase !== 'final' || !f || !category || !clue) return state;
+  if (reroll ? f.stage !== 'category' || f.rerolled : f.stage !== 'pending') return state;
+  const s = clone(state);
+  s.final = { stage: 'category', category, clue, rerolled: reroll, teams: finalEligible(s), wagers: {}, results: {}, order: [] };
+  return s;
+}
+
+export function startFinalWagers(state) {
+  if (!inFinal(state, 'category')) return state;
+  const s = clone(state);
+  s.final.stage = 'wagers';
+  return s;
+}
+
+/** Puntata segreta di una squadra; amount null = la scrive su carta e la si inserisce alla rivelazione. */
+export function setFinalWager(state, teamId, amount) {
+  if (!inFinal(state, 'wagers') || !state.final.teams.includes(teamId)) return state;
+  const value = amount === null ? null : finalAmount(state, teamId, amount);
+  if (amount !== null && value === null) return state;
+  const s = clone(state);
+  s.final.wagers[teamId] = value;
+  return s;
+}
+
+export const finalWagersReady = (state) => Boolean(state.final?.teams?.every((id) => id in state.final.wagers));
+
+export function showFinalClue(state) {
+  if (!inFinal(state, 'wagers') || !finalWagersReady(state)) return state;
+  const s = clone(state);
+  s.final.stage = 'clue';
+  return s;
+}
+
+/** Inizio della rivelazione: ordine dalla squadra con meno punti (a parità, l'ordine del Setup). */
+export function startFinalReveal(state) {
+  if (!inFinal(state, 'clue')) return state;
+  const s = clone(state);
+  const pos = (id) => s.teams.findIndex((t) => t.id === id);
+  s.final.order = [...s.final.teams].sort((a, b) => teamById(s, a).score - teamById(s, b).score || pos(a) - pos(b));
+  s.final.stage = 'reveal';
+  return s;
+}
+
+/** Prossima squadra da giudicare nella rivelazione (null se non ce ne sono). */
+export const finalNext = (state) => (inFinal(state, 'reveal') ? state.final.order.find((id) => !(id in state.final.results)) ?? null : null);
+
+/** Esito della squadra di turno nella rivelazione: ± puntata. Una puntata su carta arriva qui in `amount`. */
+export function judgeFinal(state, teamId, correct, amount) {
+  if (finalNext(state) !== teamId) return state;
+  const wager = state.final.wagers[teamId] ?? finalAmount(state, teamId, amount);
+  if (wager === null) return state;
+  const s = clone(state);
+  s.final.wagers[teamId] = wager;
+  s.final.results[teamId] = correct ? 'correct' : 'wrong';
+  applyDelta(s, teamId, correct ? wager : -wager);
+  if (!finalNext(s)) s.final.stage = 'done';
+  return s;
+}
+
+export function finishFinal(state) {
+  if (!inFinal(state, 'done')) return state;
+  const s = clone(state);
+  s.phase = 'end';
+  return s;
+}
+
 /** Classifica con pari merito: chi ha lo stesso punteggio ha la stessa posizione. */
 export function ranking(teams) {
   const sorted = [...teams].sort((a, b) => b.score - a.score);
@@ -320,7 +402,11 @@ export function ranking(teams) {
 // ---------------------------------------------------------------------------------------------
 // Riduttore con Annulla: le azioni che cambiano punti, tessere o turno salvano lo stato precedente.
 
-const UNDOABLE = new Set(['OPEN_CELL', 'SET_WAGER', 'CORRECT', 'WRONG', 'SKIP', 'SET_TURN', 'SET_SCORE', 'END_BOARD', 'FINISH']);
+// FINAL_SETUP no: categoria e rilancio del Gran Finale non si annullano (Annulla torna a prima del finale).
+const UNDOABLE = new Set([
+  'OPEN_CELL', 'SET_WAGER', 'CORRECT', 'WRONG', 'SKIP', 'SET_TURN', 'SET_SCORE', 'END_BOARD', 'FINISH',
+  'FINAL_WAGERS', 'FINAL_WAGER', 'FINAL_CLUE', 'FINAL_REVEAL', 'FINAL_JUDGE', 'FINAL_FINISH',
+]);
 
 function apply(state, action) {
   switch (action.type) {
@@ -336,6 +422,13 @@ function apply(state, action) {
     case 'RENAME': return renameTeam(state, action.teamId, action.name);
     case 'END_BOARD': return endBoard(state);
     case 'FINISH': return finishGame(state);
+    case 'FINAL_SETUP': return setupFinal(state, action);
+    case 'FINAL_WAGERS': return startFinalWagers(state);
+    case 'FINAL_WAGER': return setFinalWager(state, action.teamId, action.amount);
+    case 'FINAL_CLUE': return showFinalClue(state);
+    case 'FINAL_REVEAL': return startFinalReveal(state);
+    case 'FINAL_JUDGE': return judgeFinal(state, action.teamId, action.correct, action.amount);
+    case 'FINAL_FINISH': return finishFinal(state);
     default: return state;
   }
 }

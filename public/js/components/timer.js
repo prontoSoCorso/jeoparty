@@ -44,6 +44,7 @@ function frame() {
       run.expired = true;
       run.leftMs = 0;
       play('timeout');
+      run.onExpire?.();
     }
   }
   draw(ms);
@@ -55,7 +56,7 @@ function schedule() {
 }
 
 /**
- * Da chiamare dopo ogni rendering: spec = { key, seconds } se l'indizio ha un timer attivo, altrimenti null.
+ * Da chiamare dopo ogni rendering: spec = { key, seconds, onExpire? } se c'è un timer attivo, altrimenti null.
  * Una chiave nuova (altra tessera, rubata) fa ripartire il timer; la stessa chiave lo lascia correre.
  */
 export function syncTimer(spec) {
@@ -70,6 +71,7 @@ export function syncTimer(spec) {
     run = { key: spec.key, totalMs, leftMs: totalMs, since: performance.now(), paused: false, expired: false, lastSecond: spec.seconds };
     draw(totalMs);
   }
+  run.onExpire = spec.onExpire;
   schedule();
 }
 

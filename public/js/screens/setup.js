@@ -4,9 +4,6 @@ import { T } from '../strings.js';
 import { MAX_TEAMS, MIN_TEAMS, NAME_MAX, TIMER_MAX, TIMER_MIN, addTeam, cleanName, removeTeam } from '../rules.js';
 import { textSizeButtons } from '../components/text-size.js';
 
-// Gran Finale (milestone M5): fino ad allora resta nascosto e disattivato.
-export const FINAL_READY = false;
-
 function checkbox({ label, hint, checked, fk, onChange }) {
   return h('label', { class: 'switch' },
     h('input', { type: 'checkbox', checked, 'data-fk': fk, on: { change: (e) => onChange(e.target.checked) } }),
@@ -140,7 +137,7 @@ export function renderSetup(ctx) {
       options: [0, 1, 2].map((n) => ({ value: n, label: String(n) })),
       onChange: (n) => update((g) => { g.options.dailyDoubles = n; }),
     }),
-    FINAL_READY && checkbox({
+    checkbox({
       label: T.setup.final,
       hint: T.setup.finalHint,
       checked: o.final,

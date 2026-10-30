@@ -173,8 +173,25 @@ export function startMusic() {
 export function stopMusic() {
   if (!music) return;
   clearInterval(music.timer);
+  clearTimeout(music.limit);
   const { out } = music;
   out.gain.setTargetAtTime(0, ac.currentTime, 0.15);
   setTimeout(() => out.disconnect(), 1200);
   music = null;
+}
+
+let musicKey = null;
+
+/**
+ * Da chiamare dopo ogni rendering: spec = { key, maxSeconds? } finché la musica deve suonare, altrimenti null.
+ * Una chiave nuova la fa partire; fermata dal timer, la musica non riparte finché la chiave resta la stessa.
+ */
+export function syncMusic(spec) {
+  const key = spec?.key ?? null;
+  if (key === musicKey) return;
+  musicKey = key;
+  stopMusic();
+  if (!key) return;
+  startMusic();
+  if (music && spec.maxSeconds) music.limit = setTimeout(stopMusic, spec.maxSeconds * 1000);
 }
