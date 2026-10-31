@@ -8,6 +8,7 @@ import { gameBar } from '../components/game-bar.js';
 import { scorebar } from '../components/scorebar.js';
 import { flagButton } from '../components/flag.js';
 import { timerElement, toggleTimer } from '../components/timer.js';
+import { textFit } from './clue.js';
 
 const names = (game, ids) => ids.map((id) => teamById(game, id).name).join(', ');
 const teamDigit = (game, id) => game.teams.findIndex((t) => t.id === id) + 1;
@@ -133,7 +134,7 @@ function clueStage(ctx, game, f) {
     timed && timerElement(),
     h('div', { class: 'final__main' },
       catLine(f),
-      h('p', { class: 'clue__text' }, f.clue.clue),
+      h('p', { class: ['clue__text', textFit(f.clue.clue)] }, f.clue.clue),
       h('div', { class: 'final__actions' },
         flagButton(ctx, { key: f.clue.key, category: f.category.name, value: 1000, clue: f.clue.clue, answer: f.clue.answer }),
         h('button', {

@@ -61,18 +61,16 @@ jeoparty/
 │  │  ├─ components.css    # bottoni, modali, toast, chip, card, barra punteggi
 │  │  └─ screens.css       # layout delle singole schermate
 │  └─ js/
-│     ├─ main.js           # bootstrap, schermata derivata dallo stato, errori globali, ripresa
+│     ├─ main.js           # bootstrap, schermata derivata dallo stato, azioni, tastiera globale, errori
 │     ├─ strings.js        # tutti i testi dell'interfaccia (italiano) in un unico posto
 │     ├─ state.js          # store: azione → nuovo stato → salvataggio → render
 │     ├─ storage.js        # localStorage sicuro (try/catch), versioni e migrazioni
 │     ├─ rules.js          # PURO: modi di gioco, punteggi, turni, Daily Double, Gran Finale, annulla
 │     ├─ content.js        # carica indice e categorie; PURO: pesca varianti senza ripetizioni
 │     ├─ random.js         # RNG (crypto.getRandomValues, o con seme per i test), scelta pesata
-│     ├─ audio.js          # effetti sonori sintetizzati, volume e muto
-│     ├─ timer.js          # countdown basato su timestamp, con pausa e ripresa
-│     ├─ keyboard.js       # scorciatoie (event.code: indipendenti dal layout italiano)
+│     ├─ audio.js          # effetti sonori sintetizzati, musica del finale, volume e muto
 │     ├─ dom.js            # helper h()/qs() per creare DOM senza framework
-│     ├─ components/       # scorebar.js, modal.js, toast.js
+│     ├─ components/       # game-bar, scorebar, timer, modal, toast, flag, text-size (.js)
 │     └─ screens/          # home, setup, categories, board, clue, wager, final, end (.js)
 │
 ├─ data/

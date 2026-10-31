@@ -232,12 +232,18 @@ button.team__btn:hover { border-color: rgba(255, 255, 255, 0.4); border-left-col
 }
 .clue__text {
   margin: 0;
-  font-size: calc(clamp(1.6rem, 4.4vw, 6rem) * var(--scala));
+  font-size: calc(clamp(1.6rem, 4.4vw, 6rem) * var(--scala) * var(--fit, 1));
   font-weight: 700;
   line-height: 1.2;
   text-shadow: 0 0.06em 0.12em rgba(0, 0, 0, 0.55);
   max-width: 32ch;
 }
+/* Indizi lunghi e risposta mostrata: testo un po' più piccolo, così tutto resta nello schermo della TV. */
+.clue__text--long { --fit: 0.86; }
+.clue__text--xlong { --fit: 0.74; }
+.clue__main--revealed .clue__text { --fit: 0.8; }
+.clue__main--revealed .clue__text--long { --fit: 0.7; }
+.clue__main--revealed .clue__text--xlong { --fit: 0.62; }
 .clue__answer { margin-top: 0.5vh; }
 .clue__answer-text {
   margin: 0;

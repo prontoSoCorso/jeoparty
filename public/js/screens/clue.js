@@ -6,6 +6,9 @@ import { scorebar } from '../components/scorebar.js';
 import { flagButton } from '../components/flag.js';
 import { timerElement, toggleTimer } from '../components/timer.js';
 
+// Classe per gli indizi lunghi (vedi screens.css): il testo si rimpicciolisce un po'.
+export const textFit = (text) => (text.length > 145 ? 'clue__text--xlong' : text.length > 110 ? 'clue__text--long' : null);
+
 function statusText(game, cell, cur, answerable) {
   const owner = teamById(game, cur.owner);
   if (cur.resolved) {
@@ -122,8 +125,8 @@ export function renderClue(ctx) {
       h('span', { class: 'clue__value' }, cell.dd ? `Daily Double · ${cur.wager}` : String(cell.value))),
     cat.description && h('p', { class: 'clue__desc' }, cat.description),
     timerOn && timerElement(),
-    h('div', { class: 'clue__main', tabindex: '-1', 'data-fk': 'clue' },
-      h('p', { class: 'clue__text' }, cell.clue),
+    h('div', { class: ['clue__main', cur.revealed && 'clue__main--revealed'], tabindex: '-1', 'data-fk': 'clue' },
+      h('p', { class: ['clue__text', textFit(cell.clue)] }, cell.clue),
       answer),
     h('p', { class: 'clue__status', role: 'status' },
       h('span', null, statusText(game, cell, cur, answerable)),
