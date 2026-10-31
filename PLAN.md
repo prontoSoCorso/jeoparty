@@ -561,7 +561,7 @@ In alternativa: **doppio clic su `start.bat`**, che accetta gli stessi argomenti
 | M4 | Daily Double, timer, audio | piazzamento pesato, puntata, timer configurabile, suoni, Wake Lock | mai un Daily Double nella riga da 200; limiti di puntata rispettati (con punteggio negativo il massimo è 1000); dopo il Daily Double il turno segue la regola della modalità; timer automatico, on/off e pausa; il muto resta salvato | ✅ |
 | M5 | Gran Finale e fine partita | flusso del finale, puntate mascherate, podio con pari merito, rivincita, 🚩 segnalazioni con "Copia segnalazioni" | squadre a ≤ 0 escluse; puntate tra 0 e il punteggio; classifica corretta con pari merito; la rivincita tiene le squadre, azzera i punti e pesca varianti nuove; "Copia segnalazioni" copia id, categoria e testo | ✅ |
 | M6 | Contenuti completi, in lotti | C1 Custom (in M1), C2 Inventate (18), C3 Classiche (24); verifica dei fatti sul web, obbligatoria per le categorie di nicchia | 47 categorie; Custom 5 livelli × ≥ 3 varianti, le altre × ≥ 2; `validate` senza errori; `docs/DA-VERIFICARE.md` generato | ✅ |
-| M7 | Rifinitura | contrasto e dimensioni, README/INSTRUCTIONS/docs definitivi, elenco di ciò che non ho potuto provare | checklist manuale pronta; le prove su TV vera e Lighthouse restano a te | ⏳ |
+| M7 | Rifinitura | contrasto e dimensioni, README/INSTRUCTIONS/docs definitivi, elenco di ciò che non ho potuto provare | checklist manuale pronta; le prove su TV vera e Lighthouse restano a te | ✅ |
 
 M6 può procedere in parallelo da M1 in poi, perché lo schema è già fissato. A fine milestone: `npm test`, `npm run validate`, prova reale del server via HTTP e commit locale.
 
@@ -673,6 +673,8 @@ Scelte prese durante lo sviluppo, quando un requisito era ambiguo (si è scelta 
 - **Contenuti scritti senza subagenti:** dopo che i subagenti hanno esaurito il limite di utilizzo, Inventate e Classiche le ho scritte direttamente, con ricerche web mirate.
 - **Classiche da verificare:** a metà delle Classiche si è esaurito il limite di ricerche web del turno. *Storia d'Italia* è tutta verificata e *Storia americana* lo è per 10 varianti su 15; le altre 20 Classiche hanno fatti scelti tra i più solidi ma sono `verified: false` (303 varianti in tutto, elencate in `docs/DA-VERIFICARE.md`).
 - **Indizi duplicati:** il confronto ignora accenti e punteggiatura ma tiene le emoji, altrimenti gli Emoji-rebus risulterebbero tutti uguali.
+- **Contrasto:** il verde dei pulsanti ✓ è più scuro (`#17853f`, 4,7:1 col testo bianco); gli altri abbinamenti di colore superavano già 4,5:1.
+- **"Preparo il tabellone…":** il messaggio compare solo se il caricamento dura più di 0,3 s e sparisce appena il tabellone è pronto.
 
 ---
 

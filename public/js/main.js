@@ -175,13 +175,18 @@ Object.assign(ctx.actions, {
     const game = store.game;
     const entries = game.draft.slots.map((id) => ctx.index.categories.find((c) => c.id === id));
     if (entries.some((e) => !e)) return;
-    toast(T.categories.loadingBoard, { ms: 1500 });
+    // Il messaggio compare solo se il caricamento è lento, e sparisce appena finisce.
+    let hide = null;
+    const slow = setTimeout(() => { hide = toast(T.categories.loadingBoard, { ms: 10000 }); }, 300);
     let categories;
     try {
       categories = await Promise.all(entries.map(loadCategory));
     } catch (err) {
       toast(`${T.loadError} (${err.message})`, { kind: 'error', ms: 8000 });
       return;
+    } finally {
+      clearTimeout(slow);
+      hide?.();
     }
     const columns = buildColumns(categories, { history: store.history.variants, onlyVerified: game.options.onlyVerified, rng });
     const next = createGame({ options: game.options, teams: game.teams, columns, firstTeam: game.firstTeam, rng });

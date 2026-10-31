@@ -4,8 +4,10 @@ import { h } from '../dom.js';
 const area = h('div', { class: 'toasts', role: 'status', 'aria-live': 'polite' });
 document.body.append(area);
 
+/** Mostra un messaggio; restituisce una funzione per toglierlo prima del tempo. */
 export function toast(message, { ms = 3500, kind = 'info' } = {}) {
   const el = h('div', { class: ['toast', `toast--${kind}`] }, message);
   area.append(el);
   setTimeout(() => el.remove(), ms);
+  return () => el.remove();
 }
