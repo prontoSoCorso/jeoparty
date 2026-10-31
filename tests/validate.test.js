@@ -6,7 +6,7 @@ import { spawnSync } from 'node:child_process';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { loadCatalog, buildIndex, rebuildIndex, unverifiedReport, MIN_VARIANTS_CUSTOM } from '../scripts/lib/catalog.js';
+import { loadCatalog, buildIndex, rebuildIndex, unverifiedReport, fingerprint, MIN_VARIANTS_CUSTOM } from '../scripts/lib/catalog.js';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const FIXTURES = path.join(ROOT, 'tests', 'fixtures');
@@ -63,6 +63,12 @@ test('la CLI esce con codice 1 e indica file, livello e variante', () => {
   assert.equal(run.status, 1);
   assert.match(run.stdout, /campo-vuoto\.json — livello 400, variante 2: campo "answer" mancante o vuoto/);
   assert.match(run.stdout, /Errori: 8/);
+});
+
+test('indizi duplicati: accenti e punteggiatura non contano, le emoji sì', () => {
+  assert.equal(fingerprint('Città, già!'), fingerprint('citta gia'));
+  assert.notEqual(fingerprint('Film: 🦁👑'), fingerprint('Film: 🚢🧊💔'));
+  assert.equal(fingerprint('Film: 🦁👑!'), fingerprint('film 🦁👑'));
 });
 
 test('indice: solo categorie valide, ordinate per gruppo e nome', async () => {

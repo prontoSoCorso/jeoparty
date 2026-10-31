@@ -137,6 +137,17 @@
       "playableVerified": true
     },
     {
+      "id": "anime-manga",
+      "name": "Anime & manga",
+      "group": "inventate",
+      "emoji": "🍥",
+      "description": "Dragon Ball, One Piece, Naruto, Pokémon e le loro sigle italiane.",
+      "file": "categories/anime-manga.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
       "id": "cartoni-2000",
       "name": "Cartoni anni 2000",
       "group": "inventate",
@@ -148,12 +159,67 @@
       "playableVerified": true
     },
     {
+      "id": "disney-pixar",
+      "name": "Disney & Pixar",
+      "group": "inventate",
+      "emoji": "🏰",
+      "description": "Classici, principesse, cattivi e film d'animazione.",
+      "file": "categories/disney-pixar.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "emoji-rebus",
+      "name": "Emoji-rebus",
+      "group": "inventate",
+      "emoji": "🧩",
+      "description": "Indovina film, canzoni e proverbi da una fila di emoji.",
+      "file": "categories/emoji-rebus.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "leggende-bufale",
+      "name": "Leggende & bufale",
+      "group": "inventate",
+      "emoji": "👽",
+      "description": "Leggende metropolitane, misteri e fake news smontate.",
+      "file": "categories/leggende-bufale.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
       "id": "medici-in-tv",
       "name": "Medici in TV",
       "group": "inventate",
       "emoji": "🩺",
       "description": "Dr. House, Grey's Anatomy, Scrubs, Doc: la corsia in serie.",
       "file": "categories/medici-in-tv.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "meme",
+      "name": "Meme & internet",
+      "group": "inventate",
+      "emoji": "😂",
+      "description": "Meme storici, video virali e leggende del web.",
+      "file": "categories/meme.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "merendine",
+      "name": "Merendine & snack",
+      "group": "inventate",
+      "emoji": "🍫",
+      "description": "Storia e curiosità degli snack della nostra infanzia.",
+      "file": "categories/merendine.json",
       "variants": 15,
       "unverified": 0,
       "playableVerified": true
@@ -225,12 +291,34 @@
       "playableVerified": true
     },
     {
+      "id": "slang",
+      "name": "Slang & neologismi",
+      "group": "inventate",
+      "emoji": "🗣️",
+      "description": "Cringe, boomer, petaloso: le parole nuove dell'italiano.",
+      "file": "categories/slang.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
       "id": "tormentoni",
       "name": "Tormentoni estivi",
       "group": "inventate",
       "emoji": "🏖️",
       "description": "Le hit dell'estate dagli anni 2000 a oggi: titoli e artisti.",
       "file": "categories/tormentoni.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "videogiochi",
+      "name": "Videogiochi",
+      "group": "inventate",
+      "emoji": "🎮",
+      "description": "Console, personaggi e titoli leggendari.",
+      "file": "categories/videogiochi.json",
       "variants": 15,
       "unverified": 0,
       "playableVerified": true

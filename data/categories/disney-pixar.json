@@ -1,0 +1,132 @@
+{
+  "id": "disney-pixar",
+  "name": "Disney & Pixar",
+  "group": "inventate",
+  "emoji": "🏰",
+  "description": "Classici, principesse, cattivi e film d'animazione.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il leoncino figlio di Mufasa che, dopo la morte del padre, viene convinto dallo zio Scar a fuggire dalla Rupe dei Re.",
+          "answer": "Chi è Simba?",
+          "source": "https://cinefilos.it/tutto-film/recensioni/il-re-leone-2373",
+          "verified": true
+        },
+        {
+          "clue": "La sorella maggiore di Anna, futura regina di Arendelle, con il potere di controllare il ghiaccio e il freddo.",
+          "answer": "Chi è Elsa?",
+          "notes": "Frozen - Il regno di ghiaccio è del 2013.",
+          "source": "https://www.cinefilos.it/tutto-film/approfondimenti/frozen-trama-fiaba-canzoni-personaggi-460521",
+          "verified": true
+        },
+        {
+          "clue": "Uscito nel 1995 con Woody e Buzz Lightyear, è il primo lungometraggio realizzato interamente in computer grafica.",
+          "answer": "Cos'è Toy Story?",
+          "source": "https://en.wikipedia.org/wiki/Toy_Story",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il primo lungometraggio animato della Disney, uscito nel 1937.",
+          "answer": "Cos'è Biancaneve e i sette nani?",
+          "accept": ["Biancaneve"],
+          "source": "https://sololibri.net/Biancaneve-sette-nani-primo-lungometraggio-Disney.html",
+          "verified": true
+        },
+        {
+          "clue": "Il topo che sogna di diventare cuoco a Parigi, nel ristorante del suo mito Auguste Gusteau.",
+          "answer": "Chi è Remy?",
+          "notes": "Il film è Ratatouille, del 2007.",
+          "source": "https://en.wikipedia.org/wiki/Ratatouille_(film)",
+          "verified": true
+        },
+        {
+          "clue": "Il pesce chirurgo blu smemorato che aiuta Marlin a cercare il figlio Nemo.",
+          "answer": "Chi è Dory?",
+          "source": "https://www.disneyplus.com/it-it/movies/finding-nemo/5Gpj2XqF7BV2",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il paesino immaginario della Riviera ligure in cui è ambientato Luca (2021): il nome fonde Portovenere e Monterosso.",
+          "answer": "Cos'è Portorosso?",
+          "source": "https://www.italia.it/it/liguria/cosa-fare/tour-cinque-terre-location-luca-disney",
+          "verified": true
+        },
+        {
+          "clue": "Il film Pixar del 2017 ambientato durante il Día de Muertos, con il piccolo Miguel che sogna di suonare la chitarra.",
+          "answer": "Cos'è Coco?",
+          "source": "https://andina.pe/ingles/noticia-coco-y-su-carta-amor-para-mexico-gana-oscar-animacion-702072.aspx",
+          "verified": true
+        },
+        {
+          "clue": "L'anziano vedovo che in Up parte con la sua casa volante verso il Sud America, per mantenere la promessa fatta alla moglie Ellie.",
+          "answer": "Chi è Carl Fredricksen?",
+          "accept": ["Carl"],
+          "source": "https://en.wikipedia.org/wiki/Up_(2009_film)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il primo film d'animazione candidato all'Oscar come miglior film, nel 1992: perse contro Il silenzio degli innocenti.",
+          "answer": "Cos'è La bella e la bestia?",
+          "source": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)",
+          "verified": true
+        },
+        {
+          "clue": "Vuole i cuccioli di Pongo e Peggy per farsi una pelliccia, nella Carica dei 101.",
+          "answer": "Chi è Crudelia De Mon?",
+          "accept": ["Crudelia", "Cruella"],
+          "source": "https://www.sorrisi.com/tv/news-e-anticipazioni/la-carica-dei-101-trama-cast-e-curiosita-del-film-con-glenn-close/",
+          "verified": true
+        },
+        {
+          "clue": "La strega del mare, metà donna e metà polpo, che si prende la voce di Ariel in cambio delle gambe.",
+          "answer": "Chi è Ursula?",
+          "source": "https://movieplayer.it/film/la-sirenetta_2118/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Esclusa dal battesimo di Aurora, la maledice: entro i sedici anni si pungerà con il fuso di un arcolaio.",
+          "answer": "Chi è Malefica?",
+          "accept": ["Maleficent"],
+          "source": "https://www.bestmovie.it/curiosita/chi-e-malefica/720279/",
+          "verified": true
+        },
+        {
+          "clue": "La sonda robot arrivata sulla Terra a cercare forme di vita, di cui si innamora WALL-E.",
+          "answer": "Chi è EVE?",
+          "accept": ["Eve", "Eva"],
+          "source": "https://en.wikipedia.org/wiki/WALL-E",
+          "verified": true
+        },
+        {
+          "clue": "Nel 1986 rilevò dalla Lucasfilm il gruppo di computer grafica che diventò la Pixar.",
+          "answer": "Chi è Steve Jobs?",
+          "accept": ["Jobs"],
+          "source": "https://en.wikipedia.org/wiki/Pixar",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

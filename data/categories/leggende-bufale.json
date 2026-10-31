@@ -1,0 +1,139 @@
+{
+  "id": "leggende-bufale",
+  "name": "Leggende & bufale",
+  "group": "inventate",
+  "emoji": "👽",
+  "description": "Leggende metropolitane, misteri e fake news smontate.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Altro che leggenda: dall'orbita non si vede a occhio nudo, perché è troppo stretta e si confonde con il paesaggio.",
+          "answer": "Cos'è la Grande Muraglia cinese?",
+          "accept": ["Grande Muraglia", "Muraglia cinese"],
+          "source": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+          "verified": true
+        },
+        {
+          "clue": "La sua foto più famosa, del 1934, era un falso: un sottomarino giocattolo con collo e testa finti.",
+          "answer": "Cos'è il mostro di Loch Ness?",
+          "accept": ["Nessie", "Loch Ness"],
+          "source": "https://hoaxes.org/nessie.html",
+          "verified": true
+        },
+        {
+          "clue": "È una bufala che ne usiamo solo il 10%: gli esami mostrano attività in quasi tutte le sue aree.",
+          "answer": "Cos'è il cervello?",
+          "source": "https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Secondo i Lloyd's di Londra e la Guardia Costiera USA, in quest'area dell'Atlantico non spariscono più navi che altrove.",
+          "answer": "Cos'è il Triangolo delle Bermuda?",
+          "accept": ["Triangolo delle Bermuda", "Bermuda"],
+          "source": "https://legacy.geog.ucsb.edu/the-geography-of-the-bermuda-triangle/",
+          "verified": true
+        },
+        {
+          "clue": "Altro che tre secondi: la memoria di questo pesce d'acquario può durare mesi.",
+          "answer": "Cos'è il pesce rosso?",
+          "accept": ["Pesce rosso"],
+          "source": "https://www.livescience.com/goldfish-memory.html",
+          "verified": true
+        },
+        {
+          "clue": "I vichinghi non li portavano: li resero famosi i costumi della prima del Ring di Wagner, nel 1876.",
+          "answer": "Cosa sono gli elmi con le corna?",
+          "accept": ["Elmi cornuti", "Corna"],
+          "source": "https://en.wikipedia.org/wiki/Carl_Emil_Doepler",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Non era affatto basso: era alto circa 1,69 metri, ma i pollici francesi erano più lunghi di quelli inglesi.",
+          "answer": "Chi è Napoleone?",
+          "accept": ["Napoleone Bonaparte"],
+          "source": "https://www.scienceabc.com/eyeopeners/was-napoleon-really-short.html",
+          "verified": true
+        },
+        {
+          "clue": "Nel 1938 lesse alla radio La guerra dei mondi: il panico di massa che ne seguì fu molto gonfiato dai giornali.",
+          "answer": "Chi è Orson Welles?",
+          "accept": ["Welles"],
+          "source": "https://www.npr.org/2013/10/30/241797346/75-years-ago-war-of-the-worlds-started-a-panic-or-did-it",
+          "verified": true
+        },
+        {
+          "clue": "Nel 1991 Doug Bower e Dave Chorley confessarono di averne realizzati più di 200 con corde e assi di legno.",
+          "answer": "Cosa sono i cerchi nel grano?",
+          "accept": ["Crop circles"],
+          "source": "https://en.wikipedia.org/wiki/Crop_circle",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Nel 1969 si diffuse la bufala della sua morte, con presunti indizi sulla copertina di Abbey Road.",
+          "answer": "Chi è Paul McCartney?",
+          "accept": ["McCartney", "Paul"],
+          "source": "https://en.wikipedia.org/wiki/Paul_is_dead",
+          "verified": true
+        },
+        {
+          "clue": "Il 1° aprile 1957 la BBC mostrò una famiglia svizzera che li raccoglieva dagli alberi: molti spettatori ci credettero.",
+          "answer": "Cosa sono gli spaghetti?",
+          "accept": ["Spaghetti"],
+          "source": "https://en.wikipedia.org/wiki/Spaghetti-tree_hoax",
+          "verified": true
+        },
+        {
+          "clue": "La cittadina del New Mexico dove nel 1947 cadde un presunto disco volante: era un pallone del progetto segreto Mogul.",
+          "answer": "Cos'è Roswell?",
+          "accept": ["Roswell"],
+          "source": "https://www.history.com/articles/roswell",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il fossile presentato nel 1912 come anello mancante e smascherato nel 1953: mandibola di orango e cranio umano.",
+          "answer": "Cos'è l'uomo di Piltdown?",
+          "accept": ["Piltdown"],
+          "source": "https://en.wikipedia.org/wiki/Piltdown_Man",
+          "verified": true
+        },
+        {
+          "clue": "Il creatore di Sherlock Holmes credette autentiche le foto delle fate di Cottingley, scattate nel 1917 da due cugine.",
+          "answer": "Chi è Arthur Conan Doyle?",
+          "accept": ["Conan Doyle"],
+          "notes": "Nel 1983 le cugine ammisero che le fate erano disegni ritagliati.",
+          "source": "https://victorianweb.org/authors/doyle/fairies.html",
+          "verified": true
+        },
+        {
+          "clue": "Il veliero trovato alla deriva al largo delle Azzorre nel dicembre 1872, in buone condizioni ma senza nessuno a bordo.",
+          "answer": "Cos'è la Mary Celeste?",
+          "accept": ["Mary Celeste", "Marie Celeste"],
+          "source": "https://www.smithsonianmag.com/smart-news/an-abandoned-merchant-ship-was-discovered-floating-in-the-atlantic-1872-the-mystery-of-its-missing-crew-was-never-solved-180985547/",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

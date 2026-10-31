@@ -1,0 +1,139 @@
+{
+  "id": "merendine",
+  "name": "Merendine & snack",
+  "group": "inventate",
+  "emoji": "🍫",
+  "description": "Storia e curiosità degli snack della nostra infanzia.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "La crema spalmabile alle nocciole il cui primo vasetto uscì dallo stabilimento Ferrero di Alba il 20 aprile 1964.",
+          "answer": "Cos'è la Nutella?",
+          "accept": ["Nutella"],
+          "source": "https://en.wikipedia.org/wiki/Nutella",
+          "verified": true
+        },
+        {
+          "clue": "L'ovetto di cioccolato Ferrero con la sorpresa dentro, nato nel 1974.",
+          "answer": "Cos'è il Kinder Sorpresa?",
+          "accept": ["Ovetto Kinder", "Kinder Surprise"],
+          "source": "https://www.ferrero.com/au/en/about-us",
+          "verified": true
+        },
+        {
+          "clue": "Il marchio di biscotti e merendine che Barilla mandò nei negozi nel 1975.",
+          "answer": "Cos'è il Mulino Bianco?",
+          "accept": ["Mulino Bianco"],
+          "source": "https://www.archiviostoricobarilla.com/en/explore/focus/1975-2025-the-milestones-of-a-50-year-journey/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "I biscotti al cacao con le stelline di zucchero, nati nel 1983 nella famiglia Mulino Bianco.",
+          "answer": "Cosa sono i Pan di Stelle?",
+          "accept": ["Pan di Stelle"],
+          "notes": "Dal 2007 sono un marchio a sé.",
+          "source": "https://www.archiviostoricobarilla.com/en/explore/focus/company-history/pan-di-stelle-2/",
+          "verified": true
+        },
+        {
+          "clue": "La pralina dorata di Ferrero con la nocciola intera, lanciata nel 1982.",
+          "answer": "Cos'è il Ferrero Rocher?",
+          "accept": ["Rocher"],
+          "source": "https://www.ferrero.com/au/en/about-us",
+          "verified": true
+        },
+        {
+          "clue": "Il wafer Ferrero ripieno di crema alle nocciole, lanciato nel 1990.",
+          "answer": "Cos'è il Kinder Bueno?",
+          "accept": ["Bueno"],
+          "source": "https://en.wikipedia.org/wiki/Kinder_Bueno",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "La merendina che Angelo Motta inventò nel 1953 come un piccolo panettone senza uvetta né canditi.",
+          "answer": "Cos'è il Buondì?",
+          "accept": ["Buondì Motta"],
+          "notes": "Nel 2017 i suoi spot con l'asteroide fecero molto discutere.",
+          "source": "https://www.artribune.com/?p=498693",
+          "verified": true
+        },
+        {
+          "clue": "Il tè freddo Ferrero del 1972, da bere ovunque grazie al bicchierino con la cannuccia.",
+          "answer": "Cos'è l'Estathé?",
+          "accept": ["Estathé", "Estathè"],
+          "source": "https://en.ilsole24ore.com/art/estathe-secondo-solo-coca-cola-vendite-472-milioni-AFQ8AHMB",
+          "verified": true
+        },
+        {
+          "clue": "Le mentine Ferrero nella scatolina di plastica trasparente, in vendita dal 1969.",
+          "answer": "Cosa sono i Tic Tac?",
+          "accept": ["Tic Tac"],
+          "source": "https://www.ferrero.com/au/en/about-us",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Nel 1951 la crema di Ferrero diventò spalmabile con questo nome, prima di chiamarsi Nutella.",
+          "answer": "Cos'è la Supercrema?",
+          "accept": ["Supercrema"],
+          "source": "https://en.wikipedia.org/wiki/Nutella",
+          "verified": true
+        },
+        {
+          "clue": "Nel 1968 Ferrero lanciò questo marchio di cioccolato pensato apposta per i bambini, con un nome tedesco.",
+          "answer": "Cos'è Kinder?",
+          "accept": ["Kinder"],
+          "source": "https://tg24.sky.it/economia/2025/04/26/michele-ferrero-anniversario-nascita",
+          "verified": true
+        },
+        {
+          "clue": "Nel 1946 un pasticcere di Alba ne vendette i primi 300 chili: è la pasta di nocciole antenata della Nutella.",
+          "answer": "Cos'è la Pasta Gianduja?",
+          "accept": ["Giandujot", "Pasta Giandujot"],
+          "source": "https://en.wikipedia.org/wiki/Nutella",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il pasticcere di Alba che nel 1946 creò la pasta di nocciole da cui sarebbe nata la Nutella.",
+          "answer": "Chi è Pietro Ferrero?",
+          "source": "https://en.wikipedia.org/wiki/Nutella",
+          "verified": true
+        },
+        {
+          "clue": "Il nome del piccolo panettone Motta considerato l'antenato del Buondì.",
+          "answer": "Cos'è il mottino?",
+          "accept": ["Mottino"],
+          "source": "https://www.artribune.com/?p=498693",
+          "verified": true
+        },
+        {
+          "clue": "Il figlio di Pietro Ferrero che lanciò la Nutella nel 1964 ed ebbe l'idea dell'Estathé.",
+          "answer": "Chi è Michele Ferrero?",
+          "source": "https://en.ilsole24ore.com/art/estathe-secondo-solo-coca-cola-vendite-472-milioni-AFQ8AHMB",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "emoji-rebus",
+  "name": "Emoji-rebus",
+  "group": "inventate",
+  "emoji": "🧩",
+  "description": "Indovina film, canzoni e proverbi da una fila di emoji.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Film: 🦁👑",
+          "answer": "Cos'è Il re leone?",
+          "accept": ["The Lion King"],
+          "source": "https://movieplayer.it/film/il-re-leone_1810/",
+          "verified": true
+        },
+        {
+          "clue": "Film: 🚢🧊💔",
+          "answer": "Cos'è Titanic?",
+          "source": "https://www.history.com/this-day-in-history/march-23/james-camerons-titanic-wins-11-academy-awards",
+          "verified": true
+        },
+        {
+          "clue": "Proverbio: 😴🚫🎣🐟",
+          "answer": "Cos'è Chi dorme non piglia pesci?",
+          "source": "https://dailyitalianwords.com/italian-proverb-chi-dorme-non-piglia-pesci/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Film: 👽☎️🏠",
+          "answer": "Cos'è E.T. l'extra-terrestre?",
+          "accept": ["E.T."],
+          "source": "https://movieplayer.it/film/et-lextraterrestre_79/",
+          "verified": true
+        },
+        {
+          "clue": "Film: 🍫🏭🎫🎩",
+          "answer": "Cos'è La fabbrica di cioccolato?",
+          "accept": ["Willy Wonka", "Charlie and the Chocolate Factory"],
+          "source": "https://movieplayer.it/film/wd_2596/",
+          "verified": true
+        },
+        {
+          "clue": "Film: 🕷️👨🏙️",
+          "answer": "Cos'è Spider-Man?",
+          "accept": ["Spiderman", "L'Uomo Ragno"],
+          "source": "https://en.wikipedia.org/wiki/Spider-Man_(2002_film)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Canzone: 🔵🎨🔵☁️",
+          "answer": "Cos'è Nel blu, dipinto di blu?",
+          "accept": ["Volare"],
+          "notes": "Con questa canzone Domenico Modugno vinse Sanremo nel 1958.",
+          "source": "https://www.sorrisi.com/musica/sanremo/festival-di-sanremo-vincitori-degli-ultimi-10-anni/",
+          "verified": true
+        },
+        {
+          "clue": "Proverbio: 🥚📅 > 🐔🔜",
+          "answer": "Cos'è Meglio un uovo oggi che una gallina domani?",
+          "accept": ["Meglio un uovo oggi"],
+          "source": "https://sapere.virgilio.it/proverbi/meglio-un-uovo-oggi-che-una-gallina-domani-2306",
+          "verified": true
+        },
+        {
+          "clue": "Film: 🧠😄😢😡😱🤢",
+          "answer": "Cos'è Inside Out?",
+          "source": "https://movieplayer.it/film/inside-out_30918/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Libro: 🧔⚓🐋🦵",
+          "answer": "Cos'è Moby Dick?",
+          "accept": ["Moby-Dick"],
+          "source": "https://en.wikipedia.org/wiki/Moby-Dick",
+          "verified": true
+        },
+        {
+          "clue": "Libro: 👧🐇⏰🎩☕",
+          "answer": "Cos'è Alice nel Paese delle Meraviglie?",
+          "accept": ["Alice"],
+          "source": "https://www.ilpost.it/2015/11/26/alice-nel-paese-delle-meraviglie-150-anni/",
+          "verified": true
+        },
+        {
+          "clue": "Proverbio: 🗣️ … 🌊 … 🔨",
+          "answer": "Cos'è Tra il dire e il fare c'è di mezzo il mare?",
+          "source": "https://sapere.virgilio.it/proverbi/tra-il-dire-e-il-fare-c-e-di-mezzo-il-mare-4373",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Film: 💍🌋👁️🧙",
+          "answer": "Cos'è Il Signore degli Anelli?",
+          "accept": ["The Lord of the Rings"],
+          "source": "https://www.studenti.it/il-signore-degli-anelli-scheda-libro.html",
+          "verified": true
+        },
+        {
+          "clue": "Proverbio: 🧳 = 🐟 ➡️ 3 📅 ➡️ 🤢",
+          "answer": "Cos'è L'ospite è come il pesce: dopo tre giorni puzza?",
+          "accept": ["L'ospite è come il pesce"],
+          "source": "https://sapere.virgilio.it/proverbi/l-ospite-e-come-il-pesce-dopo-tre-giorni-puzza-3330",
+          "verified": true
+        },
+        {
+          "clue": "Film: 🚗⚡🕰️🔙",
+          "answer": "Cos'è Ritorno al futuro?",
+          "accept": ["Back to the Future"],
+          "source": "https://www.focus.it/cultura/curiosita/8-cose-che-forse-non-sapevi-sul-film-ritorno-al-futuro",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

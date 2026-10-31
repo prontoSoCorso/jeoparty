@@ -1,0 +1,139 @@
+{
+  "id": "slang",
+  "name": "Slang & neologismi",
+  "group": "inventate",
+  "emoji": "🗣️",
+  "description": "Cringe, boomer, petaloso: le parole nuove dell'italiano.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Nel 2016 la inventò Matteo, alunno di terza elementare, per descrivere un fiore: la Crusca la giudicò una parola ben formata.",
+          "answer": "Cos'è petaloso?",
+          "accept": ["Petaloso"],
+          "source": "https://www.fanpage.it/matteo-8-anni-inventa-la-parola-petaloso-l-accademia-della-crusca-risponde-e-approva/",
+          "verified": true
+        },
+        {
+          "clue": "Detto di scene e comportamenti che mettono a disagio chi guarda: la Crusca l'ha segnalato tra le parole nuove nel 2021.",
+          "answer": "Cos'è cringe?",
+          "accept": ["Cringe", "Cringiata"],
+          "source": "https://www.greenme.it/lifestyle/arte-e-cultura/cringe-accademia-crusca/",
+          "verified": true
+        },
+        {
+          "clue": "Indicava chi è nato durante il baby boom del dopoguerra; oggi si usa per prendere in giro chi sembra fuori dal tempo.",
+          "answer": "Cos'è boomer?",
+          "accept": ["Boomer", "Ok boomer"],
+          "source": "https://dilei.it/lifestyle/boomer-significato-fascia-eta/1103146/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Parola macedonia nata probabilmente a Milano: un aperitivo così abbondante da prendere il posto della cena.",
+          "answer": "Cos'è l'apericena?",
+          "accept": ["Apericena"],
+          "source": "https://libreriamo.it/lingua-italiana/lingua-italiana-apericena-origine/",
+          "verified": true
+        },
+        {
+          "clue": "Interrompere di colpo una relazione e sparire dalla vita dell'altra persona, rendendosi irreperibile.",
+          "answer": "Cos'è il ghosting?",
+          "accept": ["Ghosting", "Ghostare"],
+          "source": "https://www.skuola.net/guide/curiosita/cosa-significa-ghosting-ghostare.html",
+          "verified": true
+        },
+        {
+          "clue": "Parola dell'anno 2013 per Oxford: la foto che ci si scatta da soli, di solito con la fotocamera frontale.",
+          "answer": "Cos'è il selfie?",
+          "accept": ["Selfie"],
+          "source": "https://www.dexerto.com/entertainment/internet-inspired-words-of-the-year-2995922",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Fare il tifo perché due persone, magari famose, si mettano insieme.",
+          "answer": "Cos'è shippare?",
+          "accept": ["Shippare", "Shipping"],
+          "source": "https://www.ilpost.it/2024/10/02/triggerare-shippare-slang-adolescenti/",
+          "verified": true
+        },
+        {
+          "clue": "Dall'inglese to blast: attaccare e zittire qualcuno in pubblico sui social. La Crusca l'ha segnalato tra le parole nuove del 2020.",
+          "answer": "Cos'è blastare?",
+          "accept": ["Blastare"],
+          "source": "https://libreriamo.it/lingua-italiana/accademia-della-crusca-15-nuove-parole-per-raccontare-2020/",
+          "verified": true
+        },
+        {
+          "clue": "Parola dell'anno 2023 per Oxford: viene da charisma ed è la capacità di fare colpo su qualcuno.",
+          "answer": "Cos'è rizz?",
+          "accept": ["Rizz"],
+          "source": "https://www.dexerto.com/entertainment/internet-inspired-words-of-the-year-2995922",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Parola dell'anno 2024 per Oxford: il presunto declino mentale causato da troppi contenuti online di bassa qualità.",
+          "answer": "Cos'è brain rot?",
+          "accept": ["Brain rot"],
+          "source": "https://www.thedailystar.net/tech-startup/news/brain-rot-oxfords-2024-word-the-year-what-does-it-even-mean-3766761",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2022 fu la prima parola dell'anno di Oxford scelta con un voto pubblico: un modo di fare pigro e trasandato, alla faccia delle convenzioni.",
+          "answer": "Cos'è goblin mode?",
+          "accept": ["Goblin mode"],
+          "source": "https://www.cbsnews.com/amp/news/goblin-mode-oxford-dictionaries-word-of-the-year-2022/",
+          "verified": true
+        },
+        {
+          "clue": "Parola dell'anno 2025 per Oxford: contenuti online creati apposta per far arrabbiare e scatenare indignazione.",
+          "answer": "Cos'è rage bait?",
+          "accept": ["Rage bait"],
+          "source": "https://www.npr.org/2025/12/01/nx-s1-5627179/rage-bait-oxford-word-of-the-year",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il comune in provincia di Ferrara dove nel 2016 è nata, in una scuola elementare, la parola petaloso.",
+          "answer": "Cos'è Copparo?",
+          "accept": ["Copparo"],
+          "source": "https://www.fanpage.it/matteo-8-anni-inventa-la-parola-petaloso-l-accademia-della-crusca-risponde-e-approva/",
+          "verified": true
+        },
+        {
+          "clue": "Nel novembre 2019 una giovane deputata di questo Paese zittì in Parlamento un collega più anziano con un ok boomer, rendendolo virale.",
+          "answer": "Cos'è la Nuova Zelanda?",
+          "accept": ["Nuova Zelanda"],
+          "source": "https://www.money.it/Ok-Boomer-significato-cosa-vuol-dire-termine",
+          "verified": true
+        },
+        {
+          "clue": "Il verbo shippare deriva da questa parola inglese, che significa relazione sentimentale.",
+          "answer": "Cos'è relationship?",
+          "accept": ["Relationship"],
+          "source": "https://www.ilpost.it/2024/10/02/triggerare-shippare-slang-adolescenti/",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

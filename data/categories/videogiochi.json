@@ -1,0 +1,134 @@
+{
+  "id": "videogiochi",
+  "name": "Videogiochi",
+  "group": "inventate",
+  "emoji": "🎮",
+  "description": "Console, personaggi e titoli leggendari.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "L'eroe baffuto con il berretto rosso, mascotte di Nintendo e fratello di Luigi.",
+          "answer": "Chi è Mario?",
+          "accept": ["Super Mario"],
+          "source": "https://www.mariowiki.com/Mario_Mario",
+          "verified": true
+        },
+        {
+          "clue": "Il gioco a cubetti creato da Markus Persson, che Microsoft ha comprato nel 2014 per 2,5 miliardi di dollari.",
+          "answer": "Cos'è Minecraft?",
+          "source": "https://www.engadget.com/2014-09-15-microsoft-buying-minecraft.html",
+          "verified": true
+        },
+        {
+          "clue": "Il personaggio giallo del 1980 che mangia puntini in un labirinto, inseguito da quattro fantasmi.",
+          "answer": "Chi è Pac-Man?",
+          "accept": ["Pacman"],
+          "source": "https://en.wikipedia.org/wiki/Pac-Man",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il porcospino blu che nel 1991 diventò la mascotte di Sega, pensato per sfidare Mario.",
+          "answer": "Chi è Sonic?",
+          "accept": ["Sonic the Hedgehog"],
+          "source": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)",
+          "verified": true
+        },
+        {
+          "clue": "Il gioco di blocchi che cadono, creato nel 1984 a Mosca da Aleksej Pažitnov.",
+          "answer": "Cos'è Tetris?",
+          "source": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "verified": true
+        },
+        {
+          "clue": "Il battle royale gratuito che Epic Games lanciò nel settembre 2017.",
+          "answer": "Cos'è Fortnite?",
+          "source": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "L'archeologa avventuriera creata da Toby Gard, protagonista di Tomb Raider dal 1996.",
+          "answer": "Chi è Lara Croft?",
+          "accept": ["Lara"],
+          "source": "https://en.wikipedia.org/wiki/Tomb_Raider_(1996_video_game)",
+          "verified": true
+        },
+        {
+          "clue": "Non si chiama Zelda: è l'eroe con la tunica verde di The Legend of Zelda, dal 1986.",
+          "answer": "Chi è Link?",
+          "source": "https://en.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)",
+          "verified": true
+        },
+        {
+          "clue": "La prima console di Sony, uscita in Giappone il 3 dicembre 1994.",
+          "answer": "Cos'è la PlayStation?",
+          "accept": ["PS1", "PSX"],
+          "source": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il primo nome di Mario nel Donkey Kong del 1981, in cui faceva il carpentiere.",
+          "answer": "Cos'è Jumpman?",
+          "accept": ["Jump Man"],
+          "source": "https://www.mariowiki.com/Jumpman",
+          "verified": true
+        },
+        {
+          "clue": "Il giovane nobile fiorentino protagonista di Assassin's Creed II (2009), nell'Italia del Rinascimento.",
+          "answer": "Chi è Ezio Auditore?",
+          "accept": ["Ezio"],
+          "source": "https://www.ubisoft.com/en-gb/games/assassins-creed-ii",
+          "verified": true
+        },
+        {
+          "clue": "La console portatile di Nintendo che nel 1989, in Nord America, si vendeva insieme a Tetris.",
+          "answer": "Cos'è il Game Boy?",
+          "accept": ["Game Boy"],
+          "source": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il game designer di Nintendo che ha creato Mario, partendo dal Donkey Kong del 1981.",
+          "answer": "Chi è Shigeru Miyamoto?",
+          "accept": ["Miyamoto"],
+          "source": "https://www.mariowiki.com/Jumpman",
+          "verified": true
+        },
+        {
+          "clue": "Il generale spartano che ha venduto l'anima ad Ares, protagonista di God of War (2005).",
+          "answer": "Chi è Kratos?",
+          "source": "https://en.wikipedia.org/wiki/God_of_War_(2005_video_game)",
+          "verified": true
+        },
+        {
+          "clue": "La lingua inventata e incomprensibile che parlano i personaggi dei Sims.",
+          "answer": "Cos'è il simlish?",
+          "accept": ["Simlish"],
+          "source": "https://en.wikipedia.org/wiki/Simlish",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

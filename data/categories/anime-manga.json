@@ -1,0 +1,138 @@
+{
+  "id": "anime-manga",
+  "name": "Anime & manga",
+  "group": "inventate",
+  "emoji": "🍥",
+  "description": "Dragon Ball, One Piece, Naruto, Pokémon e le loro sigle italiane.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il Pokémon di tipo Elettro che il Professor Oak affida ad Ash nel primo episodio dell'anime.",
+          "answer": "Chi è Pikachu?",
+          "source": "https://pokedexia.com/it/pokedex/pikachu",
+          "verified": true
+        },
+        {
+          "clue": "Saiyan nato come Kakarot e cresciuto sulla Terra dal nonno adottivo Gohan: è il protagonista di Dragon Ball.",
+          "answer": "Chi è Goku?",
+          "accept": ["Son Goku", "Kakarot"],
+          "source": "https://www.tomshw.it/culturapop/kakarot-goku-dragonball",
+          "verified": true
+        },
+        {
+          "clue": "Il capitano Cappello di Paglia di One Piece, con il corpo di gomma da quando ha mangiato un frutto del diavolo.",
+          "answer": "Chi è Rufy?",
+          "accept": ["Luffy", "Monkey D. Rufy"],
+          "source": "https://en.wikipedia.org/wiki/Monkey_D._Luffy",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Giovane ninja orfano del Villaggio della Foglia che sogna di diventare Hokage.",
+          "answer": "Chi è Naruto?",
+          "accept": ["Naruto Uzumaki"],
+          "source": "https://naruto-official.com/it/anime/naruto1",
+          "verified": true
+        },
+        {
+          "clue": "Lo studente detective Shinichi Kudo, rimpicciolito dal veleno APTX 4869, indaga sotto questo nome.",
+          "answer": "Chi è Conan Edogawa?",
+          "accept": ["Conan", "Detective Conan"],
+          "source": "https://en.wikipedia.org/wiki/Jimmy_Kudo",
+          "verified": true
+        },
+        {
+          "clue": "Il nome italiano di Usagi Tsukino, la ragazza che si trasforma in Sailor Moon.",
+          "answer": "Chi è Bunny?",
+          "accept": ["Bunny Tsukino"],
+          "source": "https://tg24.sky.it/spettacolo/2020/04/24/sailor-moon-youtube",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il quaderno dello shinigami Ryuk: chi vi viene nominato muore. Lo trova lo studente Light Yagami.",
+          "answer": "Cos'è il Death Note?",
+          "accept": ["Death Note"],
+          "source": "https://www.animeclick.it/anime/924/death-note",
+          "verified": true
+        },
+        {
+          "clue": "Eren Jaeger e l'umanità chiusa dietro altissime mura per difendersi dai giganti, nel manga di Hajime Isayama.",
+          "answer": "Cos'è L'attacco dei giganti?",
+          "accept": ["Attack on Titan", "Shingeki no Kyojin"],
+          "source": "https://www.animeclick.it/manga/11470/shingeki-no-kyojin",
+          "verified": true
+        },
+        {
+          "clue": "Il portiere Genzo Wakabayashi di Captain Tsubasa, che nel doppiaggio italiano diventa Benjamin Price.",
+          "answer": "Chi è Benji?",
+          "accept": ["Benji Price", "Benjamin Price"],
+          "notes": "Tsubasa Ozora, invece, diventa Oliver Hutton: per tutti Holly.",
+          "source": "https://www.nssmag.com/it/lifestyle/36395/holly-e-benji-icona-millennial",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Esordì nel 1968, a tre anni e mezzo, allo Zecchino d'Oro con Il valzer del moscerino; poi è diventata la regina delle sigle.",
+          "answer": "Chi è Cristina D'Avena?",
+          "accept": ["D'Avena"],
+          "source": "https://tg24.sky.it/spettacolo/musica/2023/01/09/cristina-d-avena-il-valzer-del-moscerino",
+          "verified": true
+        },
+        {
+          "clue": "Dal 1999 canta le sigle italiane di Pokémon e Dragon Ball, scritte insieme a Max Longhi.",
+          "answer": "Chi è Giorgio Vanni?",
+          "accept": ["Vanni"],
+          "source": "https://en.wikipedia.org/wiki/Giorgio_Vanni",
+          "verified": true
+        },
+        {
+          "clue": "Il film di Hayao Miyazaki che vinse l'Orso d'oro a Berlino nel 2002 e l'Oscar come miglior film d'animazione nel 2003.",
+          "answer": "Cos'è La città incantata?",
+          "accept": ["Spirited Away"],
+          "source": "https://www.cinefilos.it/rubriche/animazione/la-citta-incantata-6125",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Prima di Dragon Ball aveva creato, nel 1980, Dr. Slump e la piccola robot Arale.",
+          "answer": "Chi è Akira Toriyama?",
+          "accept": ["Toriyama"],
+          "source": "https://en.wikipedia.org/wiki/Dr._Slump",
+          "verified": true
+        },
+        {
+          "clue": "Lo pseudonimo con cui Kazuhiko Katō firmò nel 1967 il manga di Lupin III.",
+          "answer": "Chi è Monkey Punch?",
+          "source": "https://en.wikipedia.org/wiki/Lupin_III_(manga)",
+          "verified": true
+        },
+        {
+          "clue": "Il mangaka che nel 1997 ha creato One Piece.",
+          "answer": "Chi è Eiichiro Oda?",
+          "accept": ["Oda"],
+          "source": "https://en.wikipedia.org/wiki/Monkey_D._Luffy",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

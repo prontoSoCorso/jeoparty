@@ -1,0 +1,141 @@
+{
+  "id": "meme",
+  "name": "Meme & internet",
+  "group": "inventate",
+  "emoji": "😂",
+  "description": "Meme storici, video virali e leggende del web.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Lo scherzo nato nel 2007: un link promette tutt'altro e invece apre il video di Never Gonna Give You Up di Rick Astley.",
+          "answer": "Cos'è il Rickroll?",
+          "accept": ["Rickroll", "Rickrolling"],
+          "source": "https://en.wikipedia.org/wiki/Rickrolling",
+          "verified": true
+        },
+        {
+          "clue": "Nel dicembre 2012 è stato il primo video di YouTube a superare il miliardo di visualizzazioni.",
+          "answer": "Cos'è Gangnam Style?",
+          "accept": ["Gangnam Style"],
+          "notes": "È la canzone del rapper sudcoreano PSY.",
+          "source": "https://www.guinnessworldrecords.com/world-records/107048-first-video-to-receive-one-billion-views",
+          "verified": true
+        },
+        {
+          "clue": "Estate 2014: ci si rovesciava addosso un secchio d'acqua ghiacciata per raccogliere fondi contro la SLA.",
+          "answer": "Cos'è l'Ice Bucket Challenge?",
+          "accept": ["Ice Bucket Challenge"],
+          "source": "https://www.ilpost.it/2016/07/28/lice-bucket-challenge-ha-funzionato/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Nel 2015 il web si divise su un vestito fotografato male: blu e nero oppure bianco e oro?",
+          "answer": "Cos'è The Dress?",
+          "accept": ["Il vestito", "#TheDress"],
+          "notes": "Era blu e nero: un abito del marchio britannico Roman Originals.",
+          "source": "https://en.wikipedia.org/wiki/The_dress",
+          "verified": true
+        },
+        {
+          "clue": "Il meme con la cagnolina Shiba Inu Kabosu, esploso nel 2013, che ha dato il nome anche a una criptovaluta.",
+          "answer": "Cos'è Doge?",
+          "accept": ["Doge"],
+          "source": "https://fortune.com/2024/05/24/kabosu-doge-dogecoin-dog-passes-away",
+          "verified": true
+        },
+        {
+          "clue": "Febbraio 2013: uno balla da solo con il viso coperto, poi parte la base di Baauer e tutti impazziscono.",
+          "answer": "Cos'è l'Harlem Shake?",
+          "accept": ["Harlem Shake"],
+          "source": "https://en.wikipedia.org/wiki/Harlem_Shake_(meme)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il cane che sorseggia il caffè tranquillo in una stanza in fiamme, dal fumetto Gunshow di KC Green del 2013.",
+          "answer": "Cos'è This is fine?",
+          "accept": ["This is fine"],
+          "source": "https://npr.org/2023/01/16/1149232763/this-is-fine-meme-anniversary-gunshow-web-comic",
+          "verified": true
+        },
+        {
+          "clue": "La foto stock scattata a Girona da Antonio Guillem: lui si gira a guardare un'altra, lei lo fulmina con lo sguardo.",
+          "answer": "Cos'è il fidanzato distratto?",
+          "accept": ["Distracted boyfriend"],
+          "source": "https://en.wikipedia.org/wiki/Distracted_boyfriend",
+          "verified": true
+        },
+        {
+          "clue": "Gatto in pixel art del 2011, con il corpo di una merendina Pop-Tart, che vola nello spazio lasciando un arcobaleno.",
+          "answer": "Cos'è Nyan Cat?",
+          "accept": ["Nyan Cat"],
+          "source": "https://en.wikipedia.org/wiki/Nyan_Cat",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il primo video di YouTube, caricato il 23 aprile 2005 dal cofondatore Jawed Karim davanti agli elefanti.",
+          "answer": "Cos'è Me at the zoo?",
+          "accept": ["Me at the zoo"],
+          "source": "https://en.wikipedia.org/wiki/Me_at_the_zoo",
+          "verified": true
+        },
+        {
+          "clue": "All'insediamento di Biden, il 20 gennaio 2021, diventarono un meme i guanti di lana di questo senatore.",
+          "answer": "Chi è Bernie Sanders?",
+          "accept": ["Sanders", "Bernie"],
+          "source": "https://www.vermontpublic.org/vpr-news/2021-01-21/meet-jen-ellis-the-woman-behind-bernie-sanders-inauguration-day-mittens",
+          "verified": true
+        },
+        {
+          "clue": "La clip audio che nel 2018 divise il web tra Yanny e un altro nome era la pronuncia registrata di questa parola.",
+          "answer": "Cos'è Laurel?",
+          "accept": ["Laurel"],
+          "source": "https://www.ajc.com/news/national/yanny-laurel-debate-this-what-you-heard-and-why/N1EoP0xmzLN4I7n0KWaenN/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Nel 2004 ballò seduto davanti alla webcam sulle note di Dragostea din tei: il video è passato alla storia come Numa Numa.",
+          "answer": "Chi è Gary Brolsma?",
+          "accept": ["Brolsma"],
+          "source": "https://globalnews.ca/news/66502/when-videos-go-viral-stars-are-born",
+          "verified": true
+        },
+        {
+          "clue": "Il vero nome della gatta imbronciata diventata famosa su Reddit nel 2012 come Grumpy Cat.",
+          "answer": "Cos'è Tardar Sauce?",
+          "accept": ["Tardar Sauce"],
+          "source": "https://en.wikipedia.org/wiki/Grumpy_Cat",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2021 il video Charlie bit my finger, del 2007, fu venduto all'asta in questa forma per circa 760.000 dollari.",
+          "answer": "Cos'è un NFT?",
+          "accept": ["NFT"],
+          "source": "https://en.wikipedia.org/wiki/Charlie_Bit_My_Finger",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

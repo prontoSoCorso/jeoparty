@@ -32,9 +32,9 @@ export function normalize(text) {
     .replace(/[’‘`´]/g, "'");
 }
 
-/** Forma usata per trovare indizi duplicati: anche senza punteggiatura. */
+/** Forma usata per trovare indizi duplicati: senza punteggiatura, ma con le emoji (contano negli Emoji-rebus). */
 export function fingerprint(text) {
-  return normalize(text).replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  return normalize(text).replace(/[^\p{L}\p{N}\p{Extended_Pictographic}]+/gu, ' ').trim();
 }
 
 function isNonEmptyString(v) {
