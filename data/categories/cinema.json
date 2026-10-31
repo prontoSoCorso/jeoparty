@@ -1,0 +1,119 @@
+{
+  "id": "cinema",
+  "name": "Cinema",
+  "group": "classiche",
+  "emoji": "🎬",
+  "description": "Film, registi e Oscar, da Fellini a Nolan.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il regista riminese de La dolce vita e di 8½.",
+          "answer": "Chi è Federico Fellini?",
+          "accept": ["Fellini"],
+          "verified": false
+        },
+        {
+          "clue": "Il film di Roberto Benigni che nel 1999 vinse tre Oscar, tra cui quello per il miglior attore.",
+          "answer": "Cos'è La vita è bella?",
+          "verified": false
+        },
+        {
+          "clue": "La saga di George Lucas con Luke Skywalker e Darth Vader.",
+          "answer": "Cos'è Star Wars?",
+          "accept": ["Guerre stellari"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il regista di Inception, Interstellar e Oppenheimer.",
+          "answer": "Chi è Christopher Nolan?",
+          "accept": ["Nolan"],
+          "verified": false
+        },
+        {
+          "clue": "Il premio che la Mostra del cinema di Venezia assegna al miglior film.",
+          "answer": "Cos'è il Leone d'oro?",
+          "verified": false
+        },
+        {
+          "clue": "Interpretò Holly Golightly in Colazione da Tiffany.",
+          "answer": "Chi è Audrey Hepburn?",
+          "accept": ["Hepburn"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il regista de Il buono, il brutto, il cattivo, maestro dello spaghetti western.",
+          "answer": "Chi è Sergio Leone?",
+          "verified": false
+        },
+        {
+          "clue": "Il compositore delle musiche di C'era una volta il West e di Nuovo Cinema Paradiso.",
+          "answer": "Chi è Ennio Morricone?",
+          "accept": ["Morricone"],
+          "verified": false
+        },
+        {
+          "clue": "Il film di Paolo Sorrentino che nel 2014 vinse l'Oscar come miglior film straniero.",
+          "answer": "Cos'è La grande bellezza?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Nel 2020 fu il primo film non in lingua inglese a vincere l'Oscar come miglior film.",
+          "answer": "Cos'è Parasite?",
+          "verified": false
+        },
+        {
+          "clue": "Nel 2010 fu la prima donna a vincere l'Oscar per la regia, con The Hurt Locker.",
+          "answer": "Chi è Kathryn Bigelow?",
+          "accept": ["Bigelow"],
+          "verified": false
+        },
+        {
+          "clue": "Il regista di Roma città aperta, del 1945, capolavoro del neorealismo.",
+          "answer": "Chi è Roberto Rossellini?",
+          "accept": ["Rossellini"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il film di guerra aerea che nel 1929 vinse il primo Oscar della storia come miglior film.",
+          "answer": "Cos'è Ali?",
+          "accept": ["Wings"],
+          "verified": false
+        },
+        {
+          "clue": "Nel 1956 fu la prima attrice italiana a vincere l'Oscar, per La rosa tatuata.",
+          "answer": "Chi è Anna Magnani?",
+          "accept": ["Magnani"],
+          "verified": false
+        },
+        {
+          "clue": "Il regista di Ladri di biciclette, premiato con un Oscar speciale nel 1950.",
+          "answer": "Chi è Vittorio De Sica?",
+          "accept": ["De Sica"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

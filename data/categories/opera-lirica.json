@@ -1,0 +1,120 @@
+{
+  "id": "opera-lirica",
+  "name": "Opera lirica",
+  "group": "classiche",
+  "emoji": "🎭",
+  "description": "Verdi, Puccini, Rossini e i loro personaggi.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il compositore nato nel 1813 alle Roncole di Busseto, autore del Rigoletto.",
+          "answer": "Chi è Giuseppe Verdi?",
+          "accept": ["Verdi"],
+          "verified": false
+        },
+        {
+          "clue": "Il teatro d'opera di Milano, inaugurato nel 1778.",
+          "answer": "Cos'è la Scala?",
+          "accept": ["Teatro alla Scala"],
+          "verified": false
+        },
+        {
+          "clue": "Il tenore modenese dei Tre Tenori, celebre per il suo «Nessun dorma».",
+          "answer": "Chi è Luciano Pavarotti?",
+          "accept": ["Pavarotti"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "L'opera di Puccini con la giovane geisha Cio-Cio-San.",
+          "answer": "Cos'è Madama Butterfly?",
+          "accept": ["Madame Butterfly"],
+          "verified": false
+        },
+        {
+          "clue": "Il barbiere tuttofare protagonista del Barbiere di Siviglia.",
+          "answer": "Chi è Figaro?",
+          "verified": false
+        },
+        {
+          "clue": "L'opera ambientata nell'antico Egitto, con la schiava etiope innamorata di Radamès.",
+          "answer": "Cos'è Aida?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "L'opera di Puccini il cui terzo atto si svolge a Castel Sant'Angelo, a Roma.",
+          "answer": "Cos'è Tosca?",
+          "source": "https://en.wikipedia.org/wiki/Castel_Sant%27Angelo",
+          "verified": true
+        },
+        {
+          "clue": "Il compositore pesarese del Guglielmo Tell, che smise di scrivere opere a 37 anni.",
+          "answer": "Chi è Gioachino Rossini?",
+          "accept": ["Rossini"],
+          "verified": false
+        },
+        {
+          "clue": "Il coro degli ebrei esuli nel Nabucco, diventato quasi un inno del Risorgimento.",
+          "answer": "Cos'è Va, pensiero?",
+          "accept": ["Va pensiero", "Va', pensiero"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "L'opera con la cortigiana Violetta Valéry, tratta dalla Signora delle camelie di Dumas figlio.",
+          "answer": "Cos'è La traviata?",
+          "accept": ["Traviata"],
+          "verified": false
+        },
+        {
+          "clue": "Il soprano nato a New York da genitori greci, soprannominata «la Divina».",
+          "answer": "Chi è Maria Callas?",
+          "accept": ["Callas"],
+          "verified": false
+        },
+        {
+          "clue": "La sigaraia di Siviglia protagonista dell'opera di Bizet.",
+          "answer": "Chi è Carmen?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "L'opera rimasta incompiuta alla morte di Puccini, nel 1924, e completata da Franco Alfano.",
+          "answer": "Cos'è Turandot?",
+          "verified": false
+        },
+        {
+          "clue": "Il compositore de La Gioconda (1876), con la celebre Danza delle ore.",
+          "answer": "Chi è Amilcare Ponchielli?",
+          "accept": ["Ponchielli"],
+          "verified": false
+        },
+        {
+          "clue": "Il compositore livornese di Cavalleria rusticana, andata in scena nel 1890.",
+          "answer": "Chi è Pietro Mascagni?",
+          "accept": ["Mascagni"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "mitologia",
+  "name": "Mitologia",
+  "group": "classiche",
+  "emoji": "🏛️",
+  "description": "Dei, eroi e mostri greci, romani e nordici.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il re degli dei dell'Olimpo, signore del fulmine.",
+          "answer": "Chi è Zeus?",
+          "accept": ["Giove"],
+          "verified": false
+        },
+        {
+          "clue": "L'eroe greco invulnerabile in tutto il corpo tranne che nel tallone.",
+          "answer": "Chi è Achille?",
+          "verified": false
+        },
+        {
+          "clue": "I gemelli allattati da una lupa, secondo la leggenda della fondazione di Roma.",
+          "answer": "Chi sono Romolo e Remo?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il dio nordico del tuono, armato del martello Mjöllnir.",
+          "answer": "Chi è Thor?",
+          "verified": false
+        },
+        {
+          "clue": "Il mostro metà uomo e metà toro chiuso nel labirinto di Creta.",
+          "answer": "Chi è il Minotauro?",
+          "verified": false
+        },
+        {
+          "clue": "L'eroe delle dodici fatiche, figlio di Zeus e di una mortale.",
+          "answer": "Chi è Eracle?",
+          "accept": ["Ercole"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "La Gorgone con i serpenti al posto dei capelli, che pietrificava con lo sguardo.",
+          "answer": "Chi è Medusa?",
+          "verified": false
+        },
+        {
+          "clue": "Il titano che rubò il fuoco agli dei per donarlo agli uomini.",
+          "answer": "Chi è Prometeo?",
+          "verified": false
+        },
+        {
+          "clue": "Il cane a tre teste che custodisce l'ingresso dell'Ade.",
+          "answer": "Chi è Cerbero?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Volò troppo vicino al Sole con ali tenute insieme dalla cera e precipitò in mare.",
+          "answer": "Chi è Icaro?",
+          "verified": false
+        },
+        {
+          "clue": "Il padre degli dei nordici, che sacrificò un occhio in cambio della saggezza.",
+          "answer": "Chi è Odino?",
+          "accept": ["Odin", "Wotan"],
+          "verified": false
+        },
+        {
+          "clue": "La prima donna della mitologia greca, che aprì il vaso di tutti i mali.",
+          "answer": "Chi è Pandora?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il traghettatore delle anime dei morti, nell'Ade greco e nell'Inferno di Dante.",
+          "answer": "Chi è Caronte?",
+          "verified": false
+        },
+        {
+          "clue": "La sala dove le valchirie conducono i guerrieri caduti in battaglia.",
+          "answer": "Cos'è il Valhalla?",
+          "accept": ["Walhalla"],
+          "verified": false
+        },
+        {
+          "clue": "Il re di Corinto condannato a spingere per l'eternità un masso su per un monte.",
+          "answer": "Chi è Sisifo?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

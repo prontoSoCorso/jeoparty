@@ -1,0 +1,121 @@
+{
+  "id": "letteratura",
+  "name": "Letteratura",
+  "group": "classiche",
+  "emoji": "📚",
+  "description": "Romanzi, poeti e personaggi, italiani e stranieri.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il poeta fiorentino che scrisse la Divina Commedia.",
+          "answer": "Chi è Dante Alighieri?",
+          "accept": ["Dante"],
+          "verified": false
+        },
+        {
+          "clue": "Il burattino di Collodi a cui si allunga il naso quando dice una bugia.",
+          "answer": "Chi è Pinocchio?",
+          "verified": false
+        },
+        {
+          "clue": "Il romanzo di Alessandro Manzoni con Renzo e Lucia.",
+          "answer": "Cos'è I promessi sposi?",
+          "accept": ["Promessi sposi"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "La donna amata e cantata da Francesco Petrarca nel Canzoniere.",
+          "answer": "Chi è Laura?",
+          "verified": false
+        },
+        {
+          "clue": "L'autore de Il nome della rosa, giallo ambientato in un'abbazia del Trecento.",
+          "answer": "Chi è Umberto Eco?",
+          "accept": ["Eco"],
+          "verified": false
+        },
+        {
+          "clue": "Il cavaliere di Cervantes che combatte contro i mulini a vento.",
+          "answer": "Chi è Don Chisciotte?",
+          "accept": ["Don Quijote", "Don Chisciotte della Mancia"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il poeta di Recanati che scrisse L'infinito.",
+          "answer": "Chi è Giacomo Leopardi?",
+          "accept": ["Leopardi"],
+          "verified": false
+        },
+        {
+          "clue": "Lo scrittore russo autore di Guerra e pace e Anna Karenina.",
+          "answer": "Chi è Lev Tolstoj?",
+          "accept": ["Tolstoj", "Tolstoy", "Leone Tolstoj"],
+          "verified": false
+        },
+        {
+          "clue": "Il romanzo di George Orwell in cui il Grande Fratello sorveglia tutti.",
+          "answer": "Cos'è 1984?",
+          "accept": ["Millenovecentottantaquattro"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "L'unico romanzo di Giuseppe Tomasi di Lampedusa, con il principe di Salina.",
+          "answer": "Cos'è Il Gattopardo?",
+          "accept": ["Gattopardo"],
+          "verified": false
+        },
+        {
+          "clue": "Lo scrittore praghese de La metamorfosi, in cui Gregor Samsa si sveglia trasformato in un insetto.",
+          "answer": "Chi è Franz Kafka?",
+          "accept": ["Kafka"],
+          "verified": false
+        },
+        {
+          "clue": "L'autore di Cent'anni di solitudine, ambientato a Macondo.",
+          "answer": "Chi è Gabriel García Márquez?",
+          "accept": ["García Márquez", "Garcia Marquez", "Gabo"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La prima donna italiana premiata con il Nobel per la letteratura, quello del 1926.",
+          "answer": "Chi è Grazia Deledda?",
+          "accept": ["Deledda"],
+          "verified": false
+        },
+        {
+          "clue": "Il romanzo di Italo Svevo con Zeno Cosini, che scrive le sue memorie su consiglio dello psicanalista.",
+          "answer": "Cos'è La coscienza di Zeno?",
+          "verified": false
+        },
+        {
+          "clue": "Il poeta di Ossi di seppia, premio Nobel per la letteratura nel 1975.",
+          "answer": "Chi è Eugenio Montale?",
+          "accept": ["Montale"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

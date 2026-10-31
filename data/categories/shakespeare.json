@@ -1,0 +1,120 @@
+{
+  "id": "shakespeare",
+  "name": "Shakespeare all'italiana",
+  "group": "classiche",
+  "emoji": "🪶",
+  "description": "Il Bardo e le sue opere ambientate in Italia.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "La città in cui vivono Romeo e Giulietta.",
+          "answer": "Cos'è Verona?",
+          "verified": false
+        },
+        {
+          "clue": "Il principe di Danimarca che si chiede «Essere o non essere».",
+          "answer": "Chi è Amleto?",
+          "accept": ["Hamlet"],
+          "verified": false
+        },
+        {
+          "clue": "La famiglia di Giulietta, nemica giurata dei Montecchi.",
+          "answer": "Chi sono i Capuleti?",
+          "accept": ["Capuleti", "Capuleto"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il «moro di Venezia», accecato dalla gelosia per la moglie Desdemona.",
+          "answer": "Chi è Otello?",
+          "accept": ["Othello"],
+          "verified": false
+        },
+        {
+          "clue": "L'usuraio che pretende una libbra di carne nel Mercante di Venezia.",
+          "answer": "Chi è Shylock?",
+          "verified": false
+        },
+        {
+          "clue": "La città natale di Shakespeare, nel Warwickshire.",
+          "answer": "Cos'è Stratford-upon-Avon?",
+          "accept": ["Stratford", "Stratford upon Avon"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il teatro londinese della compagnia di Shakespeare, ricostruito vicino al Tamigi nel 1997.",
+          "answer": "Cos'è il Globe?",
+          "accept": ["Globe Theatre", "Shakespeare's Globe"],
+          "verified": false
+        },
+        {
+          "clue": "La commedia ambientata a Padova, con Petruccio che vuole «addomesticare» Caterina.",
+          "answer": "Cos'è La bisbetica domata?",
+          "accept": ["The Taming of the Shrew"],
+          "verified": false
+        },
+        {
+          "clue": "Il dittatore romano ucciso alle Idi di marzo, protagonista di una tragedia di Shakespeare.",
+          "answer": "Chi è Giulio Cesare?",
+          "accept": ["Cesare"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il nobile scozzese che diventa re dopo la profezia di tre streghe.",
+          "answer": "Chi è Macbeth?",
+          "verified": false
+        },
+        {
+          "clue": "Il folletto dispettoso di Sogno di una notte di mezza estate.",
+          "answer": "Chi è Puck?",
+          "accept": ["Robin Goodfellow"],
+          "verified": false
+        },
+        {
+          "clue": "L'amico di Romeo ucciso in duello da Tebaldo.",
+          "answer": "Chi è Mercuzio?",
+          "accept": ["Mercutio"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il frate che sposa in segreto Romeo e Giulietta.",
+          "answer": "Chi è frate Lorenzo?",
+          "accept": ["Fra Lorenzo", "Friar Laurence"],
+          "verified": false
+        },
+        {
+          "clue": "Il mago della Tempesta, già duca di Milano, esiliato su un'isola.",
+          "answer": "Chi è Prospero?",
+          "verified": false
+        },
+        {
+          "clue": "Nel Mercante di Venezia si traveste da avvocato per salvare Antonio.",
+          "answer": "Chi è Porzia?",
+          "accept": ["Portia"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

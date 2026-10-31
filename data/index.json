@@ -38,6 +38,17 @@
       "playableVerified": true
     },
     {
+      "id": "cinema",
+      "name": "Cinema",
+      "group": "classiche",
+      "emoji": "🎬",
+      "description": "Film, registi e Oscar, da Fellini a Nolan.",
+      "file": "categories/cinema.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
       "id": "geografia",
       "name": "Geografia del mondo",
       "group": "classiche",
@@ -49,12 +60,56 @@
       "playableVerified": false
     },
     {
+      "id": "letteratura",
+      "name": "Letteratura",
+      "group": "classiche",
+      "emoji": "📚",
+      "description": "Romanzi, poeti e personaggi, italiani e stranieri.",
+      "file": "categories/letteratura.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
+      "id": "mitologia",
+      "name": "Mitologia",
+      "group": "classiche",
+      "emoji": "🏛️",
+      "description": "Dei, eroi e mostri greci, romani e nordici.",
+      "file": "categories/mitologia.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
+      "id": "opera-lirica",
+      "name": "Opera lirica",
+      "group": "classiche",
+      "emoji": "🎭",
+      "description": "Verdi, Puccini, Rossini e i loro personaggi.",
+      "file": "categories/opera-lirica.json",
+      "variants": 15,
+      "unverified": 14,
+      "playableVerified": false
+    },
+    {
       "id": "regioni",
       "name": "Regioni & capoluoghi",
       "group": "classiche",
       "emoji": "📍",
       "description": "L'Italia regione per regione.",
       "file": "categories/regioni.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
+      "id": "shakespeare",
+      "name": "Shakespeare all'italiana",
+      "group": "classiche",
+      "emoji": "🪶",
+      "description": "Il Bardo e le sue opere ambientate in Italia.",
+      "file": "categories/shakespeare.json",
       "variants": 15,
       "unverified": 15,
       "playableVerified": false
