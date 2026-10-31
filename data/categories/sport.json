@@ -1,0 +1,122 @@
+{
+  "id": "sport",
+  "name": "Sport",
+  "group": "classiche",
+  "emoji": "🏅",
+  "description": "Campioni, record e regole: calcio e non solo.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il numero di giocatori di ogni squadra in campo, all'inizio di una partita di calcio.",
+          "answer": "Cos'è 11?",
+          "accept": ["undici"],
+          "verified": false
+        },
+        {
+          "clue": "Il velocista giamaicano che nel 2009 corse i 100 metri in 9\"58, record del mondo.",
+          "answer": "Chi è Usain Bolt?",
+          "accept": ["Bolt"],
+          "verified": false
+        },
+        {
+          "clue": "La corsa ciclistica a tappe in cui il primo in classifica indossa la maglia rosa.",
+          "answer": "Cos'è il Giro d'Italia?",
+          "accept": ["Giro"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il tennista altoatesino che nel gennaio 2024 vinse gli Australian Open, il suo primo titolo dello Slam.",
+          "answer": "Chi è Jannik Sinner?",
+          "accept": ["Sinner"],
+          "verified": false
+        },
+        {
+          "clue": "Lo sport in cui si fa strike abbattendo tutti e dieci i birilli con un solo tiro.",
+          "answer": "Cos'è il bowling?",
+          "verified": false
+        },
+        {
+          "clue": "Il pilota tedesco che vinse cinque Mondiali di Formula 1 di fila con la Ferrari, dal 2000 al 2004.",
+          "answer": "Chi è Michael Schumacher?",
+          "accept": ["Schumacher"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "La lunghezza della maratona, in chilometri, decimali compresi.",
+          "answer": "Cos'è 42,195?",
+          "accept": ["42,195 km", "42 chilometri e 195 metri"],
+          "verified": false
+        },
+        {
+          "clue": "Il «Dottore» di Tavullia, nove volte campione del mondo di motociclismo, con il numero 46.",
+          "answer": "Chi è Valentino Rossi?",
+          "accept": ["Valentino", "Rossi"],
+          "verified": false
+        },
+        {
+          "clue": "La squadra di calcio che ha vinto più scudetti nella storia della Serie A.",
+          "answer": "Cos'è la Juventus?",
+          "accept": ["Juve"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Le due località che nel febbraio 2026 hanno ospitato le Olimpiadi invernali.",
+          "answer": "Cosa sono Milano e Cortina d'Ampezzo?",
+          "accept": ["Milano-Cortina", "Milano e Cortina"],
+          "verified": false
+        },
+        {
+          "clue": "La fiorettista di Jesi che vinse l'oro olimpico individuale tre volte di fila: 2000, 2004 e 2008.",
+          "answer": "Chi è Valentina Vezzali?",
+          "accept": ["Vezzali"],
+          "verified": false
+        },
+        {
+          "clue": "Il calciatore argentino che nel 1986 segnò all'Inghilterra il gol della «mano de Dios».",
+          "answer": "Chi è Diego Armando Maradona?",
+          "accept": ["Maradona", "Diego Maradona"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il ciclista detto «il Pirata», che nel 1998 vinse Giro d'Italia e Tour de France.",
+          "answer": "Chi è Marco Pantani?",
+          "accept": ["Pantani"],
+          "verified": false
+        },
+        {
+          "clue": "Il saltatore in alto azzurro che ai Giochi di Tokyo 2020 divise l'oro con il qatariota Barshim.",
+          "answer": "Chi è Gianmarco Tamberi?",
+          "accept": ["Tamberi", "Gimbo"],
+          "verified": false
+        },
+        {
+          "clue": "Lo sport olimpico invernale che unisce sci di fondo e tiro con la carabina.",
+          "answer": "Cos'è il biathlon?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

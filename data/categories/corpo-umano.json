@@ -1,0 +1,121 @@
+{
+  "id": "corpo-umano",
+  "name": "Corpo umano & medicina",
+  "group": "classiche",
+  "emoji": "🫀",
+  "description": "Ossa, organi e grandi scoperte mediche.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il più grande organo del corpo umano: ci avvolge tutti.",
+          "answer": "Cos'è la pelle?",
+          "accept": ["cute"],
+          "verified": false
+        },
+        {
+          "clue": "Ne abbiamo due: filtrano il sangue e producono l'urina.",
+          "answer": "Cosa sono i reni?",
+          "verified": false
+        },
+        {
+          "clue": "Il muscolo che pompa il sangue in tutto il corpo.",
+          "answer": "Cos'è il cuore?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il numero di ossa nello scheletro di un adulto.",
+          "answer": "Cos'è 206?",
+          "accept": ["duecentosei"],
+          "verified": false
+        },
+        {
+          "clue": "Il muscolo più grande del corpo umano: ci sediamo sopra.",
+          "answer": "Cos'è il grande gluteo?",
+          "accept": ["gluteo", "gluteo massimo"],
+          "verified": false
+        },
+        {
+          "clue": "Il gruppo sanguigno detto «donatore universale» di globuli rossi.",
+          "answer": "Cos'è 0 negativo?",
+          "accept": ["0-", "zero negativo", "O negativo"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "L'osso più piccolo del corpo umano, nell'orecchio medio.",
+          "answer": "Cos'è la staffa?",
+          "accept": ["stapede"],
+          "verified": false
+        },
+        {
+          "clue": "La ghiandola a forma di farfalla alla base del collo.",
+          "answer": "Cos'è la tiroide?",
+          "verified": false
+        },
+        {
+          "clue": "Le cellule del sangue che servono alla coagulazione.",
+          "answer": "Cosa sono le piastrine?",
+          "accept": ["trombociti"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il medico inglese che nel 1628 descrisse la circolazione del sangue.",
+          "answer": "Chi è William Harvey?",
+          "accept": ["Harvey"],
+          "verified": false
+        },
+        {
+          "clue": "Il medico inglese che nel 1796 sperimentò il vaccino contro il vaiolo.",
+          "answer": "Chi è Edward Jenner?",
+          "accept": ["Jenner"],
+          "verified": false
+        },
+        {
+          "clue": "Lo scienziato americano del primo vaccino contro la poliomielite, annunciato nel 1955.",
+          "answer": "Chi è Jonas Salk?",
+          "accept": ["Salk"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il chirurgo sudafricano che nel 1967 eseguì il primo trapianto di cuore da uomo a uomo.",
+          "answer": "Chi è Christiaan Barnard?",
+          "accept": ["Barnard"],
+          "verified": false
+        },
+        {
+          "clue": "Il medico ungherese che a metà Ottocento capì che lavarsi le mani salvava le partorienti.",
+          "answer": "Chi è Ignaz Semmelweis?",
+          "accept": ["Semmelweis"],
+          "verified": false
+        },
+        {
+          "clue": "Nobel per la medicina nel 1906, inventò la «reazione nera» per colorare le cellule nervose.",
+          "answer": "Chi è Camillo Golgi?",
+          "accept": ["Golgi"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

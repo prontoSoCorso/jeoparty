@@ -1,0 +1,120 @@
+{
+  "id": "universita",
+  "name": "Università",
+  "group": "classiche",
+  "emoji": "🎓",
+  "description": "Atenei storici, lauree, CFU ed Erasmus.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il programma europeo di scambio per studenti universitari, nato nel 1987.",
+          "answer": "Cos'è l'Erasmus?",
+          "accept": ["Erasmus+"],
+          "verified": false
+        },
+        {
+          "clue": "La città dell'università più antica del mondo occidentale, fondata per tradizione nel 1088.",
+          "answer": "Cos'è Bologna?",
+          "verified": false
+        },
+        {
+          "clue": "La sigla dei crediti che servono per laurearsi: per la triennale ne servono 180.",
+          "answer": "Cosa sono i CFU?",
+          "accept": ["crediti formativi universitari"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "La corona di foglie che si porta in testa il giorno della laurea.",
+          "answer": "Cos'è la corona d'alloro?",
+          "accept": ["alloro", "corona di alloro"],
+          "verified": false
+        },
+        {
+          "clue": "La più antica università degli Stati Uniti, fondata nel 1636 vicino a Boston.",
+          "answer": "Cos'è Harvard?",
+          "verified": false
+        },
+        {
+          "clue": "Il voto massimo di laurea in Italia, lode esclusa.",
+          "answer": "Cos'è 110?",
+          "accept": ["centodieci"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Le due antiche università inglesi chiamate insieme «Oxbridge».",
+          "answer": "Cosa sono Oxford e Cambridge?",
+          "verified": false
+        },
+        {
+          "clue": "L'umanista olandese autore dell'Elogio della follia, studioso girovago per tutta Europa.",
+          "answer": "Chi è Erasmo da Rotterdam?",
+          "accept": ["Erasmo"],
+          "verified": false
+        },
+        {
+          "clue": "La scuola universitaria d'eccellenza di Pisa, istituita nel 1810 con un decreto napoleonico.",
+          "answer": "Cos'è la Scuola Normale Superiore?",
+          "accept": ["Normale", "Normale di Pisa"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "L'università di Roma fondata nel 1303 da papa Bonifacio VIII.",
+          "answer": "Cos'è la Sapienza?",
+          "accept": ["La Sapienza"],
+          "verified": false
+        },
+        {
+          "clue": "Il cappello a tavoletta quadrata che i laureati americani lanciano in aria.",
+          "answer": "Cos'è il tocco?",
+          "accept": ["mortarboard", "tocco accademico"],
+          "verified": false
+        },
+        {
+          "clue": "Lo scienziato pisano che insegnò matematica all'Università di Padova dal 1592 al 1610.",
+          "answer": "Chi è Galileo Galilei?",
+          "accept": ["Galileo"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Nel 1678, a Padova, fu la prima donna al mondo a laurearsi: in filosofia.",
+          "answer": "Chi è Elena Lucrezia Cornaro Piscopia?",
+          "accept": ["Elena Cornaro", "Cornaro Piscopia"],
+          "verified": false
+        },
+        {
+          "clue": "Per il Guinness è l'università più antica ancora attiva: fondata a Fès nell'859.",
+          "answer": "Cos'è al-Qarawiyyin?",
+          "accept": ["Al Quaraouiyine", "Qarawiyyin"],
+          "verified": false
+        },
+        {
+          "clue": "Qui nel 1224 Federico II fondò quella che è considerata la più antica università statale del mondo.",
+          "answer": "Cos'è Napoli?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

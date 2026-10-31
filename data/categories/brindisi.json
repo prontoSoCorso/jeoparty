@@ -1,0 +1,112 @@
+{
+  "id": "brindisi",
+  "name": "Brindisi!",
+  "group": "classiche",
+  "emoji": "🍷",
+  "description": "Vini, cocktail e liquori, in versione italiana.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "L'aperitivo veneto con Aperol o Campari, prosecco e un po' di soda.",
+          "answer": "Cos'è lo Spritz?",
+          "verified": false
+        },
+        {
+          "clue": "Il liquore al limone di Sorrento e della costiera amalfitana.",
+          "answer": "Cos'è il limoncello?",
+          "verified": false
+        },
+        {
+          "clue": "Lo spumante veneto delle colline di Conegliano e Valdobbiadene.",
+          "answer": "Cos'è il Prosecco?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il cocktail fiorentino dedicato a un conte: gin, bitter e un vino aromatizzato in parti uguali.",
+          "answer": "Cos'è il Negroni?",
+          "verified": false
+        },
+        {
+          "clue": "Il cocktail dell'Harry's Bar di Venezia con prosecco e purea di pesca bianca.",
+          "answer": "Cos'è il Bellini?",
+          "verified": false
+        },
+        {
+          "clue": "Il vino rosso toscano con il gallo nero sul collo della bottiglia.",
+          "answer": "Cos'è il Chianti Classico?",
+          "accept": ["Chianti"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il rosso piemontese chiamato «il re dei vini e il vino dei re».",
+          "answer": "Cos'è il Barolo?",
+          "verified": false
+        },
+        {
+          "clue": "L'acquavite italiana distillata dalle vinacce.",
+          "answer": "Cos'è la grappa?",
+          "verified": false
+        },
+        {
+          "clue": "Il vino liquoroso siciliano che porta il nome di una città in provincia di Trapani.",
+          "answer": "Cos'è il Marsala?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il liquore all'anice nato a Civitavecchia, servito «con la mosca»: tre chicchi di caffè.",
+          "answer": "Cos'è la Sambuca?",
+          "verified": false
+        },
+        {
+          "clue": "Il grande rosso di Montalcino, fatto solo con uve Sangiovese.",
+          "answer": "Cos'è il Brunello?",
+          "accept": ["Brunello di Montalcino"],
+          "verified": false
+        },
+        {
+          "clue": "Il vino aromatizzato inventato a Torino nel 1786 da Antonio Benedetto Carpano.",
+          "answer": "Cos'è il vermouth?",
+          "accept": ["vermut"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il vitigno californiano geneticamente identico al Primitivo pugliese.",
+          "answer": "Cos'è lo Zinfandel?",
+          "verified": false
+        },
+        {
+          "clue": "Il nome che a Pantelleria si dà al Moscato d'Alessandria, l'uva del celebre passito.",
+          "answer": "Cos'è lo Zibibbo?",
+          "verified": false
+        },
+        {
+          "clue": "Il cocktail nato come «Milano-Torino» e ribattezzato, si dice, per i turisti d'oltreoceano.",
+          "answer": "Cos'è l'Americano?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}
