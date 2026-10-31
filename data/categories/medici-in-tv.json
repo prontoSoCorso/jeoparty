@@ -1,0 +1,141 @@
+{
+  "id": "medici-in-tv",
+  "name": "Medici in TV",
+  "group": "inventate",
+  "emoji": "🩺",
+  "description": "Dr. House, Grey's Anatomy, Scrubs, Doc: la corsia in serie.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "L'attore britannico che dal 2004 al 2012 ha interpretato il geniale e scorbutico diagnosta Gregory House.",
+          "answer": "Chi è Hugh Laurie?",
+          "accept": ["Laurie"],
+          "source": "https://movieplayer.it/serietv/dr-house_5/",
+          "verified": true
+        },
+        {
+          "clue": "La protagonista di Grey's Anatomy, interpretata da Ellen Pompeo per 19 stagioni.",
+          "answer": "Chi è Meredith Grey?",
+          "accept": ["Meredith"],
+          "source": "https://en.wikipedia.org/wiki/Meredith_Grey",
+          "verified": true
+        },
+        {
+          "clue": "Interpreta il dottor Andrea Fanti nella fiction di Rai 1 Doc - Nelle tue mani.",
+          "answer": "Chi è Luca Argentero?",
+          "accept": ["Argentero"],
+          "source": "https://www.money.it/Andrea-Fanti-vera-storia-biografia-medico-Doc-Nelle-tue-mani",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "L'ospedale dove J.D., Turk ed Elliot iniziano l'internato in Scrubs.",
+          "answer": "Cos'è il Sacred Heart?",
+          "accept": ["Sacred Heart Hospital"],
+          "source": "https://tv.apple.com/us/show/scrubs/umc.cmc.qz51xm3ynbgjk5h7zhorrlwm",
+          "verified": true
+        },
+        {
+          "clue": "Il nonno della famiglia Martini in Un medico in famiglia, interpretato da Lino Banfi.",
+          "answer": "Chi è Nonno Libero?",
+          "accept": ["Libero", "Libero Martini"],
+          "source": "https://www.sorrisi.com/tv/fiction/un-medico-in-famiglia-i-numeri-il-cast-e-la-sigla/",
+          "verified": true
+        },
+        {
+          "clue": "Giovane chirurgo con autismo e sindrome del savant, protagonista di The Good Doctor dal 2017.",
+          "answer": "Chi è Shaun Murphy?",
+          "accept": ["Shaun"],
+          "notes": "Lo interpreta Freddie Highmore; la serie è il remake di un drama sudcoreano.",
+          "source": "https://abc7ny.com/good-doctor-abc-autism-savant-syndrome/2429448/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Medico che dopo un incidente d'auto perse il ricordo di dodici anni di vita: alla sua storia è ispirata Doc.",
+          "answer": "Chi è Pierdante Piccioni?",
+          "accept": ["Piccioni"],
+          "source": "https://www.money.it/Andrea-Fanti-vera-storia-biografia-medico-Doc-Nelle-tue-mani",
+          "verified": true
+        },
+        {
+          "clue": "La sceneggiatrice e produttrice che ha creato Grey's Anatomy.",
+          "answer": "Chi è Shonda Rhimes?",
+          "accept": ["Rhimes"],
+          "source": "https://en.wikipedia.org/wiki/Grey%27s_Anatomy",
+          "verified": true
+        },
+        {
+          "clue": "Il medico burbero e sarcastico, mentore riluttante di J.D. in Scrubs, interpretato da John C. McGinley.",
+          "answer": "Chi è il dottor Cox?",
+          "accept": ["Perry Cox", "Cox"],
+          "source": "https://en.wikipedia.org/wiki/Dr._Cox",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Collega e unico vero amico di Gregory House in ospedale, interpretato da Robert Sean Leonard.",
+          "answer": "Chi è James Wilson?",
+          "accept": ["Wilson"],
+          "source": "https://movieplayer.it/serietv/dr-house_5/",
+          "verified": true
+        },
+        {
+          "clue": "Diventò famoso negli anni Novanta come il pediatra Doug Ross in E.R. - Medici in prima linea.",
+          "answer": "Chi è George Clooney?",
+          "accept": ["Clooney"],
+          "source": "https://en.wikipedia.org/wiki/ER_season_1",
+          "verified": true
+        },
+        {
+          "clue": "Un medico in famiglia, su Rai 1 dal 1998, è l'adattamento di una serie di questo Paese.",
+          "answer": "Cos'è la Spagna?",
+          "accept": ["Spagna"],
+          "notes": "L'originale si intitola Médico de familia.",
+          "source": "https://www.sorrisi.com/tv/fiction/un-medico-in-famiglia-i-numeri-il-cast-e-la-sigla/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La guerra in cui è ambientata la serie M*A*S*H, con il chirurgo Hawkeye Pierce di Alan Alda.",
+          "answer": "Cos'è la guerra di Corea?",
+          "accept": ["Corea"],
+          "source": "https://en.wikipedia.org/wiki/List_of_M*A*S*H_characters",
+          "verified": true
+        },
+        {
+          "clue": "Ha interpretato Lele Martini, il medico protagonista di Un medico in famiglia, dal 1998.",
+          "answer": "Chi è Giulio Scarpati?",
+          "accept": ["Scarpati"],
+          "source": "https://www.sorrisi.com/tv/fiction/un-medico-in-famiglia-i-numeri-il-cast-e-la-sigla/",
+          "verified": true
+        },
+        {
+          "clue": "L'ospedale di Seattle dove Meredith Grey inizia l'internato di chirurgia nella prima puntata.",
+          "answer": "Cos'è il Seattle Grace?",
+          "accept": ["Seattle Grace Hospital"],
+          "source": "https://en.wikipedia.org/wiki/Meredith_Grey",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

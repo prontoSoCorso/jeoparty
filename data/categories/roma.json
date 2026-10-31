@@ -1,0 +1,137 @@
+{
+  "id": "roma",
+  "name": "Roma e dintorni",
+  "group": "inventate",
+  "emoji": "🛵",
+  "description": "Quartieri, monumenti, romanesco e gite fuori porta.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il suo nome ufficiale è Anfiteatro Flavio: fu inaugurato nell'80 d.C. dall'imperatore Tito con cento giorni di giochi.",
+          "answer": "Cos'è il Colosseo?",
+          "accept": ["Colosseo", "Anfiteatro Flavio"],
+          "source": "https://www.turismoroma.it/luoghi/lanfiteatro-flavio-colosseo",
+          "verified": true
+        },
+        {
+          "clue": "Una monetina lanciata di spalle per tornare a Roma; qui fece il bagno Anita Ekberg nella Dolce vita.",
+          "answer": "Cos'è la Fontana di Trevi?",
+          "accept": ["Fontana di Trevi"],
+          "notes": "Iniziata da Nicola Salvi nel 1732, fu completata nel 1762.",
+          "source": "https://www.britannica.com/place/Trevi-Fountain",
+          "verified": true
+        },
+        {
+          "clue": "In romanesco è l'incitamento per eccellenza: la versione romana di dai!",
+          "answer": "Cos'è daje?",
+          "accept": ["Daje!"],
+          "source": "https://www.ilpost.it/2021/05/05/daje/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il mascherone di marmo nel portico di Santa Maria in Cosmedin, reso celebre dal film Vacanze romane.",
+          "answer": "Cos'è la Bocca della Verità?",
+          "accept": ["Bocca della Verità"],
+          "source": "https://en.wikipedia.org/wiki/Bocca_della_Verit%C3%A0",
+          "verified": true
+        },
+        {
+          "clue": "Crocchetta di riso fritta: si dice al telefono per il filo di mozzarella che si allunga quando la spezzi.",
+          "answer": "Cos'è il supplì?",
+          "accept": ["Supplì al telefono"],
+          "source": "https://en.wikipedia.org/wiki/Suppl%C3%AC",
+          "verified": true
+        },
+        {
+          "clue": "Qui, per sua volontà, è sepolto Raffaello, morto nel 1520.",
+          "answer": "Cos'è il Pantheon?",
+          "source": "https://www.finestresullarte.info/arte-e-artisti/una-rosa-per-raffaello-cinquecentenario-pantheon",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Nato come mausoleo dell'imperatore Adriano, è il luogo del terzo atto della Tosca di Puccini.",
+          "answer": "Cos'è Castel Sant'Angelo?",
+          "source": "https://en.wikipedia.org/wiki/Castel_Sant%27Angelo",
+          "verified": true
+        },
+        {
+          "clue": "Da questo colle ogni giorno, a mezzogiorno, spara un colpo di cannone: la tradizione nacque nel 1847 con Pio IX.",
+          "answer": "Cos'è il Gianicolo?",
+          "accept": ["Gianicolo"],
+          "source": "https://turismoroma.it/it/pagina/il-cannone-del-gianicolo",
+          "verified": true
+        },
+        {
+          "clue": "Il monumento a Vittorio Emanuele II che i romani chiamano per scherzo macchina da scrivere o torta nuziale.",
+          "answer": "Cos'è il Vittoriano?",
+          "accept": ["Altare della Patria"],
+          "source": "https://turismoroma.it/it/luoghi/monumento-vittorio-emanuele-ii-vittoriano",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "La sonnolenza che arriva puntuale dopo un pranzo abbondante, detta con una parola sola.",
+          "answer": "Cos'è l'abbiocco?",
+          "accept": ["Abbiocco"],
+          "source": "https://www.thelocal.com/20190403/italian-word-of-the-day-abbiocco",
+          "verified": true
+        },
+        {
+          "clue": "Il paese dei Castelli Romani che dà il nome all'unica porchetta con il marchio IGP, ottenuto nel 2011.",
+          "answer": "Cos'è Ariccia?",
+          "accept": ["Ariccia"],
+          "source": "https://italoamericano.org/porchetta/",
+          "verified": true
+        },
+        {
+          "clue": "In Vacanze romane Gregory Peck finge di averla persa, dopo averla infilata nella Bocca della Verità.",
+          "answer": "Cos'è la mano?",
+          "accept": ["La mano"],
+          "source": "https://en.wikipedia.org/wiki/Bocca_della_Verit%C3%A0",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Pseudonimo, anagramma del suo cognome, del poeta in romanesco Carlo Alberto Salustri.",
+          "answer": "Chi è Trilussa?",
+          "source": "https://en.wikipedia.org/wiki/Trilussa",
+          "verified": true
+        },
+        {
+          "clue": "La città vicino a Roma con due siti UNESCO: Villa Adriana, dal 1999, e Villa d'Este, dal 2001.",
+          "answer": "Cos'è Tivoli?",
+          "accept": ["Tivoli"],
+          "source": "https://www.turismoroma.it/es/places/tivoli-e-le-sue-ville",
+          "verified": true
+        },
+        {
+          "clue": "Secondo l'etimologia più diffusa, il nome del supplì viene da questa parola francese.",
+          "answer": "Cos'è surprise?",
+          "accept": ["En surprise", "Sorpresa"],
+          "source": "https://en.wikipedia.org/wiki/Suppl%C3%AC",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

@@ -148,6 +148,17 @@
       "playableVerified": true
     },
     {
+      "id": "medici-in-tv",
+      "name": "Medici in TV",
+      "group": "inventate",
+      "emoji": "🩺",
+      "description": "Dr. House, Grey's Anatomy, Scrubs, Doc: la corsia in serie.",
+      "file": "categories/medici-in-tv.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
       "id": "nomi-d-arte",
       "name": "Nomi d'arte",
       "group": "inventate",
@@ -170,12 +181,45 @@
       "playableVerified": true
     },
     {
+      "id": "roba-da-boomer",
+      "name": "Roba da boomer",
+      "group": "inventate",
+      "emoji": "📼",
+      "description": "L'Italia dei nostri genitori: lire, Carosello, gettoni.",
+      "file": "categories/roba-da-boomer.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "roma",
+      "name": "Roma e dintorni",
+      "group": "inventate",
+      "emoji": "🛵",
+      "description": "Quartieri, monumenti, romanesco e gite fuori porta.",
+      "file": "categories/roma.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
       "id": "sanremo",
       "name": "Sanremo",
       "group": "inventate",
       "emoji": "🌺",
       "description": "Vincitori, gaffe e momenti iconici del Festival.",
       "file": "categories/sanremo.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "serie-tv",
+      "name": "Serie TV",
+      "group": "inventate",
+      "emoji": "🍿",
+      "description": "Da Friends a Mare Fuori: binge-watching certificato.",
+      "file": "categories/serie-tv.json",
       "variants": 15,
       "unverified": 0,
       "playableVerified": true

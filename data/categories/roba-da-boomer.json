@@ -1,0 +1,137 @@
+{
+  "id": "roba-da-boomer",
+  "name": "Roba da boomer",
+  "group": "inventate",
+  "emoji": "📼",
+  "description": "L'Italia dei nostri genitori: lire, Carosello, gettoni.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Dal 1957 al 1977, ogni sera dopo il telegiornale, la pubblicità in TV arrivava con questo programma: poi tutti a nanna.",
+          "answer": "Cos'è Carosello?",
+          "source": "https://www.panorama.it/lifestyle/carosello-pubblicita-televisione-dal-1957-al-1977",
+          "verified": true
+        },
+        {
+          "clue": "La moneta italiana sostituita dall'euro: ne servivano 1936,27 per fare un euro.",
+          "answer": "Cos'è la lira?",
+          "accept": ["Lira", "Lire"],
+          "notes": "Gli euro sono arrivati in tasca il 1° gennaio 2002.",
+          "source": "https://www.trend-online.com/opinioni/lira-moneta-italia/",
+          "verified": true
+        },
+        {
+          "clue": "Il ragioniere più sfortunato d'Italia: Paolo Villaggio lo creò nei suoi libri e lo portò al cinema nel 1975.",
+          "answer": "Chi è Fantozzi?",
+          "accept": ["Ugo Fantozzi"],
+          "source": "https://tg24.sky.it/spettacolo/2017/07/03/ugo-fantozzi-chi-era-il-ragioniere",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il pulcino di Carosello nato nel 1963 per il detersivo Ava: non era nero, era solo sporco.",
+          "answer": "Chi è Calimero?",
+          "source": "https://en.wikipedia.org/wiki/Calimero",
+          "verified": true
+        },
+        {
+          "clue": "Il concorso a pronostici sulle partite di calcio, nato nel 1946 con la schedina Sisal.",
+          "answer": "Cos'è il Totocalcio?",
+          "accept": ["Schedina"],
+          "source": "https://tg24.sky.it/sport/2026/05/05/totocalcio-schedina-80-anni",
+          "verified": true
+        },
+        {
+          "clue": "Dal 1955 conduceva Lascia o raddoppia?, il primo quiz della TV italiana; nel 1970 arrivò il suo Rischiatutto.",
+          "answer": "Chi è Mike Bongiorno?",
+          "accept": ["Mike"],
+          "notes": "Rischiatutto era ispirato proprio a Jeopardy!",
+          "source": "https://www.sorrisi.com/tv/programmi/mike-bongiorno-il-papa-dei-telequiz/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Dal 1990 il suo volto comparve sulle 1000 lire: fu il primo omaggio a una donna su una banconota italiana.",
+          "answer": "Chi è Maria Montessori?",
+          "accept": ["Montessori"],
+          "source": "https://u-pad.unimc.it/retrieve/951b7167-8120-4d0d-be71-c8be42fda646/2022-05-24-Banconota-commemorativa-di-Maria-Montessori-1990.pdf",
+          "verified": true
+        },
+        {
+          "clue": "Sulla banconota da 100.000 lire c'era il suo ritratto e, sul retro, la sua Canestra di frutta.",
+          "answer": "Chi è Caravaggio?",
+          "source": "https://www.we-wealth.com/news/pleasure-assets/monete-francobolli/caravaggio-canestra-100-000-lire-milano-nascosta",
+          "verified": true
+        },
+        {
+          "clue": "Il presidente della Repubblica che esultò in tribuna al Bernabéu per la finale dei Mondiali del 1982.",
+          "answer": "Chi è Sandro Pertini?",
+          "accept": ["Pertini"],
+          "source": "https://www.ilpost.it/2012/07/11/italia-germania-spagna-82/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "La moneta bimetallica coniata dal 1982, con il centro in bronzital e l'anello in acmonital.",
+          "answer": "Cos'è la moneta da 500 lire?",
+          "accept": ["500 lire"],
+          "source": "https://en.numista.com/302",
+          "verified": true
+        },
+        {
+          "clue": "Il programma di Enzo Tortora, dal 1977, con un pappagallo che i concorrenti dovevano far parlare.",
+          "answer": "Cos'è Portobello?",
+          "source": "https://www.sorrisi.com/tv/portobello-ecco-comera-il-mitico-programma-tv-di-enzo-tortora/",
+          "verified": true
+        },
+        {
+          "clue": "Altro che fare 13: la prima schedina Sisal, nel 1946, chiedeva di indovinare questo numero di partite.",
+          "answer": "Cosa sono 12 partite?",
+          "accept": ["12", "Dodici"],
+          "source": "https://tg24.sky.it/sport/2026/05/05/totocalcio-schedina-80-anni",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il milanese che nel 1946 indovinò tutti i risultati della prima schedina Sisal.",
+          "answer": "Chi è Emilio Biasetti?",
+          "accept": ["Biasetti"],
+          "source": "https://tg24.sky.it/sport/2026/05/05/totocalcio-schedina-80-anni",
+          "verified": true
+        },
+        {
+          "clue": "Fu lei a salutare il pubblico nell'ultima puntata di Carosello, il 1° gennaio 1977.",
+          "answer": "Chi è Raffaella Carrà?",
+          "accept": ["Carrà", "Raffaella"],
+          "source": "https://www.ilgiornale.it/news/stato-simbolo-degli-anni-boom-e-dellottimismo-libro-ne-1799658.html",
+          "verified": true
+        },
+        {
+          "clue": "I fratelli Nino e Toni che, con Ignazio Colnaghi, crearono Calimero.",
+          "answer": "Chi sono i Pagot?",
+          "accept": ["Fratelli Pagot", "Pagot"],
+          "source": "https://en.wikipedia.org/wiki/Calimero",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

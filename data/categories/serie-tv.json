@@ -1,0 +1,137 @@
+{
+  "id": "serie-tv",
+  "name": "Serie TV",
+  "group": "inventate",
+  "emoji": "🍿",
+  "description": "Da Friends a Mare Fuori: binge-watching certificato.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il caffè del Greenwich Village dove si ritrovano Rachel, Ross, Monica, Chandler, Joey e Phoebe.",
+          "answer": "Cos'è il Central Perk?",
+          "accept": ["Central Perk"],
+          "notes": "Friends è andata in onda sulla NBC dal 1994 al 2004.",
+          "source": "https://www.looper.com/418411/friends-the-untold-truth-of-central-perk",
+          "verified": true
+        },
+        {
+          "clue": "Tute rosse e maschere di Dalí: la banda del Professore assalta la Zecca di Spagna.",
+          "answer": "Cos'è La casa di carta?",
+          "accept": ["La casa de papel", "Money Heist"],
+          "source": "https://movieplayer.it/serietv/la-casa-di-carta_5442/",
+          "verified": true
+        },
+        {
+          "clue": "Undici e la cittadina di Hawkins, Indiana, negli anni Ottanta: la serie Netflix dei fratelli Duffer.",
+          "answer": "Cos'è Stranger Things?",
+          "source": "https://en.wikipedia.org/wiki/Stranger_Things",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Professore di chimica in un liceo di Albuquerque, diventa un produttore di metanfetamina in Breaking Bad.",
+          "answer": "Chi è Walter White?",
+          "accept": ["Heisenberg", "Walter"],
+          "source": "https://en.wikipedia.org/wiki/Gus_Fring",
+          "verified": true
+        },
+        {
+          "clue": "La serie HBO, in onda dal 2011 al 2019, tratta dalle Cronache del ghiaccio e del fuoco di George R. R. Martin.",
+          "answer": "Cos'è Il Trono di Spade?",
+          "accept": ["Game of Thrones"],
+          "source": "https://www.ilpost.it/2012/03/30/trono-di-spade-in-10-punti/",
+          "verified": true
+        },
+        {
+          "clue": "La serie Rai, partita nel 2020, ambientata in un immaginario carcere minorile di Napoli.",
+          "answer": "Cos'è Mare Fuori?",
+          "source": "https://www.ilpost.it/2024/02/01/fenomeno-mare-fuori/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Serie sudcoreana del 2021: 456 persone piene di debiti rischiano la vita in giochi per bambini.",
+          "answer": "Cos'è Squid Game?",
+          "notes": "Netflix l'ha indicata come la sua serie più vista di sempre.",
+          "source": "https://mediaweek.com.au/squid-game-everything-you-need-to-know-about-the-sensational-netflix-survival-drama",
+          "verified": true
+        },
+        {
+          "clue": "Genny Savastano e Ciro Di Marzio nella serie Sky del 2014 tratta dal libro di Roberto Saviano.",
+          "answer": "Cos'è Gomorra?",
+          "accept": ["Gomorra - La serie"],
+          "source": "https://en.wikipedia.org/wiki/Gomorrah_(TV_series)",
+          "verified": true
+        },
+        {
+          "clue": "La fuoriserie italiana del 2007 ambientata sul set della soap Gli occhi del cuore, diretta da René Ferretti.",
+          "answer": "Cos'è Boris?",
+          "notes": "Il titolo è il nome del pesce rosso del regista Ferretti.",
+          "source": "https://www.ilpost.it/2021/02/16/boris-successo-perche/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "L'azienda di carta di Scranton, in Pennsylvania, dove lavora Michael Scott in The Office.",
+          "answer": "Cos'è la Dunder Mifflin?",
+          "accept": ["Dunder Mifflin"],
+          "source": "https://en.wikipedia.org/wiki/Michael_Scott_(The_Office)",
+          "verified": true
+        },
+        {
+          "clue": "Architetto newyorkese che nel 2030 racconta ai figli come ha conosciuto la loro madre.",
+          "answer": "Chi è Ted Mosby?",
+          "accept": ["Ted"],
+          "source": "https://www.ilpost.it/2014/04/02/finale-how-i-met-your-mother/",
+          "verified": true
+        },
+        {
+          "clue": "La città immaginaria del commissario Montalbano, ispirata a Porto Empedocle, il paese natale di Camilleri.",
+          "answer": "Cos'è Vigàta?",
+          "accept": ["Vigata"],
+          "source": "https://siviaggia.it/idee-di-viaggio/vigata-sicilia-immaginaria-andrea-camilleri-commissario-montalbano/238418/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La catena di fast food di pollo fritto che Gus Fring usa come copertura in Breaking Bad.",
+          "answer": "Cos'è Los Pollos Hermanos?",
+          "accept": ["Pollos Hermanos"],
+          "source": "https://en.wikipedia.org/wiki/Gus_Fring",
+          "verified": true
+        },
+        {
+          "clue": "L'isolotto di Napoli dove si trova il vero carcere minorile che ha ispirato Mare Fuori.",
+          "answer": "Cos'è Nisida?",
+          "source": "https://www.fanpage.it/napoli/dove-si-trova-il-vero-ipm-di-mare-fuori-il-carcere-minorile-di-napoli/",
+          "verified": true
+        },
+        {
+          "clue": "Il soprannome di Ciro Di Marzio, il personaggio interpretato da Marco D'Amore in Gomorra.",
+          "answer": "Cos'è l'Immortale?",
+          "accept": ["Immortale"],
+          "source": "https://en.wikipedia.org/wiki/Gomorrah_(TV_series)",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
