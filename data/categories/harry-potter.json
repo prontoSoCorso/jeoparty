@@ -1,0 +1,133 @@
+{
+  "id": "harry-potter",
+  "name": "Harry Potter",
+  "group": "custom",
+  "emoji": "⚡",
+  "description": "Il magico mondo creato da J.K. Rowling.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "La scuola di magia e stregoneria frequentata da Harry, Ron e Hermione.",
+          "answer": "Cos'è Hogwarts?",
+          "source": "https://it.wikipedia.org/wiki/Hogwarts",
+          "verified": true
+        },
+        {
+          "clue": "L'oggetto magico che permette di smistare i nuovi studenti nelle quattro Case.",
+          "answer": "Cos'è il Cappello Parlante?",
+          "source": "https://it.wikipedia.org/wiki/Oggetti_magici_di_Harry_Potter",
+          "verified": true
+        },
+        {
+          "clue": "Il preside di Hogwarts dai lunghi capelli e barba bianca, mentore di Harry.",
+          "answer": "Chi è Albus Silente?",
+          "accept": ["Silente", "Dumbledore"],
+          "source": "https://it.wikipedia.org/wiki/Albus_Silente",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "La piccola e velocissima palla dorata che i Cercatori devono catturare nel Quidditch.",
+          "answer": "Cos'è il Boccino d'Oro?",
+          "accept": ["Boccino d'oro", "Boccino"],
+          "source": "https://it.wikipedia.org/wiki/Quidditch",
+          "verified": true
+        },
+        {
+          "clue": "La fedele civetta delle nevi regalata ad Harry da Hagrid.",
+          "answer": "Chi è Edvige?",
+          "source": "https://it.wikipedia.org/wiki/Creature_magiche_di_Harry_Potter",
+          "verified": true
+        },
+        {
+          "clue": "La brillante strega nata babbana, migliore amica di Harry e Ron.",
+          "answer": "Chi è Hermione Granger?",
+          "accept": ["Hermione"],
+          "source": "https://it.wikipedia.org/wiki/Hermione_Granger",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il padrino di Harry Potter, fuggito dalla prigione di Azkaban.",
+          "answer": "Chi è Sirius Black?",
+          "accept": ["Sirius", "Felpato"],
+          "source": "https://it.wikipedia.org/wiki/Sirius_Black",
+          "verified": true
+        },
+        {
+          "clue": "I guardiani oscuri di Azkaban che si nutrono della felicità umana.",
+          "answer": "Chi sono i Dissennatori?",
+          "accept": ["Dissennatori"],
+          "source": "https://it.wikipedia.org/wiki/Creature_magiche_di_Harry_Potter",
+          "verified": true
+        },
+        {
+          "clue": "La creatura magica con il corpo di cavallo e la testa e le ali di un'aquila; un esemplare famoso si chiama Fierobecco.",
+          "answer": "Cos'è un Ippogrifo?",
+          "source": "https://it.wikipedia.org/wiki/Creature_magiche_di_Harry_Potter",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il vero nome di nascita dell'Oscuro Signore, Lord Voldemort.",
+          "answer": "Chi è Tom Riddle?",
+          "accept": ["Tom Marvolo Riddle", "Tom Orvoloson Riddle"],
+          "source": "https://it.wikipedia.org/wiki/Lord_Voldemort",
+          "verified": true
+        },
+        {
+          "clue": "Un oggetto oscuro in cui un mago oscuro ha nascosto un frammento della propria anima per raggiungere l'immortalità.",
+          "answer": "Cos'è un Horcrux?",
+          "source": "https://it.wikipedia.org/wiki/Oggetti_magici_di_Harry_Potter",
+          "verified": true
+        },
+        {
+          "clue": "Il binario nascosto della stazione di King's Cross da cui parte l'Espresso per Hogwarts.",
+          "answer": "Cos'è il binario 9 e 3/4?",
+          "accept": ["9 e 3/4", "Nove e tre quarti"],
+          "source": "https://it.wikipedia.org/wiki/Luoghi_di_Harry_Potter",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il professore di Pozioni che ha fatto il doppio gioco per proteggere Harry in nome dell'amore per Lily Evans.",
+          "answer": "Chi è Severus Piton?",
+          "accept": ["Piton", "Severus Snape", "Snape"],
+          "source": "https://it.wikipedia.org/wiki/Severus_Piton",
+          "verified": true
+        },
+        {
+          "clue": "I seguaci più fedeli di Lord Voldemort, marchiati con il Segno Oscuro.",
+          "answer": "Chi sono i Mangiamorte?",
+          "source": "https://it.wikipedia.org/wiki/Mangiamorte",
+          "verified": true
+        },
+        {
+          "clue": "La pozione dorata che dona fortuna a chi la beve, nota anche come 'fortuna liquida'.",
+          "answer": "Cos'è la Felix Felicis?",
+          "accept": ["Felix Felicis"],
+          "source": "https://it.wikipedia.org/wiki/Oggetti_magici_di_Harry_Potter",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

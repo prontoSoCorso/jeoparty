@@ -1,0 +1,134 @@
+{
+  "id": "scienza",
+  "name": "Scienza",
+  "group": "custom",
+  "emoji": "🔬",
+  "description": "Domande su chimica, biologia e scoperte scientifiche.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "La formula chimica dell'acqua, composta da due atomi di idrogeno e uno di ossigeno.",
+          "answer": "Cos'è H2O?",
+          "source": "https://it.wikipedia.org/wiki/Acqua",
+          "verified": true
+        },
+        {
+          "clue": "Il gas che costituisce circa il 21% dell'atmosfera terrestre ed è vitale per la respirazione umana.",
+          "answer": "Cos'è l'ossigeno?",
+          "accept": ["O2"],
+          "source": "https://it.wikipedia.org/wiki/Ossigeno",
+          "verified": true
+        },
+        {
+          "clue": "Il processo biochimico con cui le piante e altri organismi producono nutrimento sfruttando la luce del sole.",
+          "answer": "Cos'è la fotosintesi clorofilliana?",
+          "accept": ["Fotosintesi"],
+          "source": "https://it.wikipedia.org/wiki/Fotosintesi_clorofilliana",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "L'organulo cellulare che contiene il DNA negli eucarioti.",
+          "answer": "Cos'è il nucleo?",
+          "source": "https://it.wikipedia.org/wiki/Nucleo_cellulare",
+          "verified": true
+        },
+        {
+          "clue": "L'elemento chimico metallico, noto storicamente come argento vivo, che si presenta liquido a temperatura ambiente.",
+          "answer": "Cos'è il mercurio?",
+          "source": "https://it.wikipedia.org/wiki/Mercurio_(elemento_chimico)",
+          "verified": true
+        },
+        {
+          "clue": "L'osso più lungo, voluminoso e resistente del corpo umano, situato nella coscia.",
+          "answer": "Cos'è il femore?",
+          "source": "https://it.wikipedia.org/wiki/Femore",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il medico e biologo scozzese che scoprì la penicillina nel 1928.",
+          "answer": "Chi è Alexander Fleming?",
+          "accept": ["Fleming"],
+          "source": "https://it.wikipedia.org/wiki/Alexander_Fleming",
+          "verified": true
+        },
+        {
+          "clue": "Il fisico teorico diventato celebre in tutto il mondo per l'equazione E=mc² e la teoria della relatività.",
+          "answer": "Chi è Albert Einstein?",
+          "accept": ["Einstein"],
+          "source": "https://it.wikipedia.org/wiki/Albert_Einstein",
+          "verified": true
+        },
+        {
+          "clue": "Il celebre naturalista britannico che formulò la teoria dell'evoluzione delle specie per selezione naturale.",
+          "answer": "Chi è Charles Darwin?",
+          "accept": ["Darwin"],
+          "source": "https://it.wikipedia.org/wiki/Charles_Darwin",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Particella subatomica con carica elettrica negativa che orbita attorno al nucleo dell'atomo.",
+          "answer": "Cos'è l'elettrone?",
+          "source": "https://it.wikipedia.org/wiki/Elettrone",
+          "verified": true
+        },
+        {
+          "clue": "La complessa macromolecola a forma di doppia elica che contiene le informazioni genetiche degli esseri viventi.",
+          "answer": "Cos'è il DNA?",
+          "accept": ["Acido desossiribonucleico"],
+          "source": "https://it.wikipedia.org/wiki/DNA",
+          "verified": true
+        },
+        {
+          "clue": "La scienziata vincitrice di due premi Nobel (Fisica e Chimica) celebre per i suoi studi sulla radioattività e la scoperta del polonio e del radio.",
+          "answer": "Chi è Marie Curie?",
+          "accept": ["Curie", "Maria Skłodowska", "Marie Sklodowska Curie"],
+          "source": "https://it.wikipedia.org/wiki/Marie_Curie",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Lo scienziato che ha formulato le tre leggi della dinamica e la legge di gravitazione universale.",
+          "answer": "Chi è Isaac Newton?",
+          "accept": ["Newton"],
+          "source": "https://it.wikipedia.org/wiki/Isaac_Newton",
+          "verified": true
+        },
+        {
+          "clue": "Il chimico russo che nel 1869 pubblicò la prima versione della tavola periodica degli elementi.",
+          "answer": "Chi è Dmitrij Mendeleev?",
+          "accept": ["Mendeleev", "Mendeleev"],
+          "source": "https://it.wikipedia.org/wiki/Dmitrij_Ivanovi%C4%8D_Mendeleev",
+          "verified": true
+        },
+        {
+          "clue": "Il biologo, matematico e monaco agostiniano considerato il precursore della genetica moderna grazie ai suoi esperimenti sulle piante di pisello.",
+          "answer": "Chi è Gregor Mendel?",
+          "accept": ["Mendel"],
+          "source": "https://it.wikipedia.org/wiki/Gregor_Mendel",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

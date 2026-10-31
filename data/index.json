@@ -38,6 +38,28 @@
       "playableVerified": true
     },
     {
+      "id": "cartoni-2000-2010",
+      "name": "Cartoni 2000-2010",
+      "group": "custom",
+      "emoji": "📺",
+      "description": "I grandi classici dell'animazione televisiva del primo decennio del 2000.",
+      "file": "categories/cartoni-2000-2010.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "harry-potter",
+      "name": "Harry Potter",
+      "group": "custom",
+      "emoji": "⚡",
+      "description": "Il magico mondo creato da J.K. Rowling.",
+      "file": "categories/harry-potter.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
       "id": "high-school-musical",
       "name": "High School Musical",
       "group": "custom",
@@ -45,6 +67,39 @@
       "description": "La saga Disney Channel dei Wildcats della East High.",
       "file": "categories/high-school-musical.json",
       "variants": 16,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "scienza",
+      "name": "Scienza",
+      "group": "custom",
+      "emoji": "🔬",
+      "description": "Domande su chimica, biologia e scoperte scientifiche.",
+      "file": "categories/scienza.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "spazio",
+      "name": "Spazio",
+      "group": "custom",
+      "emoji": "🚀",
+      "description": "L'astronomia, il sistema solare e l'esplorazione dell'universo.",
+      "file": "categories/spazio.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "topolino-e-amici",
+      "name": "Topolino e i suoi amici",
+      "group": "custom",
+      "emoji": "🐭",
+      "description": "L'universo dei celebri personaggi nati dalla matita di Walt Disney.",
+      "file": "categories/topolino-e-amici.json",
+      "variants": 15,
       "unverified": 0,
       "playableVerified": true
     },

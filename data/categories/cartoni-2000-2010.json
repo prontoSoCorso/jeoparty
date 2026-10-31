@@ -1,0 +1,133 @@
+{
+  "id": "cartoni-2000-2010",
+  "name": "Cartoni 2000-2010",
+  "group": "custom",
+  "emoji": "📺",
+  "description": "I grandi classici dell'animazione televisiva del primo decennio del 2000.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Spugna gialla che vive in un ananas in fondo al mare nella città di Bikini Bottom.",
+          "answer": "Chi è SpongeBob SquarePants?",
+          "accept": ["SpongeBob", "Spongebob"],
+          "source": "https://it.wikipedia.org/wiki/SpongeBob",
+          "verified": true
+        },
+        {
+          "clue": "Il ragazzino di 10 anni che grazie a un orologio alieno chiamato Omnitrix può trasformarsi in diversi extraterrestri.",
+          "answer": "Chi è Ben Tennyson?",
+          "accept": ["Ben 10", "Ben"],
+          "source": "https://it.wikipedia.org/wiki/Ben_10",
+          "verified": true
+        },
+        {
+          "clue": "La fata della Fiamma del Drago, originaria di Domino e leader del Winx Club.",
+          "answer": "Chi è Bloom?",
+          "source": "https://it.wikipedia.org/wiki/Winx_Club",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Due fratellastri che trascorrono le vacanze estive costruendo invenzioni impossibili, mentre il loro ornitorinco combatte il Dr. Doofenshmirtz.",
+          "answer": "Chi sono Phineas e Ferb?",
+          "source": "https://it.wikipedia.org/wiki/Phineas_e_Ferb",
+          "verified": true
+        },
+        {
+          "clue": "Le tre bambine (Lolly, Dolly e Molly) create dal Professor Utonium con zucchero, cannella, ogni cosa è bella e il Chemical X.",
+          "answer": "Chi sono le Superchicche?",
+          "accept": ["Superchicche", "The Powerpuff Girls"],
+          "source": "https://it.wikipedia.org/wiki/Le_Superchicche",
+          "verified": true
+        },
+        {
+          "clue": "Il piccolo genio occhialuto che ha un laboratorio segreto gigante in camera sua, spesso infastidito dalla sorella maggiore Dee Dee.",
+          "answer": "Chi è Dexter?",
+          "source": "https://it.wikipedia.org/wiki/Il_laboratorio_di_Dexter",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il bambino di 10 anni che ha come padrini fatati Cosmo e Wanda.",
+          "answer": "Chi è Timmy Turner?",
+          "accept": ["Timmy"],
+          "source": "https://it.wikipedia.org/wiki/Due_fantagenitori",
+          "verified": true
+        },
+        {
+          "clue": "Il cane rosa, perennemente spaventato, che vive nella città di Altrove con i padroni Marilù e Giustino.",
+          "answer": "Chi è Leone?",
+          "accept": ["Leone il cane fifone"],
+          "source": "https://it.wikipedia.org/wiki/Leone_il_cane_fifone",
+          "verified": true
+        },
+        {
+          "clue": "Il trio di amici del quartiere di Peach Creek (un cul-de-sac) sempre alla ricerca di soldi per comprare delle enormi 'spaccamascelle'.",
+          "answer": "Chi sono Ed, Edd e Eddy?",
+          "source": "https://it.wikipedia.org/wiki/Ed,_Edd_%26_Eddy",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Ragazza cheerleader che, nel tempo libero, combatte il crimine insieme al suo amico Ron Stoppable e alla talpa senza pelo Rufus.",
+          "answer": "Chi è Kim Possible?",
+          "accept": ["Kim"],
+          "source": "https://it.wikipedia.org/wiki/Kim_Possible",
+          "verified": true
+        },
+        {
+          "clue": "Le tre liceali di Beverly Hills (Sam, Clover e Alex) che lavorano in segreto come agenti per l'organizzazione WOOHP.",
+          "answer": "Chi sono le Totally Spies?",
+          "accept": ["Totally Spies!"],
+          "source": "https://it.wikipedia.org/wiki/Totally_Spies!_-_Che_magnifiche_spie!",
+          "verified": true
+        },
+        {
+          "clue": "Il leader senza superpoteri dei Teen Titans, celebre spalla di Batman.",
+          "answer": "Chi è Robin?",
+          "source": "https://it.wikipedia.org/wiki/Teen_Titans_(serie_animata)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "L'ultimo dominatore dell'aria, risvegliato da un iceberg dopo 100 anni per riportare la pace tra le quattro nazioni.",
+          "answer": "Chi è Aang?",
+          "source": "https://it.wikipedia.org/wiki/Avatar_-_La_leggenda_di_Aang",
+          "verified": true
+        },
+        {
+          "clue": "Le cinque ragazze (Will, Irma, Taranee, Cornelia e Hay Lin) scelte come Guardiane della Muraglia per proteggere Kandrakar.",
+          "answer": "Chi sono le W.I.T.C.H.?",
+          "accept": ["Witch", "WITCH"],
+          "source": "https://it.wikipedia.org/wiki/W.I.T.C.H._(serie_animata)",
+          "verified": true
+        },
+        {
+          "clue": "L'organizzazione mondiale di bambini, divisa in settori, che combatte con armi fai-da-te contro gli adulti dispotici; i protagonisti sono il Settore V.",
+          "answer": "Cos'è il Kommando Nuovi Diavoli?",
+          "accept": ["KND", "Nome in codice: Kommando Nuovi Diavoli", "Kids Next Door"],
+          "source": "https://it.wikipedia.org/wiki/Nome_in_codice:_Kommando_Nuovi_Diavoli",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

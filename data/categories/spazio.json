@@ -1,0 +1,128 @@
+{
+  "id": "spazio",
+  "name": "Spazio",
+  "group": "custom",
+  "emoji": "🚀",
+  "description": "L'astronomia, il sistema solare e l'esplorazione dell'universo.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il quarto pianeta del sistema solare, conosciuto anche come Pianeta Rosso.",
+          "answer": "Cos'è Marte?",
+          "source": "https://it.wikipedia.org/wiki/Marte_(astronomia)",
+          "verified": true
+        },
+        {
+          "clue": "La stella madre del nostro sistema solare, attorno alla quale orbitano gli otto pianeti principali.",
+          "answer": "Cos'è il Sole?",
+          "source": "https://it.wikipedia.org/wiki/Sole",
+          "verified": true
+        },
+        {
+          "clue": "L'unico satellite naturale della Terra.",
+          "answer": "Cos'è la Luna?",
+          "source": "https://it.wikipedia.org/wiki/Luna",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "La galassia a spirale che ospita il nostro sistema solare.",
+          "answer": "Cos'è la Via Lattea?",
+          "source": "https://it.wikipedia.org/wiki/Via_Lattea",
+          "verified": true
+        },
+        {
+          "clue": "Il sesto pianeta del sistema solare, famoso in tutto il mondo per il suo vistoso e luminoso sistema di anelli.",
+          "answer": "Cos'è Saturno?",
+          "source": "https://it.wikipedia.org/wiki/Saturno_(astronomia)",
+          "verified": true
+        },
+        {
+          "clue": "Il cosmonauta sovietico che nel 1961 divenne il primo essere umano a viaggiare nello spazio.",
+          "answer": "Chi è Jurij Gagarin?",
+          "accept": ["Yuri Gagarin", "Gagarin"],
+          "source": "https://it.wikipedia.org/wiki/Jurij_Gagarin",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il primo astronauta a mettere piede sulla Luna durante la missione Apollo 11 nel 1969.",
+          "answer": "Chi è Neil Armstrong?",
+          "accept": ["Armstrong"],
+          "source": "https://it.wikipedia.org/wiki/Neil_Armstrong",
+          "verified": true
+        },
+        {
+          "clue": "Una regione dello spaziotempo con un campo gravitazionale così intenso che nulla al suo interno, nemmeno la luce, può sfuggire all'esterno.",
+          "answer": "Cos'è un buco nero?",
+          "source": "https://it.wikipedia.org/wiki/Buco_nero",
+          "verified": true
+        },
+        {
+          "clue": "L'unità di misura astronomica che definisce la distanza percorsa dalla radiazione elettromagnetica nel vuoto nell'arco di dodici mesi.",
+          "answer": "Cos'è l'anno luce?",
+          "source": "https://it.wikipedia.org/wiki/Anno_luce",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il pianeta più grande del nostro sistema solare, noto per la sua Grande Macchia Rossa.",
+          "answer": "Cos'è Giove?",
+          "source": "https://it.wikipedia.org/wiki/Giove_(astronomia)",
+          "verified": true
+        },
+        {
+          "clue": "Il corpo celeste declassato a 'pianeta nano' nel 2006 dall'Unione Astronomica Internazionale.",
+          "answer": "Cos'è Plutone?",
+          "source": "https://it.wikipedia.org/wiki/Plutone_(astronomia)",
+          "verified": true
+        },
+        {
+          "clue": "Il laboratorio orbitante abitato ininterrottamente dal 2000, gestito dalla cooperazione di cinque agenzie spaziali.",
+          "answer": "Cos'è la Stazione Spaziale Internazionale?",
+          "accept": ["ISS", "Stazione Spaziale"],
+          "source": "https://it.wikipedia.org/wiki/Stazione_spaziale_internazionale",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il celebre telescopio spaziale lanciato in orbita nel 1990 dalla NASA, che prende il nome da un famoso astronomo.",
+          "answer": "Cos'è l'Hubble?",
+          "accept": ["Telescopio Hubble", "Hubble Space Telescope"],
+          "source": "https://it.wikipedia.org/wiki/Telescopio_spaziale_Hubble",
+          "verified": true
+        },
+        {
+          "clue": "L'enorme ed estremamente luminosa esplosione stellare che segna la fine del ciclo vitale di alcune stelle massive.",
+          "answer": "Cos'è una supernova?",
+          "source": "https://it.wikipedia.org/wiki/Supernova",
+          "verified": true
+        },
+        {
+          "clue": "La cagnolina sovietica imbarcata sullo Sputnik 2 nel 1957, diventata il primo animale a orbitare attorno alla Terra.",
+          "answer": "Chi è Laika?",
+          "source": "https://it.wikipedia.org/wiki/Laika",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

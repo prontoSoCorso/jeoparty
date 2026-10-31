@@ -1,0 +1,136 @@
+{
+  "id": "topolino-e-amici",
+  "name": "Topolino e i suoi amici",
+  "group": "custom",
+  "emoji": "🐭",
+  "description": "L'universo dei celebri personaggi nati dalla matita di Walt Disney.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il fedele cane da compagnia di Topolino, che a differenza di Pippo non parla e cammina a quattro zampe.",
+          "answer": "Chi è Pluto?",
+          "source": "https://it.wikipedia.org/wiki/Pluto_(Disney)",
+          "verified": true
+        },
+        {
+          "clue": "La fidanzata storica di Topolino, creata insieme a lui nel 1928, spesso vestita con un abito a pois e un fiocco in testa.",
+          "answer": "Chi è Minni?",
+          "accept": ["Minnie", "Minerva Mouse"],
+          "source": "https://it.wikipedia.org/wiki/Minni",
+          "verified": true
+        },
+        {
+          "clue": "Il papero più ricco del mondo, zio di Paperino, che ama fare il bagno nel denaro all'interno del suo Deposito.",
+          "answer": "Chi è Paperon de' Paperoni?",
+          "accept": ["Zio Paperone", "Paperone", "Scrooge McDuck"],
+          "source": "https://it.wikipedia.org/wiki/Paperon_de%27_Paperoni",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "L'eterna fidanzata di Paperino, spesso raffigurata con un fiocco in testa.",
+          "answer": "Chi è Paperina?",
+          "accept": ["Daisy Duck"],
+          "source": "https://it.wikipedia.org/wiki/Paperina",
+          "verified": true
+        },
+        {
+          "clue": "Il migliore amico di Topolino, un cane antropomorfo alto, goffo, sbadato ma di buon cuore.",
+          "answer": "Chi è Pippo?",
+          "accept": ["Goofy"],
+          "source": "https://it.wikipedia.org/wiki/Pippo",
+          "verified": true
+        },
+        {
+          "clue": "I tre nipotini gemelli di Paperino, membri del corpo scoutistico delle Giovani Marmotte.",
+          "answer": "Chi sono Qui, Quo, Qua?",
+          "accept": ["Qui Quo Qua", "Qui, Quo e Qua", "Huey, Dewey, and Louie"],
+          "source": "https://it.wikipedia.org/wiki/Qui,_Quo,_Qua",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Lo storico e corpulento nemico di Topolino, un grosso gatto antropomorfo spesso dedito al crimine.",
+          "answer": "Chi è Pietro Gambadilegno?",
+          "accept": ["Pietro", "Gambadilegno"],
+          "source": "https://it.wikipedia.org/wiki/Pietro_Gambadilegno",
+          "verified": true
+        },
+        {
+          "clue": "Il papero baciato dalla Dea Bendata, cugino presuntuoso di Paperino e suo rivale in amore per Paperina.",
+          "answer": "Chi è Gastone?",
+          "accept": ["Gastone Paperone"],
+          "source": "https://it.wikipedia.org/wiki/Gastone_Paperone",
+          "verified": true
+        },
+        {
+          "clue": "L'eccentrico e geniale inventore di Paperopoli, spesso accompagnato dal suo piccolo robottino aiutante Edi.",
+          "answer": "Chi è Archimede Pitagorico?",
+          "accept": ["Archimede"],
+          "source": "https://it.wikipedia.org/wiki/Archimede_Pitagorico",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il criminale incappucciato che firma i suoi messaggi con una macchia d'inchiostro, tra i nemici più intelligenti di Topolino.",
+          "answer": "Chi è Macchia Nera?",
+          "source": "https://it.wikipedia.org/wiki/Macchia_Nera",
+          "verified": true
+        },
+        {
+          "clue": "L'identità segreta e supereroistica di Paperino, che difende Paperopoli di notte armato dei gadget di Archimede.",
+          "answer": "Chi è Paperinik?",
+          "accept": ["PK"],
+          "source": "https://it.wikipedia.org/wiki/Paperinik",
+          "verified": true
+        },
+        {
+          "clue": "La fattucchiera che vive alle pendici del Vesuvio e cerca disperatamente di rubare la Numero Uno a Zio Paperone.",
+          "answer": "Chi è Amelia?",
+          "accept": ["Amelia la strega che ammalia"],
+          "source": "https://it.wikipedia.org/wiki/Amelia_(Disney)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "L'amico di Topolino proveniente dal futuro (o dalla preistoria, in altre versioni) che mangia naftalina e tira fuori oggetti assurdi dal gonnellino.",
+          "answer": "Chi è Eta Beta?",
+          "source": "https://it.wikipedia.org/wiki/Eta_Beta",
+          "verified": true
+        },
+        {
+          "clue": "Il principale rivale in affari di Zio Paperone, un miliardario che a differenza sua sperpera il denaro e quando si arrabbia mangia la sua bombetta.",
+          "answer": "Chi è Rockerduck?",
+          "accept": ["John D. Rockerduck"],
+          "source": "https://it.wikipedia.org/wiki/Rockerduck",
+          "verified": true
+        },
+        {
+          "clue": "La banda di ladri goffi e mascherati, caratterizzati dal numero di matricola carceraria sul petto, nemici giurati del deposito di Zio Paperone.",
+          "answer": "Chi sono i Bassotti?",
+          "accept": ["Banda Bassotti"],
+          "source": "https://it.wikipedia.org/wiki/Banda_Bassotti",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
