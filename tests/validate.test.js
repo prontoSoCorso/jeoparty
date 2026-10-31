@@ -79,13 +79,23 @@ test('indice: solo categorie valide, ordinate per gruppo e nome', async () => {
   assert.match(unverifiedReport(catalog), /# Da verificare/);
 });
 
-test('dati veri: nessun errore, Custom con almeno 3 varianti, verified sempre con fonte', async () => {
+// Le 47 categorie del catalogo (PLAN §4); scienza e harry-potter oggi sono Custom tue, ma ci devono essere.
+const PLANNED = [
+  'prima-e-dopo', 'scienza', 'letteratura', 'storia-italia', 'storia-americana', 'minestrone', 'storia-mondo',
+  'etimologie', 'universita', 'sport', 'domande-stupide', 'animali-natura', 'regioni', 'capitali-usa', 'capitali',
+  'brindisi', 'shakespeare', 'fa-rima', 'in-comune', 'geografia', 'mitologia', 'opera-lirica', 'corpo-umano', 'cinema',
+  'violetta', 'high-school-musical', 'trap-italiana', 'ai', 'trash-italiano',
+  'meme', 'cartoni-2000', 'anime-manga', 'sanremo', 'tormentoni', 'videogiochi', 'disney-pixar', 'harry-potter',
+  'serie-tv', 'reality-talent', 'roma', 'nomi-d-arte', 'emoji-rebus', 'roba-da-boomer', 'merendine', 'medici-in-tv',
+  'leggende-bufale', 'slang',
+];
+
+test('dati veri: tutte le categorie del piano, nessun errore, Custom con almeno 3 varianti, verified sempre con fonte', async () => {
   const { catalog, index } = await rebuildIndex(ROOT, { write: false });
   assert.deepEqual(catalog.issues.filter((i) => i.level === 'error'), []);
   const ids = index.categories.map((c) => c.id);
-  for (const id of ['violetta', 'high-school-musical', 'trap-italiana', 'ai', 'trash-italiano']) {
-    assert.ok(ids.includes(id), `manca la categoria ${id}`);
-  }
+  assert.equal(PLANNED.length, 47);
+  for (const id of PLANNED) assert.ok(ids.includes(id), `manca la categoria ${id}`);
   for (const { data } of catalog.entries) {
     for (const level of data.clues) {
       if (data.group === 'custom') assert.ok(level.variants.length >= MIN_VARIANTS_CUSTOM, `${data.id} ${level.value}`);
