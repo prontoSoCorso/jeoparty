@@ -1,0 +1,113 @@
+{
+  "id": "etimologie",
+  "name": "Etimologie",
+  "group": "classiche",
+  "emoji": "🔤",
+  "description": "Da dove vengono le parole che usiamo ogni giorno.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Viene dal greco: «tēle», lontano, e «phōnē», voce.",
+          "answer": "Cos'è il telefono?",
+          "verified": false
+        },
+        {
+          "clue": "Unisce il greco «autós», da sé, e il latino «mobilis»: si muove da sola.",
+          "answer": "Cos'è l'automobile?",
+          "accept": ["auto"],
+          "verified": false
+        },
+        {
+          "clue": "Viene dall'arabo «sukkar», e lo mettiamo nel caffè.",
+          "answer": "Cos'è lo zucchero?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Dal greco «deinós», terribile, e «sauros», lucertola.",
+          "answer": "Cos'è il dinosauro?",
+          "verified": false
+        },
+        {
+          "clue": "Prende il nome da un conte inglese che, si racconta, lo mangiava per non alzarsi dal tavolo da gioco.",
+          "answer": "Cos'è il sandwich?",
+          "accept": ["tramezzino"],
+          "verified": false
+        },
+        {
+          "clue": "Viene dal nome del dio greco Pan, capace di seminare un terrore improvviso.",
+          "answer": "Cos'è il panico?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il saluto «ciao» viene dal veneziano «s'ciavo», cioè questa parola.",
+          "answer": "Cos'è schiavo?",
+          "accept": ["vostro schiavo", "servo"],
+          "verified": false
+        },
+        {
+          "clue": "Viene dall'arabo «al-jabr», nel titolo di un trattato di matematica del IX secolo.",
+          "answer": "Cos'è l'algebra?",
+          "verified": false
+        },
+        {
+          "clue": "Prende il nome dal medico francese che nel 1789 propose un metodo di esecuzione uguale per tutti.",
+          "answer": "Cos'è la ghigliottina?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Dal latino «candidatus», vestito di bianco come chi nell'antica Roma cercava voti.",
+          "answer": "Cos'è il candidato?",
+          "verified": false
+        },
+        {
+          "clue": "Viene dal «banco rotto» del cambiavalute medievale che non riusciva più a pagare.",
+          "answer": "Cos'è la bancarotta?",
+          "verified": false
+        },
+        {
+          "clue": "Dal greco «sarkázein», alla lettera «lacerare la carne».",
+          "answer": "Cos'è il sarcasmo?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Viene dal numero di giorni di isolamento imposti, a partire dal Trecento, alle navi sospettate di portare la peste.",
+          "answer": "Cos'è la quarantena?",
+          "verified": false
+        },
+        {
+          "clue": "Viene dal cognome di un amministratore terriero inglese che nel 1880 i contadini irlandesi isolarono del tutto.",
+          "answer": "Cos'è il boicottaggio?",
+          "accept": ["boicottare", "boycott"],
+          "verified": false
+        },
+        {
+          "clue": "Viene dal nome dell'isola di Maiorca, scalo delle ceramiche spagnole dirette in Italia.",
+          "answer": "Cos'è la maiolica?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

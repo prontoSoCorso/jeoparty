@@ -1,0 +1,120 @@
+{
+  "id": "domande-stupide",
+  "name": "Domande stupide",
+  "group": "classiche",
+  "emoji": "🤡",
+  "description": "La risposta è già nell'indizio… se te ne accorgi.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Di che colore era il cavallo bianco di Napoleone?",
+          "answer": "Cos'è il bianco?",
+          "accept": ["bianco"],
+          "verified": false
+        },
+        {
+          "clue": "Di che colore è la maglia gialla del Tour de France?",
+          "answer": "Cos'è il giallo?",
+          "accept": ["giallo"],
+          "verified": false
+        },
+        {
+          "clue": "In che giorno della settimana cade il Venerdì santo?",
+          "answer": "Cos'è venerdì?",
+          "accept": ["il venerdì"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "In quale città si corre il Palio di Siena?",
+          "answer": "Cos'è Siena?",
+          "verified": false
+        },
+        {
+          "clue": "Quanti anni durò la guerra dei Trent'anni?",
+          "answer": "Cos'è 30?",
+          "accept": ["trenta"],
+          "verified": false
+        },
+        {
+          "clue": "Qual è la capitale del Messico?",
+          "answer": "Cos'è Città del Messico?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Quante giornate durarono le Cinque giornate di Milano, nel 1848?",
+          "answer": "Cos'è 5?",
+          "accept": ["cinque"],
+          "verified": false
+        },
+        {
+          "clue": "Chi scrisse il Canzoniere di Petrarca?",
+          "answer": "Chi è Petrarca?",
+          "accept": ["Francesco Petrarca"],
+          "verified": false
+        },
+        {
+          "clue": "In che anno cominciò la guerra anglo-americana del 1812?",
+          "answer": "Cos'è il 1812?",
+          "accept": ["1812"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Come si chiama il protagonista del romanzo David Copperfield, di Charles Dickens?",
+          "answer": "Chi è David Copperfield?",
+          "verified": false
+        },
+        {
+          "clue": "In che mese scoppiò a Parigi la Rivoluzione di luglio del 1830?",
+          "answer": "Cos'è luglio?",
+          "verified": false
+        },
+        {
+          "clue": "Da quale isola greca prende il nome la Venere di Milo?",
+          "answer": "Cos'è Milo?",
+          "accept": ["Milos"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Chi è l'autore della Vita di Benvenuto Cellini, autobiografia del Cinquecento?",
+          "answer": "Chi è Benvenuto Cellini?",
+          "accept": ["Cellini"],
+          "verified": false
+        },
+        {
+          "clue": "Chi fu sepolto nel Mausoleo di Adriano, oggi Castel Sant'Angelo?",
+          "answer": "Chi è Adriano?",
+          "accept": ["l'imperatore Adriano"],
+          "source": "https://en.wikipedia.org/wiki/Castel_Sant%27Angelo",
+          "verified": true
+        },
+        {
+          "clue": "In quale città furono firmati, nel 1957, i Trattati di Roma?",
+          "answer": "Cos'è Roma?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

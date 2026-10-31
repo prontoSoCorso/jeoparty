@@ -1,0 +1,109 @@
+{
+  "id": "prima-e-dopo",
+  "name": "Prima & Dopo",
+  "group": "classiche",
+  "emoji": "🔗",
+  "description": "Due titoli o frasi fusi: la fine del primo è l'inizio del secondo.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il film Disney con Simba + il premio al miglior film della Mostra di Venezia.",
+          "answer": "Cos'è Il re Leone d'oro?",
+          "verified": false
+        },
+        {
+          "clue": "Il bambino che non voleva crescere + i biscotti con le stelline di zucchero.",
+          "answer": "Chi è Peter Pan di Stelle?",
+          "verified": false
+        },
+        {
+          "clue": "La bambina della fiaba con il lupo + il colore delle auto di Maranello.",
+          "answer": "Chi è Cappuccetto Rosso Ferrari?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "La campana dell'orologio di Westminster + il kolossal del 1959 con la corsa delle bighe.",
+          "answer": "Cos'è Big Ben Hur?",
+          "verified": false
+        },
+        {
+          "clue": "Il cantante di Rocketman + il Beatle di Imagine.",
+          "answer": "Chi è Elton John Lennon?",
+          "verified": false
+        },
+        {
+          "clue": "Il film di Fellini con il bagno nella Fontana di Trevi + la canzone di Vasco Rossi del 1983.",
+          "answer": "Cos'è La dolce vita spericolata?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il ritratto più famoso del Louvre, col nome inglese + la secchiona di casa Simpson.",
+          "answer": "Chi è Mona Lisa Simpson?",
+          "verified": false
+        },
+        {
+          "clue": "La vetta più alta delle Alpi + la versione italiana di White Christmas.",
+          "answer": "Cos'è Monte Bianco Natale?",
+          "verified": false
+        },
+        {
+          "clue": "La cattedrale del romanzo di Victor Hugo + l'ereditiera degli alberghi Hilton.",
+          "answer": "Cos'è Notre-Dame de Paris Hilton?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "L'eroina in uniforme del cartone ambientato a Versailles + l'autore del Ritratto di Dorian Gray.",
+          "answer": "Chi è Lady Oscar Wilde?",
+          "verified": false
+        },
+        {
+          "clue": "La pizza con pomodoro, mozzarella e basilico + l'astrofisica che diresse l'Osservatorio di Trieste.",
+          "answer": "Cos'è la pizza Margherita Hack?",
+          "verified": false
+        },
+        {
+          "clue": "Il pastore di «I have a dream» + il gorilla gigante in cima all'Empire State Building.",
+          "answer": "Chi è Martin Luther King Kong?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La bibita nata ad Atlanta + il tribuno che nel Trecento prese il potere a Roma.",
+          "answer": "Chi è Coca-Cola di Rienzo?",
+          "verified": false
+        },
+        {
+          "clue": "La piazza principale di Venezia + il mercante del Milione + il punto più a nord della Terra.",
+          "answer": "Cos'è Piazza San Marco Polo Nord?",
+          "verified": false
+        },
+        {
+          "clue": "Il dittatore ucciso alle Idi di marzo + lo scrittore de La luna e i falò.",
+          "answer": "Chi è Giulio Cesare Pavese?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

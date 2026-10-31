@@ -1,0 +1,118 @@
+{
+  "id": "minestrone",
+  "name": "Minestrone",
+  "group": "classiche",
+  "emoji": "🍲",
+  "description": "Un po' di tutto, senza un tema preciso.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Cenerentola la perde allo scoccare della mezzanotte.",
+          "answer": "Cos'è la scarpetta di cristallo?",
+          "accept": ["scarpetta", "scarpa di cristallo"],
+          "verified": false
+        },
+        {
+          "clue": "Secondo la superstizione, romperne uno porta sette anni di sfortuna.",
+          "answer": "Cos'è lo specchio?",
+          "verified": false
+        },
+        {
+          "clue": "La città della Sagrada Família di Gaudí.",
+          "answer": "Cos'è Barcellona?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Lo scultore del David conservato alla Galleria dell'Accademia di Firenze.",
+          "answer": "Chi è Michelangelo?",
+          "accept": ["Michelangelo Buonarroti", "Buonarroti"],
+          "verified": false
+        },
+        {
+          "clue": "Il compositore che scrisse la Nona sinfonia quando era ormai sordo.",
+          "answer": "Chi è Ludwig van Beethoven?",
+          "accept": ["Beethoven"],
+          "verified": false
+        },
+        {
+          "clue": "Si festeggiano dopo 50 anni di matrimonio.",
+          "answer": "Cosa sono le nozze d'oro?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Lo strumento più famoso tra quelli costruiti da Antonio Stradivari a Cremona.",
+          "answer": "Cos'è il violino?",
+          "verified": false
+        },
+        {
+          "clue": "Il sistema di punti e linee in cui SOS si scrive ··· – – – ···.",
+          "answer": "Cos'è il codice Morse?",
+          "accept": ["alfabeto Morse", "Morse"],
+          "verified": false
+        },
+        {
+          "clue": "Il numero romano che vale 500.",
+          "answer": "Cos'è D?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il cagnolino bianco di Tintin.",
+          "answer": "Chi è Milù?",
+          "accept": ["Milou", "Snowy"],
+          "verified": false
+        },
+        {
+          "clue": "Il numero di tasti di un pianoforte moderno standard.",
+          "answer": "Cos'è 88?",
+          "accept": ["ottantotto"],
+          "verified": false
+        },
+        {
+          "clue": "Il quadro di Picasso sul bombardamento di una cittadina basca nel 1937.",
+          "answer": "Cos'è Guernica?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Dal 1475 il Giubileo ordinario si celebra ogni tot anni: quanti?",
+          "answer": "Cos'è 25?",
+          "accept": ["venticinque", "ogni 25 anni"],
+          "verified": false
+        },
+        {
+          "clue": "Il settimo e ultimo re di Roma, cacciato secondo la tradizione nel 509 a.C.",
+          "answer": "Chi è Tarquinio il Superbo?",
+          "accept": ["Tarquinio"],
+          "verified": false
+        },
+        {
+          "clue": "Il francese, cieco da bambino, che inventò la scrittura a puntini in rilievo.",
+          "answer": "Chi è Louis Braille?",
+          "accept": ["Braille"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

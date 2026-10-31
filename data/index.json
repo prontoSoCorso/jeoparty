@@ -82,6 +82,50 @@
       "playableVerified": false
     },
     {
+      "id": "in-comune",
+      "name": "Cos'hanno in comune?",
+      "group": "classiche",
+      "emoji": "🤝",
+      "description": "Tre elementi, un solo filo che li lega.",
+      "file": "categories/in-comune.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
+      "id": "domande-stupide",
+      "name": "Domande stupide",
+      "group": "classiche",
+      "emoji": "🤡",
+      "description": "La risposta è già nell'indizio… se te ne accorgi.",
+      "file": "categories/domande-stupide.json",
+      "variants": 15,
+      "unverified": 14,
+      "playableVerified": false
+    },
+    {
+      "id": "etimologie",
+      "name": "Etimologie",
+      "group": "classiche",
+      "emoji": "🔤",
+      "description": "Da dove vengono le parole che usiamo ogni giorno.",
+      "file": "categories/etimologie.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
+      "id": "fa-rima",
+      "name": "Fa rima con…",
+      "group": "classiche",
+      "emoji": "🎶",
+      "description": "Ogni risposta è una coppia di parole in rima.",
+      "file": "categories/fa-rima.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
       "id": "geografia",
       "name": "Geografia del mondo",
       "group": "classiche",
@@ -99,6 +143,17 @@
       "emoji": "📚",
       "description": "Romanzi, poeti e personaggi, italiani e stranieri.",
       "file": "categories/letteratura.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
+      "id": "minestrone",
+      "name": "Minestrone",
+      "group": "classiche",
+      "emoji": "🍲",
+      "description": "Un po' di tutto, senza un tema preciso.",
+      "file": "categories/minestrone.json",
       "variants": 15,
       "unverified": 15,
       "playableVerified": false
@@ -123,6 +178,17 @@
       "file": "categories/opera-lirica.json",
       "variants": 15,
       "unverified": 14,
+      "playableVerified": false
+    },
+    {
+      "id": "prima-e-dopo",
+      "name": "Prima & Dopo",
+      "group": "classiche",
+      "emoji": "🔗",
+      "description": "Due titoli o frasi fusi: la fine del primo è l'inizio del secondo.",
+      "file": "categories/prima-e-dopo.json",
+      "variants": 15,
+      "unverified": 15,
       "playableVerified": false
     },
     {

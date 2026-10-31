@@ -37,8 +37,9 @@
           "verified": false
         },
         {
-          "clue": "Il premio che la Mostra del cinema di Venezia assegna al miglior film.",
-          "answer": "Cos'è il Leone d'oro?",
+          "clue": "Il festival del cinema della Costa Azzurra che assegna la Palma d'oro.",
+          "answer": "Cos'è il Festival di Cannes?",
+          "accept": ["Cannes"],
           "verified": false
         },
         {

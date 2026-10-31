@@ -1,0 +1,123 @@
+{
+  "id": "in-comune",
+  "name": "Cos'hanno in comune?",
+  "group": "classiche",
+  "emoji": "🤝",
+  "description": "Tre elementi, un solo filo che li lega.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Gaspare, Melchiorre e Baldassarre.",
+          "answer": "Chi sono i Re Magi?",
+          "accept": ["Magi", "i tre Re Magi"],
+          "verified": false
+        },
+        {
+          "clue": "Cometa, polare, marina.",
+          "answer": "Cos'è stella?",
+          "accept": ["stelle", "la stella"],
+          "verified": false
+        },
+        {
+          "clue": "Rosso, giallo e blu.",
+          "answer": "Cosa sono i colori primari?",
+          "accept": ["colori fondamentali"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Athos, Porthos e Aramis.",
+          "answer": "Chi sono i tre moschettieri?",
+          "accept": ["moschettieri"],
+          "verified": false
+        },
+        {
+          "clue": "Orsa Maggiore, Cassiopea e Orione.",
+          "answer": "Cosa sono costellazioni?",
+          "accept": ["costellazioni"],
+          "verified": false
+        },
+        {
+          "clue": "Vesuvio, Etna e Stromboli.",
+          "answer": "Cosa sono vulcani italiani?",
+          "accept": ["vulcani", "vulcani attivi"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Spada, martello e palla.",
+          "answer": "Cos'è pesce?",
+          "accept": ["pesci"],
+          "verified": false
+        },
+        {
+          "clue": "Guglielmo Marconi, Enrico Fermi e Rita Levi-Montalcini.",
+          "answer": "Chi sono premi Nobel italiani?",
+          "accept": ["Nobel", "scienziati italiani"],
+          "verified": false
+        },
+        {
+          "clue": "Bastoni, coppe e denari.",
+          "answer": "Cosa sono i semi delle carte italiane?",
+          "accept": ["semi", "semi delle carte napoletane"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Dante, Petrarca e Boccaccio.",
+          "answer": "Chi sono le Tre Corone?",
+          "accept": ["Tre Corone fiorentine", "poeti toscani del Trecento"],
+          "verified": false
+        },
+        {
+          "clue": "Stelvio, Brennero e San Gottardo.",
+          "answer": "Cosa sono passi alpini?",
+          "accept": ["valichi alpini", "passi"],
+          "verified": false
+        },
+        {
+          "clue": "Merlino, Lancillotto e Ginevra.",
+          "answer": "Chi sono personaggi della corte di re Artù?",
+          "accept": ["ciclo arturiano", "Tavola Rotonda"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Caspio, Aral e Morto.",
+          "answer": "Cosa sono laghi chiamati mari?",
+          "accept": ["laghi", "laghi salati"],
+          "verified": false
+        },
+        {
+          "clue": "Fede, speranza e carità.",
+          "answer": "Cosa sono le virtù teologali?",
+          "verified": false
+        },
+        {
+          "clue": "Cloto, Lachesi e Atropo.",
+          "answer": "Chi sono le Moire?",
+          "accept": ["Parche"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "fa-rima",
+  "name": "Fa rima con…",
+  "group": "classiche",
+  "emoji": "🎶",
+  "description": "Ogni risposta è una coppia di parole in rima.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Un felino di casa che ha perso la testa.",
+          "answer": "Cos'è un gatto matto?",
+          "verified": false
+        },
+        {
+          "clue": "Un astro del cielo notturno, proprio grazioso.",
+          "answer": "Cos'è una bella stella?",
+          "verified": false
+        },
+        {
+          "clue": "Una bevanda d'uva fermentata, raffinata e pregiata.",
+          "answer": "Cos'è un vino fino?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Un pachiderma con la proboscide, ma di proporzioni enormi.",
+          "answer": "Cos'è un elefante gigante?",
+          "verified": false
+        },
+        {
+          "clue": "Il re del pollaio, color canarino.",
+          "answer": "Cos'è un gallo giallo?",
+          "verified": false
+        },
+        {
+          "clue": "Un anfibio che gracida, ma un po' bizzarro.",
+          "answer": "Cos'è una rana strana?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "L'ortaggio arancione di Halloween che appartiene a una vacca da latte.",
+          "answer": "Cos'è la zucca della mucca?",
+          "verified": false
+        },
+        {
+          "clue": "Il pasto serale del più grande dei cetacei.",
+          "answer": "Cos'è la cena della balena?",
+          "verified": false
+        },
+        {
+          "clue": "Un canide selvatico, triste e tenebroso.",
+          "answer": "Cos'è un lupo cupo?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il cattivo odore del più grande uccello del mondo.",
+          "answer": "Cos'è il puzzo dello struzzo?",
+          "verified": false
+        },
+        {
+          "clue": "La brocca per l'acqua dell'animale dal collo lunghissimo.",
+          "answer": "Cos'è la caraffa della giraffa?",
+          "verified": false
+        },
+        {
+          "clue": "Il guaio combinato dal piccolo mammifero spinoso.",
+          "answer": "Cos'è il pasticcio del riccio?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Le responsabilità dell'astuta predatrice dalla coda rossa.",
+          "answer": "Cosa sono le colpe della volpe?",
+          "verified": false
+        },
+        {
+          "clue": "Il canino velenoso del rettile che striscia.",
+          "answer": "Cos'è il dente del serpente?",
+          "verified": false
+        },
+        {
+          "clue": "Un gruppo musicale di plantigradi bianchi e neri che mangiano bambù.",
+          "answer": "Cos'è una banda di panda?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}
