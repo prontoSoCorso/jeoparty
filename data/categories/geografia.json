@@ -1,0 +1,117 @@
+{
+  "id": "geografia",
+  "name": "Geografia del mondo",
+  "group": "classiche",
+  "emoji": "🗺️",
+  "description": "Paesi, confini, fiumi, isole e montagne.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "La catena montuosa dove si trova l'Everest, la vetta più alta della Terra.",
+          "answer": "Cos'è l'Himalaya?",
+          "accept": ["Himalaya"],
+          "verified": false
+        },
+        {
+          "clue": "Il più grande degli oceani.",
+          "answer": "Cos'è l'oceano Pacifico?",
+          "accept": ["Pacifico"],
+          "verified": false
+        },
+        {
+          "clue": "Il più grande deserto caldo del mondo, nel Nord Africa.",
+          "answer": "Cos'è il Sahara?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il Paese più esteso del mondo.",
+          "answer": "Cos'è la Russia?",
+          "verified": false
+        },
+        {
+          "clue": "L'isola più grande del mondo, territorio autonomo del Regno di Danimarca.",
+          "answer": "Cos'è la Groenlandia?",
+          "verified": false
+        },
+        {
+          "clue": "Il fiume con la portata d'acqua più grande del mondo; attraversa il Brasile.",
+          "answer": "Cos'è il Rio delle Amazzoni?",
+          "accept": ["Amazzoni", "Rio delle Amazzoni"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Lo stretto tra Spagna e Marocco che collega il Mediterraneo all'Atlantico.",
+          "answer": "Cos'è lo stretto di Gibilterra?",
+          "accept": ["Gibilterra"],
+          "verified": false
+        },
+        {
+          "clue": "La montagna più alta dell'Africa, un vulcano in Tanzania.",
+          "answer": "Cos'è il Kilimangiaro?",
+          "accept": ["Kilimanjaro"],
+          "verified": false
+        },
+        {
+          "clue": "Il lago salatissimo tra Israele e Giordania, il punto più basso delle terre emerse.",
+          "answer": "Cos'è il Mar Morto?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il fiume più lungo d'Europa: sfocia nel Mar Caspio.",
+          "answer": "Cos'è il Volga?",
+          "verified": false
+        },
+        {
+          "clue": "Il lago più profondo del mondo, in Siberia.",
+          "answer": "Cos'è il lago Bajkal?",
+          "accept": ["Bajkal", "Baikal"],
+          "verified": false
+        },
+        {
+          "clue": "Il canale che dal 1869 collega il Mediterraneo al Mar Rosso.",
+          "answer": "Cos'è il canale di Suez?",
+          "accept": ["Suez"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La cascata più alta del mondo, in Venezuela.",
+          "answer": "Cos'è il Salto Angel?",
+          "accept": ["Salto Ángel", "Angel Falls"],
+          "verified": false
+        },
+        {
+          "clue": "L'unico Paese con una bandiera nazionale non rettangolare: due triangoli sovrapposti.",
+          "answer": "Cos'è il Nepal?",
+          "verified": false
+        },
+        {
+          "clue": "Lo Stato africano senza sbocco sul mare interamente circondato dal Sudafrica.",
+          "answer": "Cos'è il Lesotho?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

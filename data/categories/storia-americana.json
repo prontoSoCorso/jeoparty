@@ -1,0 +1,132 @@
+{
+  "id": "storia-americana",
+  "name": "Storia americana",
+  "group": "classiche",
+  "emoji": "🗽",
+  "description": "Presidenti, guerre e svolte degli Stati Uniti.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Dono della Francia agli Stati Uniti, fu inaugurata nel 1886 su un'isoletta della baia di New York.",
+          "answer": "Cos'è la Statua della Libertà?",
+          "accept": ["Statue of Liberty"],
+          "source": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+          "verified": true
+        },
+        {
+          "clue": "Presidente durante la guerra civile, la sera del 14 aprile 1865 fu colpito a morte al Ford's Theatre.",
+          "answer": "Chi è Abraham Lincoln?",
+          "accept": ["Lincoln"],
+          "source": "https://www.nps.gov/foth/learn/historyculture/faq-the-assassination.htm",
+          "verified": true
+        },
+        {
+          "clue": "Comandante dell'esercito continentale nella guerra d'indipendenza, nel 1789 diventò il primo presidente degli Stati Uniti.",
+          "answer": "Chi è George Washington?",
+          "accept": ["Washington"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "La base navale delle Hawaii attaccata a sorpresa dal Giappone il 7 dicembre 1941.",
+          "answer": "Cos'è Pearl Harbor?",
+          "verified": false
+        },
+        {
+          "clue": "Gli Stati Uniti lo comprarono dalla Russia nel 1867 per 7,2 milioni di dollari: circa due centesimi per acro.",
+          "answer": "Cos'è l'Alaska?",
+          "source": "https://www.loc.gov/item/today-in-history/march-30/",
+          "verified": true
+        },
+        {
+          "clue": "Membro del Comitato dei Cinque, fu l'autore principale della Dichiarazione d'indipendenza.",
+          "answer": "Chi è Thomas Jefferson?",
+          "accept": ["Jefferson"],
+          "source": "https://civics.asu.edu/Civic-Literacy-Curriculum-Question-78",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "La protesta del dicembre 1773 in cui i coloni gettarono in mare il tè della Compagnia britannica delle Indie orientali.",
+          "answer": "Cos'è il Boston Tea Party?",
+          "accept": ["Tea Party"],
+          "verified": false
+        },
+        {
+          "clue": "Nel 1803 gli Stati Uniti la comprarono dalla Francia di Napoleone per 15 milioni di dollari, quasi raddoppiando la propria superficie.",
+          "answer": "Cos'è la Louisiana?",
+          "accept": ["Acquisto della Louisiana", "Louisiana Purchase"],
+          "source": "https://kutv.com/amazing-america/american-history-louisiana-purchase-napoleon-thomas-jefferson",
+          "verified": true
+        },
+        {
+          "clue": "L'ingegnere francese che progettò lo scheletro in acciaio della Statua della Libertà.",
+          "answer": "Chi è Gustave Eiffel?",
+          "accept": ["Eiffel"],
+          "source": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Nel 1955 a Montgomery, in Alabama, si rifiutò di cedere il suo posto in autobus a un bianco, dando il via a un celebre boicottaggio.",
+          "answer": "Chi è Rosa Parks?",
+          "accept": ["Parks"],
+          "verified": false
+        },
+        {
+          "clue": "Il generale sudista che si arrese ad Appomattox nell'aprile 1865, chiudendo di fatto la guerra civile.",
+          "answer": "Chi è Robert E. Lee?",
+          "accept": ["Lee", "Robert Lee"],
+          "source": "https://www.worldhistory.org/article/2940/assassination-of-abraham-lincoln/",
+          "verified": true
+        },
+        {
+          "clue": "L'attore simpatizzante dei Confederati che il 14 aprile 1865 sparò al presidente al Ford's Theatre.",
+          "answer": "Chi è John Wilkes Booth?",
+          "accept": ["Booth", "John Booth"],
+          "source": "https://www.nps.gov/foth/learn/historyculture/faq-the-assassination.htm",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il segretario di Stato il cui acquisto del 1867 dalla Russia fu deriso come la sua «follia» o la sua «ghiacciaia».",
+          "answer": "Chi è William Seward?",
+          "accept": ["Seward", "William H. Seward"],
+          "source": "https://www.loc.gov/item/today-in-history/march-30/",
+          "verified": true
+        },
+        {
+          "clue": "La commedia, con l'attrice Laura Keene, in scena al Ford's Theatre la sera in cui fu colpito Lincoln.",
+          "answer": "Cos'è Our American Cousin?",
+          "accept": ["Il nostro cugino americano"],
+          "source": "https://www.nps.gov/foth/learn/historyculture/faq-the-assassination.htm",
+          "verified": true
+        },
+        {
+          "clue": "L'unico presidente degli Stati Uniti eletto per quattro volte.",
+          "answer": "Chi è Franklin Delano Roosevelt?",
+          "accept": ["Roosevelt", "Franklin D. Roosevelt", "FDR"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

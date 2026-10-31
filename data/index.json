@@ -16,6 +16,17 @@
   ],
   "categories": [
     {
+      "id": "capitali-usa",
+      "name": "Capitali degli Stati USA",
+      "group": "classiche",
+      "emoji": "🏙️",
+      "description": "Le capitali dei 50 Stati: spesso non sono le città più famose.",
+      "file": "categories/capitali-usa.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
       "id": "capitali",
       "name": "Capitali del mondo",
       "group": "classiche",
@@ -25,6 +36,61 @@
       "variants": 13,
       "unverified": 0,
       "playableVerified": true
+    },
+    {
+      "id": "geografia",
+      "name": "Geografia del mondo",
+      "group": "classiche",
+      "emoji": "🗺️",
+      "description": "Paesi, confini, fiumi, isole e montagne.",
+      "file": "categories/geografia.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
+      "id": "regioni",
+      "name": "Regioni & capoluoghi",
+      "group": "classiche",
+      "emoji": "📍",
+      "description": "L'Italia regione per regione.",
+      "file": "categories/regioni.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
+    },
+    {
+      "id": "storia-americana",
+      "name": "Storia americana",
+      "group": "classiche",
+      "emoji": "🗽",
+      "description": "Presidenti, guerre e svolte degli Stati Uniti.",
+      "file": "categories/storia-americana.json",
+      "variants": 15,
+      "unverified": 5,
+      "playableVerified": true
+    },
+    {
+      "id": "storia-italia",
+      "name": "Storia d'Italia",
+      "group": "classiche",
+      "emoji": "📜",
+      "description": "Dall'Unità alla Repubblica: date, volti e svolte.",
+      "file": "categories/storia-italia.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "storia-mondo",
+      "name": "Storia del mondo",
+      "group": "classiche",
+      "emoji": "⏳",
+      "description": "Imperi, rivoluzioni e guerre che hanno cambiato tutto.",
+      "file": "categories/storia-mondo.json",
+      "variants": 15,
+      "unverified": 15,
+      "playableVerified": false
     },
     {
       "id": "ai",

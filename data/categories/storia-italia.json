@@ -1,0 +1,135 @@
+{
+  "id": "storia-italia",
+  "name": "Storia d'Italia",
+  "group": "classiche",
+  "emoji": "📜",
+  "description": "Dall'Unità alla Repubblica: date, volti e svolte.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il 17 marzo 1861 fu proclamato re d'Italia: il primo del nuovo Regno.",
+          "answer": "Chi è Vittorio Emanuele II?",
+          "accept": ["Vittorio Emanuele"],
+          "source": "https://www.studenti.it/unita-italia-cronologia-battaglie-protagonisti.html",
+          "verified": true
+        },
+        {
+          "clue": "La festa nazionale del 25 aprile, che ricorda l'insurrezione generale proclamata nel 1945 dal CLN Alta Italia.",
+          "answer": "Cos'è la Festa della Liberazione?",
+          "accept": ["Liberazione", "Anniversario della Liberazione"],
+          "source": "https://www.ilpost.it/2023/04/25/25-aprile-festa-della-liberazione-perche-storia/",
+          "verified": true
+        },
+        {
+          "clue": "Approvata dall'Assemblea Costituente il 22 dicembre 1947, è entrata in vigore il 1° gennaio 1948.",
+          "answer": "Cos'è la Costituzione?",
+          "accept": ["Costituzione italiana", "Costituzione della Repubblica"],
+          "source": "https://www.senato.it/application/xmanager/projects/leg19/file/storia_costituzione.pdf",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Nel referendum del 2 giugno 1946 votarono per la prima volta in un'elezione nazionale.",
+          "answer": "Chi sono le donne?",
+          "source": "https://consiglio.regione.umbria.it/sites/default/files/pdf_eventi/1946-2016%20La%20Repubblica%20e%20le%20donne%20-%2011web.pdf",
+          "verified": true
+        },
+        {
+          "clue": "Primo presidente del Consiglio del Regno d'Italia, morì il 6 giugno 1861, pochi mesi dopo l'Unità.",
+          "answer": "Chi è Camillo Benso, conte di Cavour?",
+          "accept": ["Cavour", "Camillo Benso", "Conte di Cavour"],
+          "source": "https://www.geopop.it/camillo-benso-conte-di-cavour-biografia-vita-pensiero-politico/",
+          "verified": true
+        },
+        {
+          "clue": "Il 20 settembre 1870 bersaglieri e fanti entrarono a Roma da una breccia aperta nelle mura accanto a questa porta.",
+          "answer": "Cos'è Porta Pia?",
+          "accept": ["Breccia di Porta Pia"],
+          "source": "https://www.ilpost.it/2020/09/20/breccia-porta-pia-roma/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Fu la prima capitale del Regno d'Italia, dal 1861 al 1865: era già la capitale del Regno di Sardegna.",
+          "answer": "Cos'è Torino?",
+          "source": "https://www.geopop.it/quali-sono-le-citta-che-nel-tempo-sono-state-capitali-ditalia/",
+          "verified": true
+        },
+        {
+          "clue": "Firmati l'11 febbraio 1929 nel palazzo romano da cui prendono il nome, fecero nascere lo Stato della Città del Vaticano.",
+          "answer": "Cosa sono i Patti Lateranensi?",
+          "accept": ["Patti del Laterano"],
+          "source": "https://www.focusjunior.it/?p=255536",
+          "verified": true
+        },
+        {
+          "clue": "Esule a Marsiglia, vi organizzò la Giovine Italia, il movimento per un'Italia unita e repubblicana.",
+          "answer": "Chi è Giuseppe Mazzini?",
+          "accept": ["Mazzini"],
+          "source": "https://www2.comune.genova.it/sites/default/files/20210921_moz_114.pdf",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Fu capitale d'Italia dal 1865 al 1871, dopo la Convenzione di settembre firmata con la Francia di Napoleone III.",
+          "answer": "Cos'è Firenze?",
+          "source": "https://www.focus.it/cultura/storia/come-Roma-diventa-capitale-Italia-dopo-torino-e-firenze",
+          "verified": true
+        },
+        {
+          "clue": "Il porto siciliano dove l'11 maggio 1860 sbarcarono i Mille, aiutati senza volerlo da due navi da guerra britanniche.",
+          "answer": "Cos'è Marsala?",
+          "source": "https://www.studenti.it/la-spedizione-dei-mille-riassunto-schematico.html",
+          "verified": true
+        },
+        {
+          "clue": "Il 28 giugno 1946 l'Assemblea Costituente lo elesse capo provvisorio dello Stato.",
+          "answer": "Chi è Enrico De Nicola?",
+          "accept": ["De Nicola"],
+          "source": "https://consiglio.regione.umbria.it/sites/default/files/pdf_eventi/1946-2016%20La%20Repubblica%20e%20le%20donne%20-%2011web.pdf",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Secondo la tradizione, qui il 26 ottobre 1860 Garibaldi incontrò il re, alla fine della Spedizione dei Mille.",
+          "answer": "Cos'è Teano?",
+          "notes": "Studi recenti indicano piuttosto Vairano come luogo dell'incontro.",
+          "source": "https://www.studenti.it/la-spedizione-dei-mille-riassunto-schematico.html",
+          "verified": true
+        },
+        {
+          "clue": "Il cardinale segretario di Stato che, per conto di Pio XI, firmò con Mussolini gli accordi dell'11 febbraio 1929.",
+          "answer": "Chi è Pietro Gasparri?",
+          "accept": ["Gasparri", "Cardinale Gasparri"],
+          "source": "https://www.geopop.it/cosa-sono-i-patti-lateranensi-gli-accordi-tra-stato-e-chiesa-del-1929-rinnovati-in-parte-nel-1984-storia-significato/",
+          "verified": true
+        },
+        {
+          "clue": "Guidava il governo che, con un decreto del 22 aprile 1946, dichiarò festa nazionale il 25 aprile.",
+          "answer": "Chi è Alcide De Gasperi?",
+          "accept": ["De Gasperi"],
+          "source": "https://www.ilpost.it/2023/04/25/25-aprile-festa-della-liberazione-perche-storia/",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

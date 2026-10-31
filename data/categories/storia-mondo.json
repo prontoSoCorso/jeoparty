@@ -1,0 +1,117 @@
+{
+  "id": "storia-mondo",
+  "name": "Storia del mondo",
+  "group": "classiche",
+  "emoji": "⏳",
+  "description": "Imperi, rivoluzioni e guerre che hanno cambiato tutto.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Un muro divise questa città dal 1961 al 1989.",
+          "answer": "Cos'è Berlino?",
+          "verified": false
+        },
+        {
+          "clue": "L'anno in cui Cristoforo Colombo arrivò in America.",
+          "answer": "Cos'è il 1492?",
+          "accept": ["1492"],
+          "verified": false
+        },
+        {
+          "clue": "Cominciò nel 1789 con la presa della Bastiglia.",
+          "answer": "Cos'è la Rivoluzione francese?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Il primo imperatore romano, figlio adottivo di Giulio Cesare.",
+          "answer": "Chi è Augusto?",
+          "accept": ["Ottaviano", "Ottaviano Augusto", "Cesare Augusto"],
+          "verified": false
+        },
+        {
+          "clue": "L'ultima regina d'Egitto, legata prima a Cesare e poi a Marco Antonio.",
+          "answer": "Chi è Cleopatra?",
+          "verified": false
+        },
+        {
+          "clue": "Il condottiero cartaginese che attraversò le Alpi con gli elefanti.",
+          "answer": "Chi è Annibale?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "La battaglia del 18 giugno 1815, in Belgio, che segnò la fine di Napoleone.",
+          "answer": "Cos'è Waterloo?",
+          "verified": false
+        },
+        {
+          "clue": "Il condottiero mongolo che fondò l'impero diventato il più vasto impero contiguo della storia.",
+          "answer": "Chi è Gengis Khan?",
+          "accept": ["Genghis Khan", "Temujin"],
+          "verified": false
+        },
+        {
+          "clue": "La città giapponese colpita dalla prima bomba atomica, il 6 agosto 1945.",
+          "answer": "Cos'è Hiroshima?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "La pace del 1648 che chiuse la guerra dei Trent'anni.",
+          "answer": "Cos'è la pace di Vestfalia?",
+          "accept": ["Vestfalia", "Westfalia"],
+          "verified": false
+        },
+        {
+          "clue": "L'arciduca d'Austria ucciso a Sarajevo il 28 giugno 1914.",
+          "answer": "Chi è Francesco Ferdinando?",
+          "accept": ["Francesco Ferdinando d'Asburgo", "Franz Ferdinand"],
+          "verified": false
+        },
+        {
+          "clue": "La carta dei diritti concessa nel 1215 da Giovanni Senzaterra ai baroni inglesi.",
+          "answer": "Cos'è la Magna Carta?",
+          "accept": ["Magna Charta"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La dinastia cinese che costruì gran parte della Grande Muraglia giunta fino a noi.",
+          "answer": "Cos'è la dinastia Ming?",
+          "accept": ["Ming"],
+          "verified": false
+        },
+        {
+          "clue": "Dal 402 fu la capitale dell'Impero romano d'Occidente.",
+          "answer": "Cos'è Ravenna?",
+          "verified": false
+        },
+        {
+          "clue": "Il re di Francia ghigliottinato il 21 gennaio 1793.",
+          "answer": "Chi è Luigi XVI?",
+          "accept": ["Luigi Sedicesimo"],
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "capitali-usa",
+  "name": "Capitali degli Stati USA",
+  "group": "classiche",
+  "emoji": "🏙️",
+  "description": "Le capitali dei 50 Stati: spesso non sono le città più famose.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "La capitale delle Hawaii, sull'isola di Oahu.",
+          "answer": "Cos'è Honolulu?",
+          "verified": false
+        },
+        {
+          "clue": "La capitale del Massachusetts, famosa per la sua maratona, corsa dal 1897.",
+          "answer": "Cos'è Boston?",
+          "verified": false
+        },
+        {
+          "clue": "La capitale della Georgia, che ospitò le Olimpiadi estive del 1996.",
+          "answer": "Cos'è Atlanta?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Non è Los Angeles né San Francisco: è questa città la capitale della California.",
+          "answer": "Cos'è Sacramento?",
+          "verified": false
+        },
+        {
+          "clue": "Non è Houston né Dallas: è questa città la capitale del Texas.",
+          "answer": "Cos'è Austin?",
+          "verified": false
+        },
+        {
+          "clue": "La capitale dello Utah, che ospitò le Olimpiadi invernali del 2002.",
+          "answer": "Cos'è Salt Lake City?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Non è New York City: è questa città la capitale dello Stato di New York.",
+          "answer": "Cos'è Albany?",
+          "verified": false
+        },
+        {
+          "clue": "La capitale del Colorado, detta «la città alta un miglio».",
+          "answer": "Cos'è Denver?",
+          "verified": false
+        },
+        {
+          "clue": "Non è Chicago: è questa città, omonima di quella dei Simpson, la capitale dell'Illinois.",
+          "answer": "Cos'è Springfield?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Non è Las Vegas: è questa città la capitale del Nevada.",
+          "answer": "Cos'è Carson City?",
+          "verified": false
+        },
+        {
+          "clue": "Non è Miami né Orlando: è questa città la capitale della Florida.",
+          "answer": "Cos'è Tallahassee?",
+          "verified": false
+        },
+        {
+          "clue": "Fondata dagli spagnoli, è la capitale del New Mexico e la più alta tra le capitali degli Stati USA.",
+          "answer": "Cos'è Santa Fe?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "La capitale dell'Alaska: nessuna strada la collega al resto del Nord America.",
+          "answer": "Cos'è Juneau?",
+          "verified": false
+        },
+        {
+          "clue": "La capitale del Vermont, la meno popolosa tra le capitali degli Stati USA.",
+          "answer": "Cos'è Montpelier?",
+          "verified": false
+        },
+        {
+          "clue": "Non è Seattle: è questa città dal nome greco la capitale dello Stato di Washington.",
+          "answer": "Cos'è Olympia?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

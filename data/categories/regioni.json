@@ -1,0 +1,111 @@
+{
+  "id": "regioni",
+  "name": "Regioni & capoluoghi",
+  "group": "classiche",
+  "emoji": "📍",
+  "description": "L'Italia regione per regione.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "La regione dei trulli di Alberobello.",
+          "answer": "Cos'è la Puglia?",
+          "verified": false
+        },
+        {
+          "clue": "Il fiume più lungo d'Italia, che attraversa la Pianura Padana.",
+          "answer": "Cos'è il Po?",
+          "verified": false
+        },
+        {
+          "clue": "Il capoluogo della Liguria, la città della Lanterna.",
+          "answer": "Cos'è Genova?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "La regione più piccola d'Italia.",
+          "answer": "Cos'è la Valle d'Aosta?",
+          "verified": false
+        },
+        {
+          "clue": "Il capoluogo della Sardegna.",
+          "answer": "Cos'è Cagliari?",
+          "verified": false
+        },
+        {
+          "clue": "La regione di Matera e dei suoi Sassi.",
+          "answer": "Cos'è la Basilicata?",
+          "accept": ["Lucania"],
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "La regione più estesa d'Italia.",
+          "answer": "Cos'è la Sicilia?",
+          "verified": false
+        },
+        {
+          "clue": "Il capoluogo dell'Abruzzo.",
+          "answer": "Cos'è L'Aquila?",
+          "verified": false
+        },
+        {
+          "clue": "Il capoluogo delle Marche.",
+          "answer": "Cos'è Ancona?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il capoluogo del Molise.",
+          "answer": "Cos'è Campobasso?",
+          "verified": false
+        },
+        {
+          "clue": "Il capoluogo della Calabria (e non è Reggio).",
+          "answer": "Cos'è Catanzaro?",
+          "verified": false
+        },
+        {
+          "clue": "Con quattro regioni del Nord, è l'unica regione italiana che non si affaccia sul mare.",
+          "answer": "Cos'è l'Umbria?",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Il capoluogo del Friuli-Venezia Giulia (e non è Udine).",
+          "answer": "Cos'è Trieste?",
+          "verified": false
+        },
+        {
+          "clue": "È una delle cinque regioni a statuto speciale ed è divisa in due province autonome.",
+          "answer": "Cos'è il Trentino-Alto Adige?",
+          "accept": ["Trentino-Südtirol", "Trentino Alto Adige"],
+          "verified": false
+        },
+        {
+          "clue": "Questo capoluogo di regione non è capoluogo di provincia: la sua regione le province non le ha.",
+          "answer": "Cos'è Aosta?",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}
