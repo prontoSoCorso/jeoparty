@@ -1,0 +1,131 @@
+{
+  "id": "tormentoni",
+  "name": "Tormentoni estivi",
+  "group": "inventate",
+  "emoji": "🏖️",
+  "description": "Le hit dell'estate dagli anni 2000 a oggi: titoli e artisti.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Il tormentone del 2017 di Luis Fonsi e Daddy Yankee, rilanciato da un remix con Justin Bieber.",
+          "answer": "Cos'è Despacito?",
+          "notes": "Il remix è stato la prima canzone in spagnolo al primo posto della classifica globale di Spotify.",
+          "source": "https://en.wikipedia.org/wiki/Despacito",
+          "verified": true
+        },
+        {
+          "clue": "L'inno ufficiale dei Mondiali di calcio del 2010 in Sudafrica, cantato da Shakira.",
+          "answer": "Cos'è Waka Waka?",
+          "accept": ["Waka Waka (This Time for Africa)"],
+          "source": "https://en.wikipedia.org/wiki/Waka_Waka_(This_Time_for_Africa)",
+          "verified": true
+        },
+        {
+          "clue": "Il singolo d'esordio di Fabio Rovazzi, tormentone del 2016 e primo disco d'oro italiano ottenuto solo con streaming e YouTube.",
+          "answer": "Cos'è Andiamo a comandare?",
+          "source": "https://en.wikipedia.org/wiki/Andiamo_a_comandare",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Estate 2021: Fedez, Achille Lauro e Orietta Berti cantano insieme in questo tormentone.",
+          "answer": "Cos'è Mille?",
+          "source": "https://www.sorrisi.com/musica/canzoni/mille-volte-orietta-ecco-come-e-nata-la-canzone-che-fa-impazzire-litalia/",
+          "verified": true
+        },
+        {
+          "clue": "Di Baby K e Giusy Ferreri: secondo gli ascolti su Spotify è il tormentone italiano più ascoltato degli anni Dieci.",
+          "answer": "Cos'è Roma-Bangkok?",
+          "source": "https://www.panorama.it/tormentoni-italiani-piu-ascoltati-su-spotify-dagli-anni-sessanta-oggi",
+          "verified": true
+        },
+        {
+          "clue": "Takagi & Ketra con Giusy Ferreri e il giamaicano Sean Kingston: 12 settimane al primo posto nell'estate 2018.",
+          "answer": "Cos'è Amore e capoeira?",
+          "source": "https://en.wikipedia.org/wiki/Amore_e_capoeira",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Il tormentone del 2017 dei Thegiornalisti porta il nome di questa città della Riviera romagnola.",
+          "answer": "Cos'è Riccione?",
+          "source": "https://en.wikipedia.org/wiki/Riccione_(Thegiornalisti_song)",
+          "verified": true
+        },
+        {
+          "clue": "Boomdabash e Alessandra Amoroso: con questo brano vinsero i Power Hits Estate 2019, il premio al tormentone dell'anno.",
+          "answer": "Cos'è Mambo salentino?",
+          "source": "https://tg24.sky.it/spettacolo/musica/2019/09/10/power-hits-estate-2019-vincitori-mambo-salentino",
+          "verified": true
+        },
+        {
+          "clue": "Con Italodisco questa band ha firmato uno dei tormentoni dell'estate 2023.",
+          "answer": "Chi sono i The Kolors?",
+          "accept": ["The Kolors", "Kolors"],
+          "source": "https://www.sorrisi.com/musica/playlist/i-tormentoni-dellestate-2023/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il tormentone del 2010 di Don Omar con Lucenzo, il cui video ha superato il miliardo di visualizzazioni.",
+          "answer": "Cos'è Danza Kuduro?",
+          "source": "https://en.wikipedia.org/wiki/Danza_Kuduro",
+          "verified": true
+        },
+        {
+          "clue": "Il cantante brasiliano che a fine 2011 conquistò il mondo con Ai se eu te pego, ballata anche da Neymar.",
+          "answer": "Chi è Michel Teló?",
+          "accept": ["Teló", "Michel Telo"],
+          "source": "https://en.wikipedia.org/wiki/Ai_Se_Eu_Te_Pego",
+          "verified": true
+        },
+        {
+          "clue": "Il gruppo moldavo di Dragostea din tei, la prima canzone in romeno diventata un successo mondiale.",
+          "answer": "Chi sono gli O-Zone?",
+          "accept": ["O-Zone", "Ozone"],
+          "source": "https://en.wikipedia.org/wiki/Dragostea_din_tei",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Le sorelle Muñoz, figlie del chitarrista flamenco detto El Tomate, che nel 2002 conquistarono il mondo con Aserejé.",
+          "answer": "Chi sono le Las Ketchup?",
+          "accept": ["Las Ketchup", "Ketchup"],
+          "source": "https://lanacion.com.ar/espectaculos/como-estan-hoy-y-a-que-se-dedican-las-ketchup-las-tres-hermanas-que-popularizaron-la-cancion-asereje-nid27022024",
+          "verified": true
+        },
+        {
+          "clue": "Scartata da Sanremo 2000, questa canzone di Paola & Chiara vinse il Festivalbar e diventò il tormentone dell'anno.",
+          "answer": "Cos'è Vamos a bailar?",
+          "accept": ["Vamos a bailar (Esta vida nueva)"],
+          "source": "https://en.wikipedia.org/wiki/Vamos_a_bailar_(Esta_vida_nueva)",
+          "verified": true
+        },
+        {
+          "clue": "Il singolo d'esordio di Valeria Rossi, tormentone dell'estate 2001.",
+          "answer": "Cos'è Tre parole?",
+          "source": "https://en.wikipedia.org/wiki/Valeria_Rossi",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

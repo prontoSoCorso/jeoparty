@@ -1,0 +1,131 @@
+{
+  "id": "nomi-d-arte",
+  "name": "Nomi d'arte",
+  "group": "inventate",
+  "emoji": "🕶️",
+  "description": "Il vero nome dietro cantanti, rapper e star.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "All'anagrafe Lorenzo Cherubini: il suo nome d'arte nacque dal refuso di un giornalista.",
+          "answer": "Chi è Jovanotti?",
+          "accept": ["Jova"],
+          "source": "https://wikipedia.jakami.de/content/wikipedia_de_all_mini_2026-04/Jovanotti",
+          "verified": true
+        },
+        {
+          "clue": "All'anagrafe Federico Leonardo Lucia, rapper milanese nato nel 1989.",
+          "answer": "Chi è Fedez?",
+          "source": "https://en.wikipedia.org/wiki/Fedez",
+          "verified": true
+        },
+        {
+          "clue": "All'anagrafe Stefani Germanotta, popstar newyorkese dal nome ispirato a una canzone dei Queen.",
+          "answer": "Chi è Lady Gaga?",
+          "accept": ["Gaga"],
+          "source": "https://www.denofgeek.com/msn/15-famous-people-you-didnt-know-werent-using-their-real-names/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Adelmo Fornaciari, bluesman nato nel 1955 in provincia di Reggio Emilia.",
+          "answer": "Chi è Zucchero?",
+          "accept": ["Zucchero Fornaciari"],
+          "source": "https://blogs.transparent.com/italian/?p=257",
+          "verified": true
+        },
+        {
+          "clue": "Lauro De Marinis, nato a Verona nel 1990: nel nome d'arte ha unito il suo nome a quello dell'eroe greco.",
+          "answer": "Chi è Achille Lauro?",
+          "source": "https://tg24.sky.it/spettacolo/musica/2020/07/11/achille-lauro-30-anni",
+          "verified": true
+        },
+        {
+          "clue": "Farrokh Bulsara, la voce dei Queen.",
+          "answer": "Chi è Freddie Mercury?",
+          "accept": ["Mercury"],
+          "source": "https://www.denofgeek.com/msn/15-famous-people-you-didnt-know-werent-using-their-real-names/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Mina Anna Mazzini, nata a Busto Arsizio nel 1940: come nome d'arte le basta una sola parola.",
+          "answer": "Chi è Mina?",
+          "source": "https://blogs.transparent.com/italian/?p=257",
+          "verified": true
+        },
+        {
+          "clue": "Reginald Kenneth Dwight: il nome d'arte lo prese dal sassofonista Elton Dean e dal bluesman Long John Baldry.",
+          "answer": "Chi è Elton John?",
+          "source": "https://www.buzzfeed.com/leylamohammed/surprising-celebrity-real-names-miley-cyrus-elton-john",
+          "verified": true
+        },
+        {
+          "clue": "Niccolò Moriconi, romano di San Basilio, vincitore delle Nuove Proposte a Sanremo 2018.",
+          "answer": "Chi è Ultimo?",
+          "source": "https://en.wikipedia.org/wiki/Ultimo_(singer)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Fabio Bartolo Rizzo, rapper nato nel 1979 a Nicosia, in Sicilia.",
+          "answer": "Chi è Marracash?",
+          "source": "https://www.sorrisi.com/musica/i-veri-nomi-dei-rapper-e-i-ioro-curiosi-nomi-darte/",
+          "verified": true
+        },
+        {
+          "clue": "Peter Gene Hernandez: il soprannome glielo diede la famiglia, per la somiglianza con il wrestler Bruno Sammartino.",
+          "answer": "Chi è Bruno Mars?",
+          "source": "https://www.thepinknews.com/2026/07/08/16-celebrities-who-changed-their-names-before-fame/",
+          "verified": true
+        },
+        {
+          "clue": "Gordon Matthew Thomas Sumner, cantante e bassista inglese, ex voce dei Police.",
+          "answer": "Chi è Sting?",
+          "source": "https://en.wikipedia.org/wiki/Sting_(musician)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Antonio de Curtis, attore e comico napoletano nato nel 1898.",
+          "answer": "Chi è Totò?",
+          "source": "https://en.wikipedia.org/wiki/Tot%C3%B2",
+          "verified": true
+        },
+        {
+          "clue": "Sofia Villani Scicolone, nata a Roma nel 1934: il nome d'arte glielo suggerì il produttore Carlo Ponti.",
+          "answer": "Chi è Sophia Loren?",
+          "accept": ["Loren"],
+          "source": "https://en.wikipedia.org/wiki/Sophia_Loren",
+          "verified": true
+        },
+        {
+          "clue": "Paul David Hewson: il suo nome d'arte viene dal latino e significa buona voce.",
+          "answer": "Chi è Bono?",
+          "accept": ["Bono Vox"],
+          "notes": "È la voce degli U2.",
+          "source": "https://indiehoy.com/historias/de-bono-a-sandro-cual-es-el-nombre-real-de-estos-artistas/",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

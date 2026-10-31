@@ -1,0 +1,148 @@
+{
+  "id": "cartoni-2000",
+  "name": "Cartoni anni 2000",
+  "group": "inventate",
+  "emoji": "🧚",
+  "description": "Winx, W.I.T.C.H., SpongeBob & co.: l'infanzia davanti alla TV.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Gatto blu e pigrone, viene tormentato senza sosta da tre scarafaggi: Joey, Marky e Dee Dee.",
+          "answer": "Chi è Oggy?",
+          "accept": ["Oggy e i maledetti scarafaggi"],
+          "notes": "È una serie francese dello studio Xilam, iniziata nel 1998.",
+          "source": "https://en.wikipedia.org/wiki/Oggy_and_the_Cockroaches",
+          "verified": true
+        },
+        {
+          "clue": "Bloom, Stella, Flora, Musa e Tecna sono le fate di questo cartone italiano, in onda su Rai 2 dal gennaio 2004.",
+          "answer": "Cos'è Winx Club?",
+          "accept": ["Winx", "Le Winx"],
+          "notes": "L'ha creato Iginio Straffi; la prima sigla italiana era Nel segno di Winx.",
+          "source": "https://it.wikipedia.org/wiki/Winx_Club",
+          "verified": true
+        },
+        {
+          "clue": "Il topo che dirige L'Eco del Roditore, il giornale di Topazia: dai libri è arrivato anche in TV, su Rai 2 dal 2009.",
+          "answer": "Chi è Geronimo Stilton?",
+          "accept": ["Geronimo"],
+          "source": "https://en.wikipedia.org/wiki/Geronimo_Stilton_(TV_series)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Le statuine di mostriciattoli lanciate da Giochi Preziosi nel 2005, diventate un cartone animato su Italia 1 nel 2008.",
+          "answer": "Cosa sono i Gormiti?",
+          "accept": ["Gormiti"],
+          "notes": "Secondo Giochi Preziosi ne sono state vendute più di 500 milioni.",
+          "source": "https://en.wikipedia.org/wiki/Gormiti",
+          "verified": true
+        },
+        {
+          "clue": "Bambino genio di Retroville con un enorme ciuffo in testa: il suo cane è un robot di nome Goddard.",
+          "answer": "Chi è Jimmy Neutron?",
+          "accept": ["Jimmy"],
+          "source": "https://en.wikipedia.org/wiki/Jimmy_Neutron",
+          "verified": true
+        },
+        {
+          "clue": "Il Tristo Mietitore perde una sfida a limbo per salvare un criceto e diventa per sempre amico di questi due bambini.",
+          "answer": "Chi sono Billy e Mandy?",
+          "accept": ["Le tenebrose avventure di Billy e Mandy"],
+          "notes": "Nel doppiaggio italiano il Mietitore si chiama Tenebra.",
+          "source": "https://en.wikipedia.org/wiki/The_Grim_Adventures_of_Billy_%26_Mandy",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Will, Irma, Taranee, Cornelia e lei: con le loro iniziali formano la sigla W.I.T.C.H.; il suo elemento è l'aria.",
+          "answer": "Chi è Hay Lin?",
+          "notes": "Irma controlla l'acqua, Taranee il fuoco e Cornelia la terra; Will custodisce il Cuore di Kandrakar.",
+          "source": "https://it.wikipedia.org/wiki/W.I.T.C.H.",
+          "verified": true
+        },
+        {
+          "clue": "Amico immaginario tutto blu: quando Mac diventa troppo grande per lui, va a vivere in una casa che ospita gli amici immaginari.",
+          "answer": "Chi è Bloo?",
+          "notes": "La serie, del 2004, è di Craig McCracken, lo stesso autore delle Superchicche.",
+          "source": "https://en.wikipedia.org/wiki/Foster%27s_Home_for_Imaginary_Friends",
+          "verified": true
+        },
+        {
+          "clue": "Ragazzina del villaggio di Sooga, lavora nel ristorante degli zii ed è perdutamente innamorata del ninja Garu.",
+          "answer": "Chi è Pucca?",
+          "notes": "La serie animata è arrivata su Jetix nel 2006.",
+          "source": "https://en.wikipedia.org/wiki/Pucca_(TV_series)",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Lo studio di animazione marchigiano, fondato da Iginio Straffi e con sede a Loreto, che produce Winx Club.",
+          "answer": "Cos'è Rainbow?",
+          "notes": "L'azienda è nata a Recanati nel 1995.",
+          "source": "https://it.wikipedia.org/wiki/Rainbow_(azienda)",
+          "verified": true
+        },
+        {
+          "clue": "Il vero cognome di Danny Phantom, 14 anni, figlio di Jack e Maddie, inventori che danno la caccia ai fantasmi.",
+          "answer": "Cos'è Fenton?",
+          "accept": ["Danny Fenton"],
+          "notes": "Lo ha creato Butch Hartman, lo stesso autore di Due fantagenitori.",
+          "source": "https://it.wikipedia.org/wiki/Danny_Phantom",
+          "verified": true
+        },
+        {
+          "clue": "L'intelligenza artificiale malvagia che vive nel supercomputer di una fabbrica abbandonata e minaccia i ragazzi del collegio Kadic.",
+          "answer": "Cos'è X.A.N.A.?",
+          "accept": ["XANA"],
+          "notes": "In Italia Code Lyoko ha debuttato su Disney Channel nel settembre 2004.",
+          "source": "https://it.wikipedia.org/wiki/Code_Lyoko",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Nel 2001 ha ideato per Disney Italia il fumetto W.I.T.C.H., insieme ad Alessandro Barbucci e Barbara Canepa.",
+          "answer": "Chi è Elisabetta Gnone?",
+          "accept": ["Gnone"],
+          "notes": "Il primo albo è uscito nell'aprile 2001; la serie animata è arrivata nel 2004.",
+          "source": "https://it.wikipedia.org/wiki/W.I.T.C.H.",
+          "verified": true
+        },
+        {
+          "clue": "Prima di creare SpongeBob insegnava biologia marina: è il papà della spugna più famosa della TV.",
+          "answer": "Chi è Stephen Hillenburg?",
+          "accept": ["Hillenburg"],
+          "notes": "Dopo il liceo aveva lavorato anche come cuoco in un fast food di pesce.",
+          "source": "https://it.wikipedia.org/wiki/Stephen_Hillenburg",
+          "verified": true
+        },
+        {
+          "clue": "Nato nei fumetti Bonelli di Alfredo Castelli, nel cartone del 2003 combatte mostri e alieni con Diana e il cavernicolo Java.",
+          "answer": "Chi è Martin Mystère?",
+          "accept": ["Martin Mystery", "Martin"],
+          "notes": "Nel cartone lavora per Il Centro, un'organizzazione segreta diretta da M.O.M.",
+          "source": "https://it.wikipedia.org/wiki/Martin_Myst%C3%A8re_(serie_animata)",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

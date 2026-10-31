@@ -135,6 +135,61 @@
       "variants": 15,
       "unverified": 0,
       "playableVerified": true
+    },
+    {
+      "id": "cartoni-2000",
+      "name": "Cartoni anni 2000",
+      "group": "inventate",
+      "emoji": "🧚",
+      "description": "Winx, W.I.T.C.H., SpongeBob & co.: l'infanzia davanti alla TV.",
+      "file": "categories/cartoni-2000.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "nomi-d-arte",
+      "name": "Nomi d'arte",
+      "group": "inventate",
+      "emoji": "🕶️",
+      "description": "Il vero nome dietro cantanti, rapper e star.",
+      "file": "categories/nomi-d-arte.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "reality-talent",
+      "name": "Reality & talent",
+      "group": "inventate",
+      "emoji": "🎙️",
+      "description": "X Factor, Amici, MasterChef, Il Collegio: vincitori e giudici.",
+      "file": "categories/reality-talent.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "sanremo",
+      "name": "Sanremo",
+      "group": "inventate",
+      "emoji": "🌺",
+      "description": "Vincitori, gaffe e momenti iconici del Festival.",
+      "file": "categories/sanremo.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
+    },
+    {
+      "id": "tormentoni",
+      "name": "Tormentoni estivi",
+      "group": "inventate",
+      "emoji": "🏖️",
+      "description": "Le hit dell'estate dagli anni 2000 a oggi: titoli e artisti.",
+      "file": "categories/tormentoni.json",
+      "variants": 15,
+      "unverified": 0,
+      "playableVerified": true
     }
   ]
 }

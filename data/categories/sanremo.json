@@ -1,0 +1,137 @@
+{
+  "id": "sanremo",
+  "name": "Sanremo",
+  "group": "inventate",
+  "emoji": "🌺",
+  "description": "Vincitori, gaffe e momenti iconici del Festival.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Con Zitti e buoni hanno vinto Sanremo nel 2021 e, pochi mesi dopo, anche l'Eurovision.",
+          "answer": "Chi sono i Måneskin?",
+          "accept": ["Maneskin"],
+          "source": "https://www.rollingstone.it/musica/cronistoria-dellincredibile-2021-dei-maneskin/576373/",
+          "verified": true
+        },
+        {
+          "clue": "Dal 1977 è la casa del Festival: il teatro di Sanremo dove salgono sul palco i Big.",
+          "answer": "Cos'è il Teatro Ariston?",
+          "accept": ["Ariston"],
+          "notes": "L'unica eccezione è il 1990, quando l'Ariston era in ristrutturazione.",
+          "source": "https://en.wikipedia.org/wiki/Sanremo_Music_Festival_1977",
+          "verified": true
+        },
+        {
+          "clue": "Ha vinto il Festival di Sanremo nel 2024 con La noia.",
+          "answer": "Chi è Angelina Mango?",
+          "accept": ["Angelina"],
+          "source": "https://www.sorrisi.com/musica/sanremo/festival-di-sanremo-vincitori-degli-ultimi-10-anni/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Ha vinto Sanremo due volte: nel 2019 con Soldi e nel 2022 con Brividi, in coppia con Blanco.",
+          "answer": "Chi è Mahmood?",
+          "source": "https://www.sorrisi.com/musica/sanremo/festival-di-sanremo-vincitori-degli-ultimi-10-anni/",
+          "verified": true
+        },
+        {
+          "clue": "Ha vinto Sanremo nel 2013 con L'essenziale e dieci anni dopo, nel 2023, con Due vite.",
+          "answer": "Chi è Marco Mengoni?",
+          "accept": ["Mengoni"],
+          "source": "https://www.sorrisi.com/musica/sanremo/festival-di-sanremo-vincitori-degli-ultimi-10-anni/",
+          "verified": true
+        },
+        {
+          "clue": "Ha vinto il Festival di Sanremo nel 2025 con Balorda nostalgia.",
+          "answer": "Chi è Olly?",
+          "source": "https://www.sorrisi.com/musica/sanremo/festival-di-sanremo-vincitori-degli-ultimi-10-anni/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Vinse la prima edizione del Festival, nel 1951, con Grazie dei fiori.",
+          "answer": "Chi è Nilla Pizzi?",
+          "source": "https://www.sorrisi.com/musica/sanremo/festival-di-sanremo-vincitori-degli-ultimi-10-anni/",
+          "verified": true
+        },
+        {
+          "clue": "Nel 1958 vinse con Nel blu, dipinto di blu, la canzone che tutto il mondo conosce come Volare.",
+          "answer": "Chi è Domenico Modugno?",
+          "accept": ["Modugno"],
+          "source": "https://www.sorrisi.com/musica/sanremo/festival-di-sanremo-vincitori-degli-ultimi-10-anni/",
+          "verified": true
+        },
+        {
+          "clue": "Il recordman della conduzione: ha presentato il Festival per 13 edizioni.",
+          "answer": "Chi è Pippo Baudo?",
+          "accept": ["Baudo"],
+          "notes": "Al secondo posto c'è Mike Bongiorno, con 11 edizioni.",
+          "source": "https://www.sorrisi.com/musica/sanremo/pippo-baudo-i-momenti-piu-folli-e-sorprendenti-dei-suoi-13-festival-di-sanremo/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il Premio della Critica nacque nel 1982 e lo vinse lei, con E non finisce mica il cielo; dal 1996 porta il suo nome.",
+          "answer": "Chi è Mia Martini?",
+          "source": "https://www.agi.it/spettacolo/musica/news/2023-02-11/sanremo-premio-critica-storia-20065612/",
+          "verified": true
+        },
+        {
+          "clue": "La più giovane vincitrice di Sanremo: nel 1964 vinse con Non ho l'età e poi anche l'Eurovision.",
+          "answer": "Chi è Gigliola Cinquetti?",
+          "accept": ["Cinquetti"],
+          "source": "https://tg24.sky.it/spettacolo/musica/approfondimenti/tutti-vincitori-sanremo",
+          "verified": true
+        },
+        {
+          "clue": "Ha condotto cinque Festival consecutivi, dal 2020 al 2024, eguagliando Mike Bongiorno e Pippo Baudo.",
+          "answer": "Chi è Amadeus?",
+          "source": "https://www.ilfattoquotidiano.it/2024/01/26/sanremo-2024-amadeus-batte-i-record-di-pippo-baudo-e-mike-bongiorno-e-il-conduttore-che-ha-condotto-piu-serate-del-festival/7422949/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Nel 1983 arrivò penultimo con Vita spericolata, poi diventata un inno generazionale.",
+          "answer": "Chi è Vasco Rossi?",
+          "accept": ["Vasco"],
+          "notes": "Durante la serata finale lasciò il palco prima che la base finisse.",
+          "source": "https://www.agi.it/spettacolo/musica/news/2023-02-04/vita-spericolata-vasco-rossi-compie-40-anni-19941458/",
+          "verified": true
+        },
+        {
+          "clue": "Dal 1951 al 1976 il Festival si tenne nel Salone delle feste di questo edificio della città.",
+          "answer": "Cos'è il Casinò di Sanremo?",
+          "accept": ["Casinò", "Casinò municipale"],
+          "source": "https://www.geopop.it/come-e-nato-il-festival-di-sanremo-e-perche-si-tiene-proprio-a-sanremo/",
+          "verified": true
+        },
+        {
+          "clue": "Vinse Sanremo nel 1983 con Sarà quel che sarà: la stessa edizione di Vita spericolata.",
+          "answer": "Chi è Tiziana Rivale?",
+          "accept": ["Rivale"],
+          "source": "https://www.sorrisi.com/musica/festival-di-sanremo-1983/",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

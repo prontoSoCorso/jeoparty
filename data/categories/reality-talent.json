@@ -1,0 +1,139 @@
+{
+  "id": "reality-talent",
+  "name": "Reality & talent",
+  "group": "inventate",
+  "emoji": "🎙️",
+  "description": "X Factor, Amici, MasterChef, Il Collegio: vincitori e giudici.",
+  "clues": [
+    {
+      "value": 200,
+      "variants": [
+        {
+          "clue": "Conduce dal 2001 il talent show nato con il nome Saranno famosi e poi ribattezzato con il suo nome.",
+          "answer": "Chi è Maria De Filippi?",
+          "accept": ["De Filippi"],
+          "source": "https://tg24.sky.it/spettacolo/2020/04/03/amici-vincitori-foto",
+          "verified": true
+        },
+        {
+          "clue": "Il docu-reality di Rai 2, in onda dal 2017, in cui ragazzi di oggi vivono come gli studenti di un collegio d'altri tempi.",
+          "answer": "Cos'è Il Collegio?",
+          "source": "https://en.wikipedia.org/wiki/Il_collegio",
+          "verified": true
+        },
+        {
+          "clue": "Chef stellato, è giudice di MasterChef Italia dalla quinta edizione, nel 2015, e conduce Cucine da incubo.",
+          "answer": "Chi è Antonino Cannavacciuolo?",
+          "accept": ["Cannavacciuolo"],
+          "source": "https://www.panorama.it/televisione/antonino-cannavacciuolo-masterchef-5-intervista-nuovo-giudice-ristoranti",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 400,
+      "variants": [
+        {
+          "clue": "Ha vinto l'ottava edizione di Amici, nel 2009.",
+          "answer": "Chi è Alessandra Amoroso?",
+          "accept": ["Amoroso"],
+          "source": "https://dilei.it/lifestyle/che-fine-hanno-fatto-i-vincitori-di-amici/439814/",
+          "verified": true
+        },
+        {
+          "clue": "Ha vinto la nona edizione di Amici, nel 2010.",
+          "answer": "Chi è Emma Marrone?",
+          "accept": ["Emma"],
+          "source": "https://dilei.it/lifestyle/che-fine-hanno-fatto-i-vincitori-di-amici/439814/",
+          "verified": true
+        },
+        {
+          "clue": "Nel 2014 vinse The Voice of Italy nella squadra di J-Ax, quando era ancora una suora.",
+          "answer": "Chi è Suor Cristina?",
+          "accept": ["Cristina Scuccia"],
+          "source": "https://www.lapresse.it/spettacoli/2014/06/05/rai2-the-voice-of-italy-2014-e-suor-cristina-scuccia-il-report-della-finalissima/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 600,
+      "variants": [
+        {
+          "clue": "Dal 2013 conduce Pechino Express, dopo averlo corso come concorrente nella prima edizione.",
+          "answer": "Chi è Costantino della Gherardesca?",
+          "accept": ["Costantino"],
+          "source": "https://en.wikipedia.org/wiki/Pechino_Express",
+          "verified": true
+        },
+        {
+          "clue": "Conduce Ballando con le stelle su Rai 1 dalla prima edizione, nel 2005.",
+          "answer": "Chi è Milly Carlucci?",
+          "accept": ["Carlucci"],
+          "source": "https://en.wikipedia.org/wiki/Ballando_con_le_Stelle",
+          "verified": true
+        },
+        {
+          "clue": "Con Carlo Cracco e Joe Bastianich formava la giuria della prima edizione di MasterChef Italia.",
+          "answer": "Chi è Bruno Barbieri?",
+          "accept": ["Barbieri"],
+          "source": "https://www.varesenews.it/2012/12/torna-masterchef-ma-non-per-tutti/72496/?output=pdf",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 800,
+      "variants": [
+        {
+          "clue": "Il quartetto vocale di Lecce che vinse la prima edizione italiana di X Factor, nel 2008, battendo Giusy Ferreri.",
+          "answer": "Chi sono gli Aram Quartet?",
+          "accept": ["Aram Quartet"],
+          "source": "https://en.wikipedia.org/wiki/Aram_Quartet",
+          "verified": true
+        },
+        {
+          "clue": "Discografica, era giudice di X Factor già nella prima edizione italiana, nel 2008, insieme a Morgan e Simona Ventura.",
+          "answer": "Chi è Mara Maionchi?",
+          "accept": ["Maionchi"],
+          "source": "https://en.wikipedia.org/wiki/X_Factor_(Italian_TV_series)",
+          "verified": true
+        },
+        {
+          "clue": "La prima edizione del Collegio, andata in onda nel 2017, era ambientata in questo anno.",
+          "answer": "Cos'è il 1960?",
+          "accept": ["1960"],
+          "notes": "La seconda edizione si è spostata al 1961, centenario dell'Unità d'Italia.",
+          "source": "https://en.wikipedia.org/wiki/Il_collegio",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "value": 1000,
+      "variants": [
+        {
+          "clue": "Vinse la prima edizione di Saranno famosi, il talent che poi diventò Amici, nel 2002.",
+          "answer": "Chi è Dennis Fantina?",
+          "accept": ["Fantina"],
+          "source": "https://dilei.it/lifestyle/che-fine-hanno-fatto-i-vincitori-di-amici/439814/",
+          "verified": true
+        },
+        {
+          "clue": "Il primo vincitore di MasterChef Italia, nell'edizione andata in onda sul canale Cielo.",
+          "answer": "Chi è Spyros Theodoridis?",
+          "accept": ["Spyros"],
+          "source": "https://www.varesenews.it/2012/12/torna-masterchef-ma-non-per-tutti/72496/?output=pdf",
+          "verified": true
+        },
+        {
+          "clue": "La showgirl che vinse la prima edizione di Ballando con le stelle, nel 2005.",
+          "answer": "Chi è Hoara Borselli?",
+          "accept": ["Borselli"],
+          "source": "https://www.libero.it/magazine/programmi/ballando-con-le-stelle-32712",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
