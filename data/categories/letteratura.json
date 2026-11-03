@@ -17,13 +17,15 @@
         {
           "clue": "Il burattino di Collodi a cui si allunga il naso quando dice una bugia.",
           "answer": "Chi è Pinocchio?",
-          "verified": false
+          "source": "https://www.studenti.it/pinocchio-carlo-collodi-trama-personaggi.html",
+          "verified": true
         },
         {
           "clue": "Il romanzo di Alessandro Manzoni con Renzo e Lucia.",
           "answer": "Cos'è I promessi sposi?",
           "accept": ["Promessi sposi"],
-          "verified": false
+          "source": "https://www.focus.it/cultura/arte/9-cose-che-forse-non-sai-sui-promessi-sposi",
+          "verified": true
         }
       ]
     },
@@ -33,19 +35,22 @@
         {
           "clue": "La donna amata e cantata da Francesco Petrarca nel Canzoniere.",
           "answer": "Chi è Laura?",
-          "verified": false
+          "source": "https://www.focus.it/cultura/curiosita/chi-era-veramente-laura-la-donna-amata-del-petrarca",
+          "verified": true
         },
         {
           "clue": "L'autore de Il nome della rosa, giallo ambientato in un'abbazia del Trecento.",
           "answer": "Chi è Umberto Eco?",
           "accept": ["Eco"],
-          "verified": false
+          "source": "https://www.skuola.net/libri/nome-della-rosa-scheda-libro.html",
+          "verified": true
         },
         {
           "clue": "Il cavaliere di Cervantes che combatte contro i mulini a vento.",
           "answer": "Chi è Don Chisciotte?",
           "accept": ["Don Quijote", "Don Chisciotte della Mancia"],
-          "verified": false
+          "source": "https://www.studenti.it/don-chisciotte-il-duello-con-i-mulini-a-vento-analisi-e-riassunto.html",
+          "verified": true
         }
       ]
     },
@@ -56,19 +61,22 @@
           "clue": "Il poeta di Recanati che scrisse L'infinito.",
           "answer": "Chi è Giacomo Leopardi?",
           "accept": ["Leopardi"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/L%27infinito",
+          "verified": true
         },
         {
           "clue": "Lo scrittore russo autore di Guerra e pace e Anna Karenina.",
           "answer": "Chi è Lev Tolstoj?",
           "accept": ["Tolstoj", "Tolstoy", "Leone Tolstoj"],
-          "verified": false
+          "source": "https://www.studenti.it/tolstoj.html",
+          "verified": true
         },
         {
           "clue": "Il romanzo di George Orwell in cui il Grande Fratello sorveglia tutti.",
           "answer": "Cos'è 1984?",
           "accept": ["Millenovecentottantaquattro"],
-          "verified": false
+          "source": "https://www.ilpost.it/2013/06/25/1984-george-orwell-grande-fratello/",
+          "verified": true
         }
       ]
     },

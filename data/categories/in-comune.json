@@ -12,19 +12,22 @@
           "clue": "Gaspare, Melchiorre e Baldassarre.",
           "answer": "Chi sono i Re Magi?",
           "accept": ["Magi", "i tre Re Magi"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Magi_(Bibbia)",
+          "verified": true
         },
         {
           "clue": "Cometa, polare, marina.",
           "answer": "Cos'è stella?",
           "accept": ["stelle", "la stella"],
-          "verified": false
+          "source": "https://www.treccani.it/vocabolario/stella/",
+          "verified": true
         },
         {
           "clue": "Rosso, giallo e blu.",
           "answer": "Cosa sono i colori primari?",
           "accept": ["colori fondamentali"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/RYB_color_model",
+          "verified": true
         }
       ]
     },
@@ -35,19 +38,22 @@
           "clue": "Athos, Porthos e Aramis.",
           "answer": "Chi sono i tre moschettieri?",
           "accept": ["moschettieri"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
+          "verified": true
         },
         {
           "clue": "Orsa Maggiore, Cassiopea e Orione.",
           "answer": "Cosa sono costellazioni?",
           "accept": ["costellazioni"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/IAU_designated_constellations",
+          "verified": true
         },
         {
           "clue": "Vesuvio, Etna e Stromboli.",
           "answer": "Cosa sono vulcani italiani?",
           "accept": ["vulcani", "vulcani attivi"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/List_of_volcanoes_in_Italy",
+          "verified": true
         }
       ]
     },
@@ -58,19 +64,22 @@
           "clue": "Spada, martello e palla.",
           "answer": "Cos'è pesce?",
           "accept": ["pesci"],
-          "verified": false
+          "source": "https://www.treccani.it/vocabolario/pesce/",
+          "verified": true
         },
         {
           "clue": "Guglielmo Marconi, Enrico Fermi e Rita Levi-Montalcini.",
           "answer": "Chi sono premi Nobel italiani?",
           "accept": ["Nobel", "scienziati italiani"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/List_of_Italian_Nobel_laureates",
+          "verified": true
         },
         {
           "clue": "Bastoni, coppe e denari.",
           "answer": "Cosa sono i semi delle carte italiane?",
           "accept": ["semi", "semi delle carte napoletane"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Carte_da_gioco_italiane",
+          "verified": true
         }
       ]
     },
@@ -87,13 +96,15 @@
           "clue": "Stelvio, Brennero e San Gottardo.",
           "answer": "Cosa sono passi alpini?",
           "accept": ["valichi alpini", "passi"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Brenner_Pass",
+          "verified": true
         },
         {
           "clue": "Merlino, Lancillotto e Ginevra.",
           "answer": "Chi sono personaggi della corte di re Artù?",
           "accept": ["ciclo arturiano", "Tavola Rotonda"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/King_Arthur",
+          "verified": true
         }
       ]
     },
@@ -101,21 +112,24 @@
       "value": 1000,
       "variants": [
         {
-          "clue": "Caspio, Aral e Morto.",
+          "clue": "Mar Caspio, Mare d'Aral e Mar Morto.",
           "answer": "Cosa sono laghi chiamati mari?",
           "accept": ["laghi", "laghi salati"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Caspian_Sea",
+          "verified": true
         },
         {
           "clue": "Fede, speranza e carità.",
           "answer": "Cosa sono le virtù teologali?",
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Virt%C3%B9_teologali",
+          "verified": true
         },
         {
           "clue": "Cloto, Lachesi e Atropo.",
           "answer": "Chi sono le Moire?",
           "accept": ["Parche"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Moire",
+          "verified": true
         }
       ]
     }

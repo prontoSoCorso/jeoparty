@@ -11,19 +11,22 @@
         {
           "clue": "La città in cui vivono Romeo e Giulietta.",
           "answer": "Cos'è Verona?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+          "verified": true
         },
         {
           "clue": "Il principe di Danimarca che si chiede «Essere o non essere».",
           "answer": "Chi è Amleto?",
           "accept": ["Hamlet"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Hamlet",
+          "verified": true
         },
         {
           "clue": "La famiglia di Giulietta, nemica giurata dei Montecchi.",
           "answer": "Chi sono i Capuleti?",
           "accept": ["Capuleti", "Capuleto"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+          "verified": true
         }
       ]
     },
@@ -34,18 +37,21 @@
           "clue": "Il «moro di Venezia», accecato dalla gelosia per la moglie Desdemona.",
           "answer": "Chi è Otello?",
           "accept": ["Othello"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Othello",
+          "verified": true
         },
         {
           "clue": "L'usuraio che pretende una libbra di carne nel Mercante di Venezia.",
           "answer": "Chi è Shylock?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/The_Merchant_of_Venice",
+          "verified": true
         },
         {
           "clue": "La città natale di Shakespeare, nel Warwickshire.",
           "answer": "Cos'è Stratford-upon-Avon?",
           "accept": ["Stratford", "Stratford upon Avon"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/William_Shakespeare",
+          "verified": true
         }
       ]
     },
@@ -56,19 +62,22 @@
           "clue": "Il teatro londinese della compagnia di Shakespeare, ricostruito vicino al Tamigi nel 1997.",
           "answer": "Cos'è il Globe?",
           "accept": ["Globe Theatre", "Shakespeare's Globe"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Shakespeare%27s_Globe",
+          "verified": true
         },
         {
           "clue": "La commedia ambientata a Padova, con Petruccio che vuole «addomesticare» Caterina.",
           "answer": "Cos'è La bisbetica domata?",
           "accept": ["The Taming of the Shrew"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/The_Taming_of_the_Shrew",
+          "verified": true
         },
         {
-          "clue": "Il dittatore romano ucciso alle Idi di marzo, protagonista di una tragedia di Shakespeare.",
+          "clue": "Il dittatore romano ucciso alle Idi di marzo che dà il titolo a una tragedia di Shakespeare.",
           "answer": "Chi è Giulio Cesare?",
           "accept": ["Cesare"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Julius_Caesar_(play)",
+          "verified": true
         }
       ]
     },
@@ -78,19 +87,22 @@
         {
           "clue": "Il nobile scozzese che diventa re dopo la profezia di tre streghe.",
           "answer": "Chi è Macbeth?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Macbeth",
+          "verified": true
         },
         {
           "clue": "Il folletto dispettoso di Sogno di una notte di mezza estate.",
           "answer": "Chi è Puck?",
           "accept": ["Robin Goodfellow"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream",
+          "verified": true
         },
         {
           "clue": "L'amico di Romeo ucciso in duello da Tebaldo.",
           "answer": "Chi è Mercuzio?",
           "accept": ["Mercutio"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+          "verified": true
         }
       ]
     },
@@ -101,18 +113,21 @@
           "clue": "Il frate che sposa in segreto Romeo e Giulietta.",
           "answer": "Chi è frate Lorenzo?",
           "accept": ["Fra Lorenzo", "Friar Laurence"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+          "verified": true
         },
         {
           "clue": "Il mago della Tempesta, già duca di Milano, esiliato su un'isola.",
           "answer": "Chi è Prospero?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/The_Tempest",
+          "verified": true
         },
         {
           "clue": "Nel Mercante di Venezia si traveste da avvocato per salvare Antonio.",
           "answer": "Chi è Porzia?",
           "accept": ["Portia"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/The_Merchant_of_Venice",
+          "verified": true
         }
       ]
     }

@@ -11,18 +11,21 @@
         {
           "clue": "Un muro divise questa città dal 1961 al 1989.",
           "answer": "Cos'è Berlino?",
-          "verified": false
+          "source": "https://www.visitberlin.de/it/il-muro-di-berlino-e-la-guerra-fredda-1961-1989",
+          "verified": true
         },
         {
           "clue": "L'anno in cui Cristoforo Colombo arrivò in America.",
           "answer": "Cos'è il 1492?",
           "accept": ["1492"],
-          "verified": false
+          "source": "https://www.skuola.net/guide/curiosita/il-12-ottobre-1492-cristoforo-colombo-sbarca-in-america.html",
+          "verified": true
         },
         {
           "clue": "Cominciò nel 1789 con la presa della Bastiglia.",
           "answer": "Cos'è la Rivoluzione francese?",
-          "verified": false
+          "source": "https://tg24.sky.it/mondo/2018/07/13/presa-della-bastiglia",
+          "verified": true
         }
       ]
     },
@@ -33,17 +36,20 @@
           "clue": "Il primo imperatore romano, figlio adottivo di Giulio Cesare.",
           "answer": "Chi è Augusto?",
           "accept": ["Ottaviano", "Ottaviano Augusto", "Cesare Augusto"],
-          "verified": false
+          "source": "https://hls-dhs-dss.ch/it/articles/010314",
+          "verified": true
         },
         {
           "clue": "L'ultima regina d'Egitto, legata prima a Cesare e poi a Marco Antonio.",
           "answer": "Chi è Cleopatra?",
-          "verified": false
+          "source": "https://www.studenti.it/cleopatra-storia-biografia-e-pensiero.html",
+          "verified": true
         },
         {
           "clue": "Il condottiero cartaginese che attraversò le Alpi con gli elefanti.",
           "answer": "Chi è Annibale?",
-          "verified": false
+          "source": "https://www.geopop.it/come-ha-fatto-annibale-ad-attraversare-le-alpi-con-degli-elefanti-per-fare-la-guerra-a-roma/",
+          "verified": true
         }
       ]
     },
@@ -53,18 +59,21 @@
         {
           "clue": "La battaglia del 18 giugno 1815, in Belgio, che segnò la fine di Napoleone.",
           "answer": "Cos'è Waterloo?",
-          "verified": false
+          "source": "https://www.geopop.it/la-battaglia-di-waterloo-del-1815-come-e-perche-napoleone-e-stato-sconfitto/",
+          "verified": true
         },
         {
           "clue": "Il condottiero mongolo che fondò l'impero diventato il più vasto impero contiguo della storia.",
           "answer": "Chi è Gengis Khan?",
           "accept": ["Genghis Khan", "Temujin"],
-          "verified": false
+          "source": "https://www.britannica.com/place/Mongol-empire",
+          "verified": true
         },
         {
           "clue": "La città giapponese colpita dalla prima bomba atomica, il 6 agosto 1945.",
           "answer": "Cos'è Hiroshima?",
-          "verified": false
+          "source": "https://www.ilpost.it/2025/08/06/hiroshima-80-anni-bomba-atomica/",
+          "verified": true
         }
       ]
     },
@@ -75,19 +84,22 @@
           "clue": "La pace del 1648 che chiuse la guerra dei Trent'anni.",
           "answer": "Cos'è la pace di Vestfalia?",
           "accept": ["Vestfalia", "Westfalia"],
-          "verified": false
+          "source": "https://www.worldhistory.org/trans/it/1-20984/pace-di-vestfalia/",
+          "verified": true
         },
         {
           "clue": "L'arciduca d'Austria ucciso a Sarajevo il 28 giugno 1914.",
           "answer": "Chi è Francesco Ferdinando?",
           "accept": ["Francesco Ferdinando d'Asburgo", "Franz Ferdinand"],
-          "verified": false
+          "source": "https://www.ilpost.it/2014/06/28/sarajevo-prima-guerra-mondiale/",
+          "verified": true
         },
         {
           "clue": "La carta dei diritti concessa nel 1215 da Giovanni Senzaterra ai baroni inglesi.",
           "answer": "Cos'è la Magna Carta?",
           "accept": ["Magna Charta"],
-          "verified": false
+          "source": "https://www.ilpost.it/2015/06/15/magna-carta/",
+          "verified": true
         }
       ]
     },
@@ -98,18 +110,21 @@
           "clue": "La dinastia cinese che costruì gran parte della Grande Muraglia giunta fino a noi.",
           "answer": "Cos'è la dinastia Ming?",
           "accept": ["Ming"],
-          "verified": false
+          "source": "https://www.history.com/topics/ancient-china/great-wall-of-china",
+          "verified": true
         },
         {
           "clue": "Dal 402 fu la capitale dell'Impero romano d'Occidente.",
           "answer": "Cos'è Ravenna?",
-          "verified": false
+          "source": "https://www.skuola.net/storia-medievale/ravenna-capitale.html",
+          "verified": true
         },
         {
           "clue": "Il re di Francia ghigliottinato il 21 gennaio 1793.",
           "answer": "Chi è Luigi XVI?",
           "accept": ["Luigi Sedicesimo"],
-          "verified": false
+          "source": "https://ancientpages.com/?p=20304",
+          "verified": true
         }
       ]
     }

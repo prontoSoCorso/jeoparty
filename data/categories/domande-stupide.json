@@ -12,19 +12,22 @@
           "clue": "Di che colore era il cavallo bianco di Napoleone?",
           "answer": "Cos'è il bianco?",
           "accept": ["bianco"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Marengo_(horse)",
+          "verified": true
         },
         {
           "clue": "Di che colore è la maglia gialla del Tour de France?",
           "answer": "Cos'è il giallo?",
           "accept": ["giallo"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Maglia_gialla",
+          "verified": true
         },
         {
           "clue": "In che giorno della settimana cade il Venerdì santo?",
           "answer": "Cos'è venerdì?",
           "accept": ["il venerdì"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Venerd%C3%AC_santo",
+          "verified": true
         }
       ]
     },
@@ -34,18 +37,21 @@
         {
           "clue": "In quale città si corre il Palio di Siena?",
           "answer": "Cos'è Siena?",
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Palio_di_Siena",
+          "verified": true
         },
         {
           "clue": "Quanti anni durò la guerra dei Trent'anni?",
           "answer": "Cos'è 30?",
           "accept": ["trenta"],
-          "verified": false
+          "source": "https://www.worldhistory.org/trans/it/1-20984/pace-di-vestfalia/",
+          "verified": true
         },
         {
           "clue": "Qual è la capitale del Messico?",
           "answer": "Cos'è Città del Messico?",
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Citt%C3%A0_del_Messico",
+          "verified": true
         }
       ]
     },
@@ -56,19 +62,22 @@
           "clue": "Quante giornate durarono le Cinque giornate di Milano, nel 1848?",
           "answer": "Cos'è 5?",
           "accept": ["cinque"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Cinque_giornate_di_Milano",
+          "verified": true
         },
         {
           "clue": "Chi scrisse il Canzoniere di Petrarca?",
           "answer": "Chi è Petrarca?",
           "accept": ["Francesco Petrarca"],
-          "verified": false
+          "source": "https://www.studenti.it/il-canzoniere-di-petrarca-spiegazione-dettagliata.html",
+          "verified": true
         },
         {
           "clue": "In che anno cominciò la guerra anglo-americana del 1812?",
           "answer": "Cos'è il 1812?",
           "accept": ["1812"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Guerra_anglo-americana",
+          "verified": true
         }
       ]
     },
@@ -78,18 +87,21 @@
         {
           "clue": "Come si chiama il protagonista del romanzo David Copperfield, di Charles Dickens?",
           "answer": "Chi è David Copperfield?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/David_Copperfield",
+          "verified": true
         },
         {
           "clue": "In che mese scoppiò a Parigi la Rivoluzione di luglio del 1830?",
           "answer": "Cos'è luglio?",
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Rivoluzione_di_luglio",
+          "verified": true
         },
         {
           "clue": "Da quale isola greca prende il nome la Venere di Milo?",
           "answer": "Cos'è Milo?",
           "accept": ["Milos"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Venere_di_Milo",
+          "verified": true
         }
       ]
     },
@@ -100,7 +112,8 @@
           "clue": "Chi è l'autore della Vita di Benvenuto Cellini, autobiografia del Cinquecento?",
           "answer": "Chi è Benvenuto Cellini?",
           "accept": ["Cellini"],
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Vita_(Benvenuto_Cellini)",
+          "verified": true
         },
         {
           "clue": "Chi fu sepolto nel Mausoleo di Adriano, oggi Castel Sant'Angelo?",
@@ -112,7 +125,8 @@
         {
           "clue": "In quale città furono firmati, nel 1957, i Trattati di Roma?",
           "answer": "Cos'è Roma?",
-          "verified": false
+          "source": "https://it.wikipedia.org/wiki/Trattati_di_Roma",
+          "verified": true
         }
       ]
     }

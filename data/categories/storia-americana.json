@@ -26,7 +26,8 @@
           "clue": "Comandante dell'esercito continentale nella guerra d'indipendenza, nel 1789 diventò il primo presidente degli Stati Uniti.",
           "answer": "Chi è George Washington?",
           "accept": ["Washington"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/George_Washington",
+          "verified": true
         }
       ]
     },
@@ -36,7 +37,8 @@
         {
           "clue": "La base navale delle Hawaii attaccata a sorpresa dal Giappone il 7 dicembre 1941.",
           "answer": "Cos'è Pearl Harbor?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor",
+          "verified": true
         },
         {
           "clue": "Gli Stati Uniti lo comprarono dalla Russia nel 1867 per 7,2 milioni di dollari: circa due centesimi per acro.",
@@ -60,7 +62,8 @@
           "clue": "La protesta del dicembre 1773 in cui i coloni gettarono in mare il tè della Compagnia britannica delle Indie orientali.",
           "answer": "Cos'è il Boston Tea Party?",
           "accept": ["Tea Party"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Boston_Tea_Party",
+          "verified": true
         },
         {
           "clue": "Nel 1803 gli Stati Uniti la comprarono dalla Francia di Napoleone per 15 milioni di dollari, quasi raddoppiando la propria superficie.",
@@ -85,7 +88,8 @@
           "clue": "Nel 1955 a Montgomery, in Alabama, si rifiutò di cedere il suo posto in autobus a un bianco, dando il via a un celebre boicottaggio.",
           "answer": "Chi è Rosa Parks?",
           "accept": ["Parks"],
-          "verified": false
+          "source": "https://prologue.blogs.archives.gov/2015/11/30/the-montgomery-bus-boycott/",
+          "verified": true
         },
         {
           "clue": "Il generale sudista che si arrese ad Appomattox nell'aprile 1865, chiudendo di fatto la guerra civile.",
@@ -124,7 +128,8 @@
           "clue": "L'unico presidente degli Stati Uniti eletto per quattro volte.",
           "answer": "Chi è Franklin Delano Roosevelt?",
           "accept": ["Roosevelt", "Franklin D. Roosevelt", "FDR"],
-          "verified": false
+          "source": "https://ballotpedia.org/Franklin_D._Roosevelt_(U.S._President)",
+          "verified": true
         }
       ]
     }

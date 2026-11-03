@@ -12,18 +12,21 @@
           "clue": "La catena montuosa dove si trova l'Everest, la vetta più alta della Terra.",
           "answer": "Cos'è l'Himalaya?",
           "accept": ["Himalaya"],
-          "verified": false
+          "source": "https://geographyworlds.com/blog/is-mount-everest-taller-than-mount-kilimanjaro/",
+          "verified": true
         },
         {
           "clue": "Il più grande degli oceani.",
           "answer": "Cos'è l'oceano Pacifico?",
           "accept": ["Pacifico"],
-          "verified": false
+          "source": "https://www.focusjunior.it/?p=229631",
+          "verified": true
         },
         {
           "clue": "Il più grande deserto caldo del mondo, nel Nord Africa.",
           "answer": "Cos'è il Sahara?",
-          "verified": false
+          "source": "https://www.geopop.it/dal-sahara-allantartide-qual-e-il-deserto-piu-grande-del-mondo/",
+          "verified": true
         }
       ]
     },
@@ -33,18 +36,21 @@
         {
           "clue": "Il Paese più esteso del mondo.",
           "answer": "Cos'è la Russia?",
-          "verified": false
+          "source": "https://www.geopop.it/perche-la-russia-e-tanto-grande-da-essere-il-paese-piu-esteso-al-mondo/",
+          "verified": true
         },
         {
           "clue": "L'isola più grande del mondo, territorio autonomo del Regno di Danimarca.",
           "answer": "Cos'è la Groenlandia?",
-          "verified": false
+          "source": "https://www.geopop.it/di-chi-e-la-groenlandia-e-perche-trump-voleva-comprarla-lisola-tra-danimarca-e-autonomia/",
+          "verified": true
         },
         {
           "clue": "Il fiume con la portata d'acqua più grande del mondo; attraversa il Brasile.",
           "answer": "Cos'è il Rio delle Amazzoni?",
           "accept": ["Amazzoni", "Rio delle Amazzoni"],
-          "verified": false
+          "source": "https://www.skuola.net/appunti/geografia/amazzonia-aspetti-geofisici-fluviali.html",
+          "verified": true
         }
       ]
     },
@@ -55,18 +61,21 @@
           "clue": "Lo stretto tra Spagna e Marocco che collega il Mediterraneo all'Atlantico.",
           "answer": "Cos'è lo stretto di Gibilterra?",
           "accept": ["Gibilterra"],
-          "verified": false
+          "source": "https://www.meteoweb.eu/2021/03/mar-mediterraneo-oceano-atlantico-spagna-africa-stretto-gibilterra-spazio-foto/1562010/",
+          "verified": true
         },
         {
           "clue": "La montagna più alta dell'Africa, un vulcano in Tanzania.",
           "answer": "Cos'è il Kilimangiaro?",
           "accept": ["Kilimanjaro"],
-          "verified": false
+          "source": "https://www.geopop.it/kilimangiaro-caratteristiche-dello-stratovulcano-della-tanzania-il-monte-piu-alto-in-africa/",
+          "verified": true
         },
         {
           "clue": "Il lago salatissimo tra Israele e Giordania, il punto più basso delle terre emerse.",
           "answer": "Cos'è il Mar Morto?",
-          "verified": false
+          "source": "https://www.geopop.it/il-mar-morto-e-il-punto-piu-basso-della-terra-sulla-terraferma-raggiunge-733-metri-s-l-m/",
+          "verified": true
         }
       ]
     },
@@ -76,19 +85,22 @@
         {
           "clue": "Il fiume più lungo d'Europa: sfocia nel Mar Caspio.",
           "answer": "Cos'è il Volga?",
-          "verified": false
+          "source": "https://www.skuola.net/geografia/volga-caratteristiche.html",
+          "verified": true
         },
         {
           "clue": "Il lago più profondo del mondo, in Siberia.",
           "answer": "Cos'è il lago Bajkal?",
           "accept": ["Bajkal", "Baikal"],
-          "verified": false
+          "source": "https://www.geopop.it/il-lago-piu-profondo-del-mondo-e-il-bajkan-e-si-trova-in-russia/",
+          "verified": true
         },
         {
           "clue": "Il canale che dal 1869 collega il Mediterraneo al Mar Rosso.",
           "answer": "Cos'è il canale di Suez?",
           "accept": ["Suez"],
-          "verified": false
+          "source": "https://tg24.sky.it/mondo/2017/11/16/canale-di-suez",
+          "verified": true
         }
       ]
     },
@@ -96,20 +108,23 @@
       "value": 1000,
       "variants": [
         {
-          "clue": "La cascata più alta del mondo, in Venezuela.",
+          "clue": "In Venezuela, la cascata con il più alto salto ininterrotto del mondo: 807 metri.",
           "answer": "Cos'è il Salto Angel?",
           "accept": ["Salto Ángel", "Angel Falls"],
-          "verified": false
+          "source": "https://www.guinnessworldrecords.com/world-records/382099-tallest-single-drop-in-a-waterfall",
+          "verified": true
         },
         {
           "clue": "L'unico Paese con una bandiera nazionale non rettangolare: due triangoli sovrapposti.",
           "answer": "Cos'è il Nepal?",
-          "verified": false
+          "source": "https://crwflags.com/fotw/flags/np.html",
+          "verified": true
         },
         {
           "clue": "Lo Stato africano senza sbocco sul mare interamente circondato dal Sudafrica.",
           "answer": "Cos'è il Lesotho?",
-          "verified": false
+          "source": "https://www.guinnessworldrecords.com/world-records/96111-largest-enclaved-country",
+          "verified": true
         }
       ]
     }

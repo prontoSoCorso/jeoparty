@@ -23,8 +23,8 @@
       "description": "Record, stranezze e abitudini di animali e piante.",
       "file": "categories/animali-natura.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "brindisi",
@@ -45,8 +45,8 @@
       "description": "Le capitali dei 50 Stati: spesso non sono le città più famose.",
       "file": "categories/capitali-usa.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "capitali",
@@ -89,8 +89,8 @@
       "description": "Tre elementi, un solo filo che li lega.",
       "file": "categories/in-comune.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 1,
+      "playableVerified": true
     },
     {
       "id": "domande-stupide",
@@ -100,8 +100,8 @@
       "description": "La risposta è già nell'indizio… se te ne accorgi.",
       "file": "categories/domande-stupide.json",
       "variants": 15,
-      "unverified": 14,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "etimologie",
@@ -122,8 +122,8 @@
       "description": "Ogni risposta è una coppia di parole in rima.",
       "file": "categories/fa-rima.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "geografia",
@@ -133,8 +133,8 @@
       "description": "Paesi, confini, fiumi, isole e montagne.",
       "file": "categories/geografia.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "letteratura",
@@ -144,7 +144,7 @@
       "description": "Romanzi, poeti e personaggi, italiani e stranieri.",
       "file": "categories/letteratura.json",
       "variants": 15,
-      "unverified": 15,
+      "unverified": 7,
       "playableVerified": false
     },
     {
@@ -166,8 +166,8 @@
       "description": "Dei, eroi e mostri greci, romani e nordici.",
       "file": "categories/mitologia.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "opera-lirica",
@@ -199,8 +199,8 @@
       "description": "L'Italia regione per regione.",
       "file": "categories/regioni.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "shakespeare",
@@ -210,8 +210,8 @@
       "description": "Il Bardo e le sue opere ambientate in Italia.",
       "file": "categories/shakespeare.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "sport",
@@ -232,7 +232,7 @@
       "description": "Presidenti, guerre e svolte degli Stati Uniti.",
       "file": "categories/storia-americana.json",
       "variants": 15,
-      "unverified": 5,
+      "unverified": 0,
       "playableVerified": true
     },
     {
@@ -254,8 +254,8 @@
       "description": "Imperi, rivoluzioni e guerre che hanno cambiato tutto.",
       "file": "categories/storia-mondo.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "universita",

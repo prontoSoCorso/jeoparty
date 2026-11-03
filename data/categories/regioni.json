@@ -11,17 +11,20 @@
         {
           "clue": "La regione dei trulli di Alberobello.",
           "answer": "Cos'è la Puglia?",
-          "verified": false
+          "source": "https://www.italia.it/it/puglia/bari/alberobello",
+          "verified": true
         },
         {
           "clue": "Il fiume più lungo d'Italia, che attraversa la Pianura Padana.",
           "answer": "Cos'è il Po?",
-          "verified": false
+          "source": "https://www.geopop.it/il-po-seguiamo-il-corso-del-fiume-piu-lungo-ditalia-dalla-sorgente-alla-foce/",
+          "verified": true
         },
         {
           "clue": "Il capoluogo della Liguria, la città della Lanterna.",
           "answer": "Cos'è Genova?",
-          "verified": false
+          "source": "https://www.visititaly.eu/it/luoghi-e-itinerari/la-lanterna-storia-e-curiosita-sul-simbolo-di-genova-",
+          "verified": true
         }
       ]
     },
@@ -31,18 +34,21 @@
         {
           "clue": "La regione più piccola d'Italia.",
           "answer": "Cos'è la Valle d'Aosta?",
-          "verified": false
+          "source": "https://www.istat.it/it/archivio/137001",
+          "verified": true
         },
         {
           "clue": "Il capoluogo della Sardegna.",
           "answer": "Cos'è Cagliari?",
-          "verified": false
+          "source": "https://it.wikivoyage.org/wiki/Cagliari",
+          "verified": true
         },
         {
           "clue": "La regione di Matera e dei suoi Sassi.",
           "answer": "Cos'è la Basilicata?",
           "accept": ["Lucania"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Sassi_di_Matera",
+          "verified": true
         }
       ]
     },
@@ -52,17 +58,20 @@
         {
           "clue": "La regione più estesa d'Italia.",
           "answer": "Cos'è la Sicilia?",
-          "verified": false
+          "source": "https://www.istat.it/it/archivio/137001",
+          "verified": true
         },
         {
           "clue": "Il capoluogo dell'Abruzzo.",
           "answer": "Cos'è L'Aquila?",
-          "verified": false
+          "source": "https://www.idealista.it/news/node/184308",
+          "verified": true
         },
         {
           "clue": "Il capoluogo delle Marche.",
           "answer": "Cos'è Ancona?",
-          "verified": false
+          "source": "https://online.scuola.zanichelli.it/geograficamente/wp-content/uploads/Zanichelli_Dinucci_Geograficamente_vol1_10_Marche.pdf",
+          "verified": true
         }
       ]
     },
@@ -72,17 +81,20 @@
         {
           "clue": "Il capoluogo del Molise.",
           "answer": "Cos'è Campobasso?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Province_of_Campobasso",
+          "verified": true
         },
         {
           "clue": "Il capoluogo della Calabria (e non è Reggio).",
           "answer": "Cos'è Catanzaro?",
-          "verified": false
+          "source": "https://www.idealista.it/news/node/184308",
+          "verified": true
         },
         {
-          "clue": "Con quattro regioni del Nord, è l'unica regione italiana che non si affaccia sul mare.",
+          "clue": "È l'unica regione dell'Italia peninsulare che non si affaccia sul mare.",
           "answer": "Cos'è l'Umbria?",
-          "verified": false
+          "source": "https://www.esa.int/Space_in_Member_States/Italy/Il_cuore_verde_d_Italia",
+          "verified": true
         }
       ]
     },
@@ -92,18 +104,21 @@
         {
           "clue": "Il capoluogo del Friuli-Venezia Giulia (e non è Udine).",
           "answer": "Cos'è Trieste?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Friuli-Venezia_Giulia",
+          "verified": true
         },
         {
           "clue": "È una delle cinque regioni a statuto speciale ed è divisa in due province autonome.",
           "answer": "Cos'è il Trentino-Alto Adige?",
           "accept": ["Trentino-Südtirol", "Trentino Alto Adige"],
-          "verified": false
+          "source": "https://online.scuola.zanichelli.it/cittadinanza/wp-content/uploads/Trentino.pdf",
+          "verified": true
         },
         {
           "clue": "Questo capoluogo di regione non è capoluogo di provincia: la sua regione le province non le ha.",
           "answer": "Cos'è Aosta?",
-          "verified": false
+          "source": "https://it.wikivoyage.org/wiki/Valle_d'Aosta",
+          "verified": true
         }
       ]
     }

@@ -11,18 +11,21 @@
         {
           "clue": "Il mammifero terrestre più veloce: in uno scatto supera i 100 km/h.",
           "answer": "Cos'è il ghepardo?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Cheetah",
+          "verified": true
         },
         {
           "clue": "Il più grande animale mai esistito, un cetaceo.",
           "answer": "Cos'è la balenottera azzurra?",
           "accept": ["balena blu"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Blue_whale",
+          "verified": true
         },
         {
           "clue": "L'unico mammifero capace di volare davvero, non solo di planare.",
           "answer": "Cos'è il pipistrello?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Bat",
+          "verified": true
         }
       ]
     },
@@ -32,17 +35,20 @@
         {
           "clue": "L'uccello più grande del mondo, che non sa volare.",
           "answer": "Cos'è lo struzzo?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Common_ostrich",
+          "verified": true
         },
         {
-          "clue": "Il marsupiale australiano che si nutre quasi solo di foglie di eucalipto.",
+          "clue": "Il marsupiale australiano che si nutre soprattutto di foglie di eucalipto.",
           "answer": "Cos'è il koala?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Koala",
+          "verified": true
         },
         {
-          "clue": "Il fiore simbolo dei Paesi Bassi, arrivato in Europa dall'Impero ottomano.",
+          "clue": "Il fiore legato ai Paesi Bassi che era anche un simbolo dell'Impero ottomano.",
           "answer": "Cos'è il tulipano?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Tulip",
+          "verified": true
         }
       ]
     },
@@ -53,17 +59,20 @@
           "clue": "Ha tre cuori, il sangue blu e otto braccia.",
           "answer": "Cos'è il polpo?",
           "accept": ["polipo"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Octopus",
+          "verified": true
         },
         {
           "clue": "Il minuscolo uccello che sa volare anche all'indietro.",
           "answer": "Cos'è il colibrì?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Hummingbird",
+          "verified": true
         },
         {
           "clue": "Il mammifero australiano con il becco d'anatra che depone le uova.",
           "answer": "Cos'è l'ornitorinco?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Platypus",
+          "verified": true
         }
       ]
     },
@@ -71,21 +80,24 @@
       "value": 800,
       "variants": [
         {
-          "clue": "Lentissimo, vive appeso agli alberi e scende a terra più o meno una volta a settimana per fare i bisogni.",
+          "clue": "Lentissimo, vive appeso agli alberi e scende a terra più o meno ogni otto giorni per fare i bisogni.",
           "answer": "Cos'è il bradipo?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Sloth",
+          "verified": true
         },
         {
           "clue": "In questa specie è il maschio a portare le uova in una tasca e a «partorire» i piccoli.",
           "answer": "Cos'è il cavalluccio marino?",
           "accept": ["ippocampo"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Seahorse",
+          "verified": true
         },
         {
           "clue": "La pianta carnivora che chiude di scatto le foglie a tagliola sugli insetti.",
           "answer": "Cos'è la dionea?",
           "accept": ["Venere acchiappamosche", "Dionaea"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Venus_flytrap",
+          "verified": true
         }
       ]
     },
@@ -96,18 +108,21 @@
           "clue": "La medusa detta «immortale», capace di tornare allo stadio giovanile di polipo.",
           "answer": "Cos'è la Turritopsis dohrnii?",
           "accept": ["Turritopsis", "medusa immortale"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+          "verified": true
         },
         {
           "clue": "Minuscolo animale detto «orso d'acqua», capace di sopravvivere perfino al vuoto dello spazio.",
           "answer": "Cos'è il tardigrado?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Tardigrade",
+          "verified": true
         },
         {
           "clue": "L'ordine di insetti di api, vespe e formiche.",
           "answer": "Cosa sono gli imenotteri?",
           "accept": ["Hymenoptera"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Hymenoptera",
+          "verified": true
         }
       ]
     }

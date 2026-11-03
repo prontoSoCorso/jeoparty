@@ -11,17 +11,20 @@
         {
           "clue": "Un felino di casa che ha perso la testa.",
           "answer": "Cos'è un gatto matto?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Cat",
+          "verified": true
         },
         {
           "clue": "Un astro del cielo notturno, proprio grazioso.",
           "answer": "Cos'è una bella stella?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Star",
+          "verified": true
         },
         {
           "clue": "Una bevanda d'uva fermentata, raffinata e pregiata.",
           "answer": "Cos'è un vino fino?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Wine",
+          "verified": true
         }
       ]
     },
@@ -31,17 +34,20 @@
         {
           "clue": "Un pachiderma con la proboscide, ma di proporzioni enormi.",
           "answer": "Cos'è un elefante gigante?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Elephant",
+          "verified": true
         },
         {
           "clue": "Il re del pollaio, color canarino.",
           "answer": "Cos'è un gallo giallo?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Chicken",
+          "verified": true
         },
         {
           "clue": "Un anfibio che gracida, ma un po' bizzarro.",
           "answer": "Cos'è una rana strana?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Frog",
+          "verified": true
         }
       ]
     },
@@ -49,19 +55,22 @@
       "value": 600,
       "variants": [
         {
-          "clue": "L'ortaggio arancione di Halloween che appartiene a una vacca da latte.",
+          "clue": "L'ortaggio intagliato ad Halloween che appartiene a una vacca da latte.",
           "answer": "Cos'è la zucca della mucca?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Jack-o%27-lantern",
+          "verified": true
         },
         {
           "clue": "Il pasto serale del più grande dei cetacei.",
           "answer": "Cos'è la cena della balena?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Blue_whale",
+          "verified": true
         },
         {
           "clue": "Un canide selvatico, triste e tenebroso.",
           "answer": "Cos'è un lupo cupo?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Wolf",
+          "verified": true
         }
       ]
     },
@@ -71,17 +80,20 @@
         {
           "clue": "Il cattivo odore del più grande uccello del mondo.",
           "answer": "Cos'è il puzzo dello struzzo?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Common_ostrich",
+          "verified": true
         },
         {
           "clue": "La brocca per l'acqua dell'animale dal collo lunghissimo.",
           "answer": "Cos'è la caraffa della giraffa?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Giraffe",
+          "verified": true
         },
         {
-          "clue": "Il guaio combinato dal piccolo mammifero spinoso.",
+          "clue": "Il guaio combinato dal mammifero coperto di aculei.",
           "answer": "Cos'è il pasticcio del riccio?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Hedgehog",
+          "verified": true
         }
       ]
     },
@@ -91,17 +103,20 @@
         {
           "clue": "Le responsabilità dell'astuta predatrice dalla coda rossa.",
           "answer": "Cosa sono le colpe della volpe?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Red_fox",
+          "verified": true
         },
         {
           "clue": "Il canino velenoso del rettile che striscia.",
           "answer": "Cos'è il dente del serpente?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Snake",
+          "verified": true
         },
         {
-          "clue": "Un gruppo musicale di plantigradi bianchi e neri che mangiano bambù.",
+          "clue": "Un gruppo musicale di orsi bianchi e neri che mangiano bambù.",
           "answer": "Cos'è una banda di panda?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Giant_panda",
+          "verified": true
         }
       ]
     }
