@@ -12,18 +12,21 @@
           "clue": "Il regista riminese de La dolce vita e di 8½.",
           "answer": "Chi è Federico Fellini?",
           "accept": ["Fellini"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Federico_Fellini",
+          "verified": true
         },
         {
           "clue": "Il film di Roberto Benigni che nel 1999 vinse tre Oscar, tra cui quello per il miglior attore.",
           "answer": "Cos'è La vita è bella?",
-          "verified": false
+          "source": "https://tg24.sky.it/spettacolo/cinema/approfondimenti/film-italiani-vincitori-oscar",
+          "verified": true
         },
         {
           "clue": "La saga di George Lucas con Luke Skywalker e Darth Vader.",
           "answer": "Cos'è Star Wars?",
           "accept": ["Guerre stellari"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Darth_Vader",
+          "verified": true
         }
       ]
     },
@@ -34,19 +37,22 @@
           "clue": "Il regista di Inception, Interstellar e Oppenheimer.",
           "answer": "Chi è Christopher Nolan?",
           "accept": ["Nolan"],
-          "verified": false
+          "source": "https://www.mymovies.it/persone/christopher-nolan/47746/",
+          "verified": true
         },
         {
-          "clue": "Il festival del cinema della Costa Azzurra che assegna la Palma d'oro.",
+          "clue": "Il festival del cinema francese che assegna la Palma d'oro.",
           "answer": "Cos'è il Festival di Cannes?",
           "accept": ["Cannes"],
-          "verified": false
+          "source": "https://movieplayer.it/eventi/cannes-film-festival_3/2012/",
+          "verified": true
         },
         {
           "clue": "Interpretò Holly Golightly in Colazione da Tiffany.",
           "answer": "Chi è Audrey Hepburn?",
           "accept": ["Hepburn"],
-          "verified": false
+          "source": "https://libreriamo.it/libri/holly-golightly-la-prorompente-eroina-di-colazione-da-tiffany/",
+          "verified": true
         }
       ]
     },
@@ -56,18 +62,21 @@
         {
           "clue": "Il regista de Il buono, il brutto, il cattivo, maestro dello spaghetti western.",
           "answer": "Chi è Sergio Leone?",
-          "verified": false
+          "source": "https://it.euronews.com/2023/11/10/culture-re-view-ricordando-le-migliori-opere-di-ennio-morricone",
+          "verified": true
         },
         {
           "clue": "Il compositore delle musiche di C'era una volta il West e di Nuovo Cinema Paradiso.",
           "answer": "Chi è Ennio Morricone?",
           "accept": ["Morricone"],
-          "verified": false
+          "source": "https://tg24.sky.it/spettacolo/cinema/2023/07/06/ennio-morricone-colonne-sonore",
+          "verified": true
         },
         {
           "clue": "Il film di Paolo Sorrentino che nel 2014 vinse l'Oscar come miglior film straniero.",
           "answer": "Cos'è La grande bellezza?",
-          "verified": false
+          "source": "https://movieplayer.it/articoli/oscar-tutti-film-italiani-premiati_22399/",
+          "verified": true
         }
       ]
     },
@@ -77,19 +86,22 @@
         {
           "clue": "Nel 2020 fu il primo film non in lingua inglese a vincere l'Oscar come miglior film.",
           "answer": "Cos'è Parasite?",
-          "verified": false
+          "source": "https://www.cbc.ca/1.5457751",
+          "verified": true
         },
         {
           "clue": "Nel 2010 fu la prima donna a vincere l'Oscar per la regia, con The Hurt Locker.",
           "answer": "Chi è Kathryn Bigelow?",
           "accept": ["Bigelow"],
-          "verified": false
+          "source": "https://www.history.com/this-day-in-history/march-7/kathryn-bigelow-becomes-the-first-female-director-to-win-an-oscar",
+          "verified": true
         },
         {
           "clue": "Il regista di Roma città aperta, del 1945, capolavoro del neorealismo.",
           "answer": "Chi è Roberto Rossellini?",
           "accept": ["Rossellini"],
-          "verified": false
+          "source": "https://www.britannica.com/EBchecked/topic/429611/Open-City",
+          "verified": true
         }
       ]
     },
@@ -100,19 +112,22 @@
           "clue": "Il film di guerra aerea che nel 1929 vinse il primo Oscar della storia come miglior film.",
           "answer": "Cos'è Ali?",
           "accept": ["Wings"],
-          "verified": false
+          "source": "https://www.oscars.org/oscars/ceremonies/1929/memorable-moments",
+          "verified": true
         },
         {
           "clue": "Nel 1956 fu la prima attrice italiana a vincere l'Oscar, per La rosa tatuata.",
           "answer": "Chi è Anna Magnani?",
           "accept": ["Magnani"],
-          "verified": false
+          "source": "https://auralcrave.com/2020/01/27/anna-magnani-la-vita-loscar-e-i-film-piu-importanti/",
+          "verified": true
         },
         {
           "clue": "Il regista di Ladri di biciclette, premiato con un Oscar speciale nel 1950.",
           "answer": "Chi è Vittorio De Sica?",
           "accept": ["De Sica"],
-          "verified": false
+          "source": "https://archivio.blitzquotidiano.it/cinema/oscar-sciuscia-de-sica-roberto-benigni-tutte-statuette-tricolori-1806100",
+          "verified": true
         }
       ]
     }

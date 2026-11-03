@@ -34,8 +34,8 @@
       "description": "Vini, cocktail e liquori, in versione italiana.",
       "file": "categories/brindisi.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "capitali-usa",
@@ -67,8 +67,8 @@
       "description": "Film, registi e Oscar, da Fellini a Nolan.",
       "file": "categories/cinema.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "corpo-umano",
@@ -78,8 +78,8 @@
       "description": "Ossa, organi e grandi scoperte mediche.",
       "file": "categories/corpo-umano.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "in-comune",
@@ -89,7 +89,7 @@
       "description": "Tre elementi, un solo filo che li lega.",
       "file": "categories/in-comune.json",
       "variants": 15,
-      "unverified": 1,
+      "unverified": 0,
       "playableVerified": true
     },
     {
@@ -111,8 +111,8 @@
       "description": "Da dove vengono le parole che usiamo ogni giorno.",
       "file": "categories/etimologie.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "fa-rima",
@@ -144,8 +144,8 @@
       "description": "Romanzi, poeti e personaggi, italiani e stranieri.",
       "file": "categories/letteratura.json",
       "variants": 15,
-      "unverified": 7,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "minestrone",
@@ -155,8 +155,8 @@
       "description": "Un po' di tutto, senza un tema preciso.",
       "file": "categories/minestrone.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "mitologia",
@@ -177,8 +177,8 @@
       "description": "Verdi, Puccini, Rossini e i loro personaggi.",
       "file": "categories/opera-lirica.json",
       "variants": 15,
-      "unverified": 14,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "prima-e-dopo",
@@ -221,8 +221,8 @@
       "description": "Campioni, record e regole: calcio e non solo.",
       "file": "categories/sport.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "storia-americana",
@@ -265,8 +265,8 @@
       "description": "Atenei storici, lauree, CFU ed Erasmus.",
       "file": "categories/universita.json",
       "variants": 15,
-      "unverified": 15,
-      "playableVerified": false
+      "unverified": 0,
+      "playableVerified": true
     },
     {
       "id": "ai",

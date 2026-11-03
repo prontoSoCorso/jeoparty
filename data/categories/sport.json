@@ -12,19 +12,22 @@
           "clue": "Il numero di giocatori di ogni squadra in campo, all'inizio di una partita di calcio.",
           "answer": "Cos'è 11?",
           "accept": ["undici"],
-          "verified": false
+          "source": "https://cdn.enjore.com/wl/opescampania_net/doc/page/iUh0PhUe4OtOm8q18T1q.pdf",
+          "verified": true
         },
         {
           "clue": "Il velocista giamaicano che nel 2009 corse i 100 metri in 9\"58, record del mondo.",
           "answer": "Chi è Usain Bolt?",
           "accept": ["Bolt"],
-          "verified": false
+          "source": "https://worldathletics.org/news/news/bolt-again-958-world-record-in-berlin-updat",
+          "verified": true
         },
         {
           "clue": "La corsa ciclistica a tappe in cui il primo in classifica indossa la maglia rosa.",
           "answer": "Cos'è il Giro d'Italia?",
           "accept": ["Giro"],
-          "verified": false
+          "source": "https://sport.virgilio.it/giro-d-italia-2026-regolamento-maglie-abbuoni-tempo-massimo-954515",
+          "verified": true
         }
       ]
     },
@@ -35,18 +38,21 @@
           "clue": "Il tennista altoatesino che nel gennaio 2024 vinse gli Australian Open, il suo primo titolo dello Slam.",
           "answer": "Chi è Jannik Sinner?",
           "accept": ["Sinner"],
-          "verified": false
+          "source": "https://www.lapresse.it/sport/tennis/2024/01/28/australian-open-trionfo-di-jannik-sinner-primo-titolo-slam-per-litaliano/",
+          "verified": true
         },
         {
           "clue": "Lo sport in cui si fa strike abbattendo tutti e dieci i birilli con un solo tiro.",
           "answer": "Cos'è il bowling?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Strike_(bowling)",
+          "verified": true
         },
         {
           "clue": "Il pilota tedesco che vinse cinque Mondiali di Formula 1 di fila con la Ferrari, dal 2000 al 2004.",
           "answer": "Chi è Michael Schumacher?",
           "accept": ["Schumacher"],
-          "verified": false
+          "source": "https://www.panorama.it/attualita/michael-schumacher-ferrari-record-primati-f1",
+          "verified": true
         }
       ]
     },
@@ -57,19 +63,22 @@
           "clue": "La lunghezza della maratona, in chilometri, decimali compresi.",
           "answer": "Cos'è 42,195?",
           "accept": ["42,195 km", "42 chilometri e 195 metri"],
-          "verified": false
+          "source": "https://www.geopop.it/perche-la-maratona-e-lunga-esattamente-42195-chilometri-storia-e-origine-dallantica-grecia-a-londra/",
+          "verified": true
         },
         {
-          "clue": "Il «Dottore» di Tavullia, nove volte campione del mondo di motociclismo, con il numero 46.",
+          "clue": "Nove volte campione del mondo di motociclismo, sempre con il 46: un numero che la MotoGP ha poi ritirato.",
           "answer": "Chi è Valentino Rossi?",
           "accept": ["Valentino", "Rossi"],
-          "verified": false
+          "source": "https://www.motorimagazine.it/valentino-rossi-chi-e-carriera/",
+          "verified": true
         },
         {
           "clue": "La squadra di calcio che ha vinto più scudetti nella storia della Serie A.",
           "answer": "Cos'è la Juventus?",
           "accept": ["Juve"],
-          "verified": false
+          "source": "https://www.goal.com/it/liste/albo-d-oro-serie-a-classifica-scudetti-vinti-juve-inter-napoli-milan-roma-quanti/blt1f02c1cc1ddd08b0",
+          "verified": true
         }
       ]
     },
@@ -77,22 +86,25 @@
       "value": 800,
       "variants": [
         {
-          "clue": "Le due località che nel febbraio 2026 hanno ospitato le Olimpiadi invernali.",
+          "clue": "Le due località che danno il nome alle Olimpiadi invernali del febbraio 2026.",
           "answer": "Cosa sono Milano e Cortina d'Ampezzo?",
           "accept": ["Milano-Cortina", "Milano e Cortina"],
-          "verified": false
+          "source": "https://tg24.sky.it/sport/2025/12/05/olimpiadi-milano-cortina-2026",
+          "verified": true
         },
         {
           "clue": "La fiorettista di Jesi che vinse l'oro olimpico individuale tre volte di fila: 2000, 2004 e 2008.",
           "answer": "Chi è Valentina Vezzali?",
           "accept": ["Vezzali"],
-          "verified": false
+          "source": "https://www.fanpage.it/sport/altri-sport/chi-e-valentina-vezzali-la-campionessa-di-scherma-piu-vincente-della-storia-in-italia/",
+          "verified": true
         },
         {
           "clue": "Il calciatore argentino che nel 1986 segnò all'Inghilterra il gol della «mano de Dios».",
           "answer": "Chi è Diego Armando Maradona?",
           "accept": ["Maradona", "Diego Maradona"],
-          "verified": false
+          "source": "https://www.ilpost.it/2020/11/25/la-storia-della-mano-de-dios/",
+          "verified": true
         }
       ]
     },
@@ -103,18 +115,21 @@
           "clue": "Il ciclista detto «il Pirata», che nel 1998 vinse Giro d'Italia e Tour de France.",
           "answer": "Chi è Marco Pantani?",
           "accept": ["Pantani"],
-          "verified": false
+          "source": "https://www.oasport.it/2018/08/20-anni-fa-il-trionfo-di-marco-pantani-nella-grande-boucle-lultimo-a-realizzare-la-doppietta-giro-tour/",
+          "verified": true
         },
         {
           "clue": "Il saltatore in alto azzurro che ai Giochi di Tokyo 2020 divise l'oro con il qatariota Barshim.",
           "answer": "Chi è Gianmarco Tamberi?",
           "accept": ["Tamberi", "Gimbo"],
-          "verified": false
+          "source": "https://www.ilpost.it/2021/08/02/tamberi-barshim-oro-salto-in-alto/",
+          "verified": true
         },
         {
           "clue": "Lo sport olimpico invernale che unisce sci di fondo e tiro con la carabina.",
           "answer": "Cos'è il biathlon?",
-          "verified": false
+          "source": "https://www.geopop.it/biathlon-olimpiadi-invernali-cose-regole-sport-quando-sforzo-fisico-incontra-precisione/",
+          "verified": true
         }
       ]
     }

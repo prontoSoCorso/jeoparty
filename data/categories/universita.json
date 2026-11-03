@@ -12,18 +12,21 @@
           "clue": "Il programma europeo di scambio per studenti universitari, nato nel 1987.",
           "answer": "Cos'è l'Erasmus?",
           "accept": ["Erasmus+"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Erasmus_Programme",
+          "verified": true
         },
         {
           "clue": "La città dell'università più antica del mondo occidentale, fondata per tradizione nel 1088.",
           "answer": "Cos'è Bologna?",
-          "verified": false
+          "source": "https://www.unibo.it/it/ateneo/chi-siamo/la-nostra-storia",
+          "verified": true
         },
         {
           "clue": "La sigla dei crediti che servono per laurearsi: per la triennale ne servono 180.",
           "answer": "Cosa sono i CFU?",
           "accept": ["crediti formativi universitari"],
-          "verified": false
+          "source": "https://ssu.elearning.unipd.it/pluginfile.php/1126242/block_html/content/3%20Funzionamento%20del%20Corso.pdf",
+          "verified": true
         }
       ]
     },
@@ -34,18 +37,21 @@
           "clue": "La corona di foglie che si porta in testa il giorno della laurea.",
           "answer": "Cos'è la corona d'alloro?",
           "accept": ["alloro", "corona di alloro"],
-          "verified": false
+          "source": "https://italysegreta.com/it/di-foglie-dalloro-e-leggende-perche-i-laureati-italiani-vengono-incoronati/",
+          "verified": true
         },
         {
-          "clue": "La più antica università degli Stati Uniti, fondata nel 1636 vicino a Boston.",
+          "clue": "La più antica università degli Stati Uniti, fondata nel 1636 in Massachusetts.",
           "answer": "Cos'è Harvard?",
-          "verified": false
+          "source": "https://www.britannica.com/topic/Harvard-University",
+          "verified": true
         },
         {
           "clue": "Il voto massimo di laurea in Italia, lode esclusa.",
           "answer": "Cos'è 110?",
           "accept": ["centodieci"],
-          "verified": false
+          "source": "https://economia.uniroma2.it/public/ba/files/PROVA_FINALE_E_LAUREA_Giunta_03-09-19.pdf",
+          "verified": true
         }
       ]
     },
@@ -55,19 +61,22 @@
         {
           "clue": "Le due antiche università inglesi chiamate insieme «Oxbridge».",
           "answer": "Cosa sono Oxford e Cambridge?",
-          "verified": false
+          "source": "https://www.oxfordlearnersdictionaries.com/definition/english/oxbridge",
+          "verified": true
         },
         {
-          "clue": "L'umanista olandese autore dell'Elogio della follia, studioso girovago per tutta Europa.",
+          "clue": "L'umanista che scrisse l'Elogio della follia, dedicandolo all'amico Tommaso Moro.",
           "answer": "Chi è Erasmo da Rotterdam?",
           "accept": ["Erasmo"],
-          "verified": false
+          "source": "https://www.studenti.it/elogio-della-follia-erasmo-da-rotterdam.html",
+          "verified": true
         },
         {
           "clue": "La scuola universitaria d'eccellenza di Pisa, istituita nel 1810 con un decreto napoleonico.",
           "answer": "Cos'è la Scuola Normale Superiore?",
           "accept": ["Normale", "Normale di Pisa"],
-          "verified": false
+          "source": "https://www.sns.it/en/la-fondazione-il-periodo-napoleonico",
+          "verified": true
         }
       ]
     },
@@ -78,19 +87,22 @@
           "clue": "L'università di Roma fondata nel 1303 da papa Bonifacio VIII.",
           "answer": "Cos'è la Sapienza?",
           "accept": ["La Sapienza"],
-          "verified": false
+          "source": "https://www.uniroma1.it/en/pagina/our-history",
+          "verified": true
         },
         {
-          "clue": "Il cappello a tavoletta quadrata che i laureati americani lanciano in aria.",
+          "clue": "Il cappello accademico a tavoletta quadrata dei laureati: in inglese, mortarboard.",
           "answer": "Cos'è il tocco?",
-          "accept": ["mortarboard", "tocco accademico"],
-          "verified": false
+          "accept": ["tocco accademico"],
+          "source": "https://nor.proz.com/kudoz/italian-to-english/education-pedagogy/235661-tocco.html",
+          "verified": true
         },
         {
           "clue": "Lo scienziato pisano che insegnò matematica all'Università di Padova dal 1592 al 1610.",
           "answer": "Chi è Galileo Galilei?",
           "accept": ["Galileo"],
-          "verified": false
+          "source": "https://www.unipd.it/sites/unipd.it/files/20200716m1.pdf",
+          "verified": true
         }
       ]
     },
@@ -98,21 +110,24 @@
       "value": 1000,
       "variants": [
         {
-          "clue": "Nel 1678, a Padova, fu la prima donna al mondo a laurearsi: in filosofia.",
+          "clue": "Nel 1678 si laureò in filosofia a Padova ed è passata alla storia come la prima donna laureata.",
           "answer": "Chi è Elena Lucrezia Cornaro Piscopia?",
           "accept": ["Elena Cornaro", "Cornaro Piscopia"],
-          "verified": false
+          "source": "https://www.unipd.it/elena-lucrezia-cornaro-piscopia",
+          "verified": true
         },
         {
           "clue": "Per il Guinness è l'università più antica ancora attiva: fondata a Fès nell'859.",
           "answer": "Cos'è al-Qarawiyyin?",
           "accept": ["Al Quaraouiyine", "Qarawiyyin"],
-          "verified": false
+          "source": "https://people.howstuffworks.com/oldest-university-in-the-world.htm",
+          "verified": true
         },
         {
           "clue": "Qui nel 1224 Federico II fondò quella che è considerata la più antica università statale del mondo.",
           "answer": "Cos'è Napoli?",
-          "verified": false
+          "source": "https://www.geopop.it/luniversita-federico-ii-di-napoli-compie-800-anni-perche-fu-fondata-e-qual-e-la-sua-storia/",
+          "verified": true
         }
       ]
     }

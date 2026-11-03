@@ -12,17 +12,20 @@
           "clue": "Cenerentola la perde allo scoccare della mezzanotte.",
           "answer": "Cos'è la scarpetta di cristallo?",
           "accept": ["scarpetta", "scarpa di cristallo"],
-          "verified": false
+          "source": "https://siviaggia.it/idee-di-viaggio/cenerentola-era-napoletana-ecco-lo-scalone-dove-perse-la-scarpetta/126727/",
+          "verified": true
         },
         {
           "clue": "Secondo la superstizione, romperne uno porta sette anni di sfortuna.",
           "answer": "Cos'è lo specchio?",
-          "verified": false
+          "source": "https://www.geopop.it/perche-si-dice-che-rompere-uno-specchio-porti-sette-anni-di-guai-e-come-si-rimedia-al-danno/",
+          "verified": true
         },
         {
           "clue": "La città della Sagrada Família di Gaudí.",
           "answer": "Cos'è Barcellona?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+          "verified": true
         }
       ]
     },
@@ -33,18 +36,21 @@
           "clue": "Lo scultore del David conservato alla Galleria dell'Accademia di Firenze.",
           "answer": "Chi è Michelangelo?",
           "accept": ["Michelangelo Buonarroti", "Buonarroti"],
-          "verified": false
+          "source": "https://www.visittuscany.com/it/attrazioni/il-david-di-michelangelo-alla-galleria-dellaccademia/",
+          "verified": true
         },
         {
           "clue": "Il compositore che scrisse la Nona sinfonia quando era ormai sordo.",
           "answer": "Chi è Ludwig van Beethoven?",
           "accept": ["Beethoven"],
-          "verified": false
+          "source": "https://tg24.sky.it/spettacolo/musica/2024/05/07/inno-alla-gioia-beethoven-nona-sinfonia",
+          "verified": true
         },
         {
           "clue": "Si festeggiano dopo 50 anni di matrimonio.",
           "answer": "Cosa sono le nozze d'oro?",
-          "verified": false
+          "source": "https://www.matrimonio.com/articoli/nozze-doro--c1327",
+          "verified": true
         }
       ]
     },
@@ -54,18 +60,21 @@
         {
           "clue": "Lo strumento più famoso tra quelli costruiti da Antonio Stradivari a Cremona.",
           "answer": "Cos'è il violino?",
-          "verified": false
+          "source": "https://www.britannica.com/biography/Antonio-Stradivari",
+          "verified": true
         },
         {
           "clue": "Il sistema di punti e linee in cui SOS si scrive ··· – – – ···.",
           "answer": "Cos'è il codice Morse?",
           "accept": ["alfabeto Morse", "Morse"],
-          "verified": false
+          "source": "https://www.focus.it/scienza/scienze/qual-e-lorigine-dei-codici-sos-e-mayday",
+          "verified": true
         },
         {
           "clue": "Il numero romano che vale 500.",
           "answer": "Cos'è D?",
-          "verified": false
+          "source": "https://www.studenti.it/numeri-romani-quali-sono-come-si-scrivono-e-convertitore.html",
+          "verified": true
         }
       ]
     },
@@ -76,18 +85,21 @@
           "clue": "Il cagnolino bianco di Tintin.",
           "answer": "Chi è Milù?",
           "accept": ["Milou", "Snowy"],
-          "verified": false
+          "source": "https://venere.it/il-significato-e-la-storia-del-nome-milu/",
+          "verified": true
         },
         {
           "clue": "Il numero di tasti di un pianoforte moderno standard.",
           "answer": "Cos'è 88?",
           "accept": ["ottantotto"],
-          "verified": false
+          "source": "https://www.focus.it/cultura/arte/i-pianoforti-hanno-tutti-lo-stesso-numero-di-tasti",
+          "verified": true
         },
         {
           "clue": "Il quadro di Picasso sul bombardamento di una cittadina basca nel 1937.",
           "answer": "Cos'è Guernica?",
-          "verified": false
+          "source": "https://www.ilpost.it/2017/04/26/bombardamento-guernica/",
+          "verified": true
         }
       ]
     },
@@ -98,19 +110,22 @@
           "clue": "Dal 1475 il Giubileo ordinario si celebra ogni tot anni: quanti?",
           "answer": "Cos'è 25?",
           "accept": ["venticinque", "ogni 25 anni"],
-          "verified": false
+          "source": "https://www.ilpost.it/2024/12/23/cose-esattamente-un-giubileo/",
+          "verified": true
         },
         {
           "clue": "Il settimo e ultimo re di Roma, cacciato secondo la tradizione nel 509 a.C.",
           "answer": "Chi è Tarquinio il Superbo?",
           "accept": ["Tarquinio"],
-          "verified": false
+          "source": "https://www.worldhistory.org/trans/it/1-15776/lucio-tarquinio-superbo/",
+          "verified": true
         },
         {
           "clue": "Il francese, cieco da bambino, che inventò la scrittura a puntini in rilievo.",
           "answer": "Chi è Louis Braille?",
           "accept": ["Braille"],
-          "verified": false
+          "source": "https://www.focus.it/cultura/curiosita/chi-ha-inventato-lalfabeto-braille",
+          "verified": true
         }
       ]
     }

@@ -12,19 +12,22 @@
           "clue": "Il compositore nato nel 1813 alle Roncole di Busseto, autore del Rigoletto.",
           "answer": "Chi è Giuseppe Verdi?",
           "accept": ["Verdi"],
-          "verified": false
+          "source": "https://www.britannica.com/biography/Giuseppe-Verdi",
+          "verified": true
         },
         {
           "clue": "Il teatro d'opera di Milano, inaugurato nel 1778.",
           "answer": "Cos'è la Scala?",
           "accept": ["Teatro alla Scala"],
-          "verified": false
+          "source": "https://www.ilpost.it/2016/08/03/inaugurazione-teatro-alla-scala-milano/",
+          "verified": true
         },
         {
-          "clue": "Il tenore modenese dei Tre Tenori, celebre per il suo «Nessun dorma».",
+          "clue": "Il tenore italiano dei Tre Tenori, celebre per il suo «Nessun dorma».",
           "answer": "Chi è Luciano Pavarotti?",
           "accept": ["Pavarotti"],
-          "verified": false
+          "source": "https://www.udiscovermusic.com/classical-features/nessun-dorma-pavarotti/",
+          "verified": true
         }
       ]
     },
@@ -35,17 +38,20 @@
           "clue": "L'opera di Puccini con la giovane geisha Cio-Cio-San.",
           "answer": "Cos'è Madama Butterfly?",
           "accept": ["Madame Butterfly"],
-          "verified": false
+          "source": "https://www.metopera.org/learn/education/educator-guide-archive/madama-butterfly/",
+          "verified": true
         },
         {
           "clue": "Il barbiere tuttofare protagonista del Barbiere di Siviglia.",
           "answer": "Chi è Figaro?",
-          "verified": false
+          "source": "https://www.metopera.org/learn/education/il-barbiere-di-siviglia/",
+          "verified": true
         },
         {
           "clue": "L'opera ambientata nell'antico Egitto, con la schiava etiope innamorata di Radamès.",
           "answer": "Cos'è Aida?",
-          "verified": false
+          "source": "https://www.studentville.it/appunti/aida-g-verdi-trama-personaggi-riassunto-degli-atti/",
+          "verified": true
         }
       ]
     },
@@ -59,16 +65,18 @@
           "verified": true
         },
         {
-          "clue": "Il compositore pesarese del Guglielmo Tell, che smise di scrivere opere a 37 anni.",
+          "clue": "Il compositore del Guglielmo Tell (1829), che dopo quell'opera, a 37 anni, smise di scriverne.",
           "answer": "Chi è Gioachino Rossini?",
           "accept": ["Rossini"],
-          "verified": false
+          "source": "https://www.metopera.org/learn/education/timeline-rossini/",
+          "verified": true
         },
         {
           "clue": "Il coro degli ebrei esuli nel Nabucco, diventato quasi un inno del Risorgimento.",
           "answer": "Cos'è Va, pensiero?",
           "accept": ["Va pensiero", "Va', pensiero"],
-          "verified": false
+          "source": "https://www.museorisorgimentotorino.it/en/storia/perche-il-coro-del-nabucco-e-diventato-il-simbolo-del-risorgimento/",
+          "verified": true
         }
       ]
     },
@@ -79,18 +87,21 @@
           "clue": "L'opera con la cortigiana Violetta Valéry, tratta dalla Signora delle camelie di Dumas figlio.",
           "answer": "Cos'è La traviata?",
           "accept": ["Traviata"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/La_traviata",
+          "verified": true
         },
         {
           "clue": "Il soprano nato a New York da genitori greci, soprannominata «la Divina».",
           "answer": "Chi è Maria Callas?",
           "accept": ["Callas"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Maria_Callas",
+          "verified": true
         },
         {
           "clue": "La sigaraia di Siviglia protagonista dell'opera di Bizet.",
           "answer": "Chi è Carmen?",
-          "verified": false
+          "source": "https://www.britannica.com/topic/Carmen-opera-by-Bizet",
+          "verified": true
         }
       ]
     },
@@ -100,19 +111,22 @@
         {
           "clue": "L'opera rimasta incompiuta alla morte di Puccini, nel 1924, e completata da Franco Alfano.",
           "answer": "Cos'è Turandot?",
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Turandot",
+          "verified": true
         },
         {
           "clue": "Il compositore de La Gioconda (1876), con la celebre Danza delle ore.",
           "answer": "Chi è Amilcare Ponchielli?",
           "accept": ["Ponchielli"],
-          "verified": false
+          "source": "https://www.britannica.com/topic/Dance-of-the-Hours",
+          "verified": true
         },
         {
           "clue": "Il compositore livornese di Cavalleria rusticana, andata in scena nel 1890.",
           "answer": "Chi è Pietro Mascagni?",
           "accept": ["Mascagni"],
-          "verified": false
+          "source": "https://www.goldoniteatro.it/wp-content/uploads/2020/12/Mascagni-e-Livorno-completo-di-Fulvio-Venturi-7Mar13.pdf",
+          "verified": true
         }
       ]
     }

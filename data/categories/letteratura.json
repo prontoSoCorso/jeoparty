@@ -12,7 +12,8 @@
           "clue": "Il poeta fiorentino che scrisse la Divina Commedia.",
           "answer": "Chi è Dante Alighieri?",
           "accept": ["Dante"],
-          "verified": false
+          "source": "https://www.worldhistory.org/trans/it/1-19216/dante-alighieri/",
+          "verified": true
         },
         {
           "clue": "Il burattino di Collodi a cui si allunga il naso quando dice una bugia.",
@@ -87,19 +88,22 @@
           "clue": "L'unico romanzo di Giuseppe Tomasi di Lampedusa, con il principe di Salina.",
           "answer": "Cos'è Il Gattopardo?",
           "accept": ["Gattopardo"],
-          "verified": false
+          "source": "https://libreriamo.it/libri/il-gattopardo-curiosita-serie-tv/",
+          "verified": true
         },
         {
           "clue": "Lo scrittore praghese de La metamorfosi, in cui Gregor Samsa si sveglia trasformato in un insetto.",
           "answer": "Chi è Franz Kafka?",
           "accept": ["Kafka"],
-          "verified": false
+          "source": "https://www.ilpost.it/2024/04/22/la-metamorfosi-kafka-insetto/",
+          "verified": true
         },
         {
           "clue": "L'autore di Cent'anni di solitudine, ambientato a Macondo.",
           "answer": "Chi è Gabriel García Márquez?",
           "accept": ["García Márquez", "Garcia Marquez", "Gabo"],
-          "verified": false
+          "source": "https://siviaggia.it/idee-di-viaggio/cent-anni-di-solitudine-gabriel-garcia-marquez-macondo/528425/",
+          "verified": true
         }
       ]
     },
@@ -110,18 +114,21 @@
           "clue": "La prima donna italiana premiata con il Nobel per la letteratura, quello del 1926.",
           "answer": "Chi è Grazia Deledda?",
           "accept": ["Deledda"],
-          "verified": false
+          "source": "https://www.ilpost.it/2017/12/10/grazia-deledda/",
+          "verified": true
         },
         {
           "clue": "Il romanzo di Italo Svevo con Zeno Cosini, che scrive le sue memorie su consiglio dello psicanalista.",
           "answer": "Cos'è La coscienza di Zeno?",
-          "verified": false
+          "source": "https://www.studentville.it/appunti/la-coscienza-di-zeno-di-italo-svevo/",
+          "verified": true
         },
         {
           "clue": "Il poeta di Ossi di seppia, premio Nobel per la letteratura nel 1975.",
           "answer": "Chi è Eugenio Montale?",
           "accept": ["Montale"],
-          "verified": false
+          "source": "https://www.nobelprize.org/prizes/literature/1975/montale/facts/",
+          "verified": true
         }
       ]
     }

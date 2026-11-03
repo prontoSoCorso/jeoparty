@@ -90,7 +90,8 @@
           "clue": "Dante, Petrarca e Boccaccio.",
           "answer": "Chi sono le Tre Corone?",
           "accept": ["Tre Corone fiorentine", "poeti toscani del Trecento"],
-          "verified": false
+          "source": "https://www.italwiki.italianistik.lmu.de/italwiki/tre-corone/",
+          "verified": true
         },
         {
           "clue": "Stelvio, Brennero e San Gottardo.",

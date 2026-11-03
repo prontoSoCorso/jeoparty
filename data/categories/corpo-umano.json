@@ -12,17 +12,20 @@
           "clue": "Il più grande organo del corpo umano: ci avvolge tutti.",
           "answer": "Cos'è la pelle?",
           "accept": ["cute"],
-          "verified": false
+          "source": "https://tech.icrewplay.com/pelle-umana-ne-conosci-tutti-i-segreti/amp",
+          "verified": true
         },
         {
           "clue": "Ne abbiamo due: filtrano il sangue e producono l'urina.",
           "answer": "Cosa sono i reni?",
-          "verified": false
+          "source": "https://www.msdmanuals.com/it/casa/patologie-delle-vie-urinarie-e-dei-reni/biologia-del-rene-e-delle-vie-urinarie/reni",
+          "verified": true
         },
         {
           "clue": "Il muscolo che pompa il sangue in tutto il corpo.",
           "answer": "Cos'è il cuore?",
-          "verified": false
+          "source": "https://www.msdmanuals.com/it/casa/i-fatti-in-breve-disturbi-cardiaci-e-dei-vasi-sanguigni/biologia-del-cuore-e-dei-vasi-sanguigni/biologia-del-cuore",
+          "verified": true
         }
       ]
     },
@@ -33,19 +36,22 @@
           "clue": "Il numero di ossa nello scheletro di un adulto.",
           "answer": "Cos'è 206?",
           "accept": ["duecentosei"],
-          "verified": false
+          "source": "https://sma.unibo.it/it/area-download-1/oggi-imparo-a/istruzioni-scheletro/@@download/file/SCHELETRO_AMICO.pdf",
+          "verified": true
         },
         {
           "clue": "Il muscolo più grande del corpo umano: ci sediamo sopra.",
           "answer": "Cos'è il grande gluteo?",
           "accept": ["gluteo", "gluteo massimo"],
-          "verified": false
+          "source": "https://www.my-personaltrainer.it/anatomia/sei-sicuro-di-sapere-quali-soni-i-muscoli-piu-grandi-e-piu-piccoli-del-corpo.html",
+          "verified": true
         },
         {
           "clue": "Il gruppo sanguigno detto «donatore universale» di globuli rossi.",
           "answer": "Cos'è 0 negativo?",
           "accept": ["0-", "zero negativo", "O negativo"],
-          "verified": false
+          "source": "https://www.focusjunior.it/?p=244589",
+          "verified": true
         }
       ]
     },
@@ -56,18 +62,21 @@
           "clue": "L'osso più piccolo del corpo umano, nell'orecchio medio.",
           "answer": "Cos'è la staffa?",
           "accept": ["stapede"],
-          "verified": false
+          "source": "https://areasosta.com/faq/qual-e-losso-piu-piccolo-del-nostro-corpo",
+          "verified": true
         },
         {
           "clue": "La ghiandola a forma di farfalla alla base del collo.",
           "answer": "Cos'è la tiroide?",
-          "verified": false
+          "source": "https://www.topfarmacia.it/enciclopedia/anatomia/tiroide",
+          "verified": true
         },
         {
-          "clue": "Le cellule del sangue che servono alla coagulazione.",
+          "clue": "I frammenti di cellula presenti nel sangue che servono alla coagulazione.",
           "answer": "Cosa sono le piastrine?",
           "accept": ["trombociti"],
-          "verified": false
+          "source": "https://www.msdmanuals.com/it/casa/disturbi-del-sangue/alterazioni-piastriniche/panoramica-sulle-malattie-delle-piastrine",
+          "verified": true
         }
       ]
     },
@@ -78,19 +87,22 @@
           "clue": "Il medico inglese che nel 1628 descrisse la circolazione del sangue.",
           "answer": "Chi è William Harvey?",
           "accept": ["Harvey"],
-          "verified": false
+          "source": "https://www.britannica.com/biography/William-Harvey/Key-discoveries-and-influences",
+          "verified": true
         },
         {
           "clue": "Il medico inglese che nel 1796 sperimentò il vaccino contro il vaiolo.",
           "answer": "Chi è Edward Jenner?",
           "accept": ["Jenner"],
-          "verified": false
+          "source": "https://online.scuola.zanichelli.it/ilcorpoumano2ed-files/il-corpo-umano-vol-2-odontotecnici/leggere-ebook/C_2_p45_Invenzione_vaccino.pdf",
+          "verified": true
         },
         {
           "clue": "Lo scienziato americano del primo vaccino contro la poliomielite, annunciato nel 1955.",
           "answer": "Chi è Jonas Salk?",
           "accept": ["Salk"],
-          "verified": false
+          "source": "https://en.wikipedia.org/wiki/Announcement_of_polio_vaccine_success",
+          "verified": true
         }
       ]
     },
@@ -101,19 +113,22 @@
           "clue": "Il chirurgo sudafricano che nel 1967 eseguì il primo trapianto di cuore da uomo a uomo.",
           "answer": "Chi è Christiaan Barnard?",
           "accept": ["Barnard"],
-          "verified": false
+          "source": "https://www.ilpost.it/2017/12/03/primo-trapianto-cuore-christiaan-barnard/",
+          "verified": true
         },
         {
           "clue": "Il medico ungherese che a metà Ottocento capì che lavarsi le mani salvava le partorienti.",
           "answer": "Chi è Ignaz Semmelweis?",
           "accept": ["Semmelweis"],
-          "verified": false
+          "source": "https://www.ilpost.it/2020/03/20/ignaz-semmelweis/",
+          "verified": true
         },
         {
           "clue": "Nobel per la medicina nel 1906, inventò la «reazione nera» per colorare le cellule nervose.",
           "answer": "Chi è Camillo Golgi?",
           "accept": ["Golgi"],
-          "verified": false
+          "source": "https://www.nobelprize.org/prizes/medicine/1906/golgi/article/",
+          "verified": true
         }
       ]
     }
